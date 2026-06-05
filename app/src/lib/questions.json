@@ -1,0 +1,5044 @@
+{
+"source": "Open Trivia Database (opentdb.com), CC BY-SA 4.0",
+"count": 500,
+"questions": [
+{
+"id": 0,
+"category": "History",
+"difficulty": "medium",
+"question": "What year did Skoal, a smokeless Tobacco company, release their first line of Pouches, known as \"Skoal Bandits\"?",
+"reveal": "MTk4Mw==",
+"accept": [
+"52bb7cc738dbf5e5eee2c76754d87904e6750c63eda5e0a866197d2e16d9c142"
+]
+},
+{
+"id": 1,
+"category": "Japanese Anime & Manga",
+"difficulty": "medium",
+"question": "The main protagonist of the fourth part of JoJo's Bizarre Adventure is which of the following?",
+"reveal": "Sm9zdWtlIEhpZ2FzaGlrYXRh",
+"accept": [
+"1475d2cda71916a47fd89d1b50f7e0b167ea0e2cddd1d6fc1ac101b6873cf5c4"
+]
+},
+{
+"id": 2,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "What do sailors call the left side of a boat?",
+"reveal": "UG9ydA==",
+"accept": [
+"f8d397a33fcb9725db96501e653bf3cfa4455c5639482b9936c22b221634d659"
+]
+},
+{
+"id": 3,
+"category": "History",
+"difficulty": "medium",
+"question": "What year did the Boxing Day earthquake & tsunami occur in the Indian Ocean?",
+"reveal": "MjAwNA==",
+"accept": [
+"483029d526219f816e8e8f6a9de07b422633dba180ffc26faac22862a017519f"
+]
+},
+{
+"id": 4,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "Which color cannot be produced in Roses, even through genetic alteration?",
+"reveal": "Qmx1ZQ==",
+"accept": [
+"16477688c0e00699c6cfa4497a3612d7e83c532062b64b250fed8908128ed548"
+]
+},
+{
+"id": 5,
+"category": "Music",
+"difficulty": "medium",
+"question": "What was Radiohead's first album?",
+"reveal": "UGFibG8gSG9uZXk=",
+"accept": [
+"60fe3cd3aaabd80c1add04ee7d7badb08a79dd932f51f72937c1a8cb81885d43"
+]
+},
+{
+"id": 6,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which one of the first four titles of the \"Grand Theft Auto\" franchise started the series of iconic image grid cover arts?",
+"reveal": "R3JhbmQgVGhlZnQgQXV0byBJSUk=",
+"accept": [
+"ffff28ff0f302b98a7e00a3780a1730be4c16a181d59cab98436a5a7f11bb786",
+"69cb2255fcaad1d95ef0357f4773b3a4cc74a6bcbbc62151580cfe5a2aac9e31"
+]
+},
+{
+"id": 7,
+"category": "Film",
+"difficulty": "medium",
+"question": "Which one of these action movies are shot entirely in one take?",
+"reveal": "VmljdG9yaWE=",
+"accept": [
+"ab1cb712f2dca756105160805501f4d6d8657d93d40b16eee4ecb5fd048d26eb"
+]
+},
+{
+"id": 8,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In \"The Elder Scrolls 3: Morrowind\", which of the following factions is not joinable?",
+"reveal": "VGhlIERhcmsgQnJvdGhlcmhvb2Q=",
+"accept": [
+"d5e79c9f7246b0440c072862ba4c518f6748f6f321b041c9e6eb4fb6c6a7b159"
+]
+},
+{
+"id": 9,
+"category": "Books",
+"difficulty": "medium",
+"question": "By what nickname is Jack Dawkins known in the Charles Dickens novel, 'Oliver Twist'?",
+"reveal": "VGhlIEFydGZ1bCBEb2RnZXI=",
+"accept": [
+"40d5d99b6e39c2078df356a3a0d3c350cf5fca622a896e49dfba9fab446b69b9"
+]
+},
+{
+"id": 10,
+"category": "History",
+"difficulty": "medium",
+"question": "In what year did Neil Armstrong and Buzz Aldrin land on the moon?",
+"reveal": "MTk2OQ==",
+"accept": [
+"fd21cc3cb5062bc4ac714c489e1ca0e37a577c19ba23b0d00e9767f598d37636"
+]
+},
+{
+"id": 11,
+"category": "Vehicles",
+"difficulty": "easy",
+"question": "The LS1 engine is how many cubic inches?",
+"reveal": "MzQ2",
+"accept": [
+"6aac0cf87a32e631536122c3f2f9a2df215f56f28792a43a8658b0593f2e5255"
+]
+},
+{
+"id": 12,
+"category": "Computers",
+"difficulty": "medium",
+"question": ".at is the top-level domain for what country?",
+"reveal": "QXVzdHJpYQ==",
+"accept": [
+"7112733729f24775a6e82d0a6ad7c8106643ad438fef97e33e069f23a2167266"
+]
+},
+{
+"id": 13,
+"category": "History",
+"difficulty": "medium",
+"question": "What date was the first flight of the P-40 Warhawk?",
+"reveal": "T2N0b2JlciAxNCAxOTM4",
+"accept": [
+"dc222d06ea4c4e1d87f334c6fc7a0f7e15cfe3feeaa07afcea24b38c8495d2e9",
+"e5ca7879690eb744afc1f651732c27f2774eb383142a22761ba5112d3daffb95"
+]
+},
+{
+"id": 14,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "What military rank is the protagonist \"Nomad\" in \"Crysis\"?",
+"reveal": "Rmlyc3QgTGlldXRlbmFudA==",
+"accept": [
+"b1b597cb72e22795b0d64ae98d519b86215ec634b70902aa2a00680ac245a94a"
+]
+},
+{
+"id": 15,
+"category": "Cartoon & Animations",
+"difficulty": "easy",
+"question": "In My Little Pony, what is the name of Applejack's younger sister?",
+"reveal": "QXBwbGUgQmxvb20=",
+"accept": [
+"fb9f1019152d24b4623d4737751d07ded68b440d5ed037b5b95f402c1ed77d59"
+]
+},
+{
+"id": 16,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In the first Left 4 Dead, you can play as either of these four characters.",
+"reveal": "RnJhbmNpcywgQmlsbCwgWm9leSwgYW5kIExvdWlz",
+"accept": [
+"ac0e097f6f825c65860f7ea7e5f2ed4c942f8dfe5e48240bcc1661b33b601703"
+]
+},
+{
+"id": 17,
+"category": "Vehicles",
+"difficulty": "hard",
+"question": "What engine is in the Lexus SC400?",
+"reveal": "MVVaLUZF",
+"accept": [
+"5bdfc0e8c4e2c1089b7115afa5bbee75480a433a9a1bdf5692b4ec881b353a67"
+]
+},
+{
+"id": 18,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "What is the molecular formula of Ozone?",
+"reveal": "TzM=",
+"accept": [
+"de2d91dc0a2580414e9a70f7dfc76af727b69cac0838f2cbe0a88d12642efcbf"
+]
+},
+{
+"id": 19,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "What's the Team Fortress 2 Scout's city of origin?",
+"reveal": "Qm9zdG9u",
+"accept": [
+"3c66157844fa8ce7e9b67b0022383d7709ba2b30f8306d3c9b2eceb2cd91e4dc"
+]
+},
+{
+"id": 20,
+"category": "Computers",
+"difficulty": "medium",
+"question": "What was the first Android version specifically optimized for tablets?",
+"reveal": "SG9uZXljb21i",
+"accept": [
+"dd0cf4ed95b64c54deaf78a11f36e9ad990380df730f1ae34aa7a38afc9ce383"
+]
+},
+{
+"id": 21,
+"category": "Board Games",
+"difficulty": "medium",
+"question": "Who is the main character in the VHS tape included in the board game Nightmare?",
+"reveal": "VGhlIEdhdGVrZWVwZXI=",
+"accept": [
+"88a5468aa2e9178ea4aa07149a2cbd496cd2a4530a980073e66d8494a258e7b0"
+]
+},
+{
+"id": 22,
+"category": "Music",
+"difficulty": "hard",
+"question": "What rock group is named after a gym teacher who taught at the original band members' high school?",
+"reveal": "THlueXJkIFNreW55cmQ=",
+"accept": [
+"53afab732bba6afcdfe02cbadf0500af4b92e043ff31bde43b4267e87209bcb1"
+]
+},
+{
+"id": 23,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "What is the name of the protagonist of Life Is Strange?",
+"reveal": "TWF4IENhdWxmaWVsZA==",
+"accept": [
+"4e39aefb43a1a08ce52ddd24118bf484ee0863ba276ce4aa1e7ef2f8df3999f1"
+]
+},
+{
+"id": 24,
+"category": "Geography",
+"difficulty": "easy",
+"question": "Greenland is a part of which kingdom?",
+"reveal": "RGVubWFyaw==",
+"accept": [
+"5f0bf3ff6b72ac09f881221fc8bd88ba9f24a393c2e544716dbf792978a7f313"
+]
+},
+{
+"id": 25,
+"category": "Geography",
+"difficulty": "medium",
+"question": "How many countries are inside the United Kingdom?",
+"reveal": "Rm91cg==",
+"accept": [
+"04efaf080f5a3e74e1c29d1ca6a48569382cbbcd324e8d59d2b83ef21c039f00"
+]
+},
+{
+"id": 26,
+"category": "Television",
+"difficulty": "easy",
+"question": "Guy's Grocery Games is hosted by which presenter?",
+"reveal": "R3V5IEZpZXJp",
+"accept": [
+"f76d1a5376d703d3e0d76409a495df43b433e9716a2f8c58600619b99094665c"
+]
+},
+{
+"id": 27,
+"category": "History",
+"difficulty": "hard",
+"question": "In the Seven Wonders of the World, which wonder is the only that has survived to this day?",
+"reveal": "R3JlYXQgUHlyYW1pZCBvZiBHaXph",
+"accept": [
+"1885388efe8133f68826d79b1492e6cf40ef9fb06a0efc6ca3ea027bf3df45bd"
+]
+},
+{
+"id": 28,
+"category": "Politics",
+"difficulty": "easy",
+"question": "Who was the 45th President of the United States?",
+"reveal": "RG9uYWxkIFRydW1w",
+"accept": [
+"08682370eb8a9cc8387cc8c3757a46c1bc2bc4cb455d442f350d23539a84a51b"
+]
+},
+{
+"id": 29,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In the Portal series of games, who was the founder of Aperture Science?",
+"reveal": "Q2F2ZSBKb2huc29u",
+"accept": [
+"4bc4f1fde269a835665b5fad2a8ce69bf1d64022ccd17c0692b435814968d47f"
+]
+},
+{
+"id": 30,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "What video game genre were the original Warcraft games?",
+"reveal": "UlRTIChSZWFsIFRpbWUgU3RyYXRlZ3kp",
+"accept": [
+"2e303736208c8de17740991f4d89e8ba4136add0880dd8a1c84c0084ee6033b5"
+]
+},
+{
+"id": 31,
+"category": "History",
+"difficulty": "easy",
+"question": "On what street did the 1666 Great Fire of London start?",
+"reveal": "UHVkZGluZyBMYW5l",
+"accept": [
+"d6a133161be329a8dc8a664a5eff1446d811054aca76eb5f5a317b6a788bce8f"
+]
+},
+{
+"id": 32,
+"category": "General Knowledge",
+"difficulty": "medium",
+"question": "What Latin phrase roughly translates to \"seize the day\"?",
+"reveal": "Q2FycGUgZGllbQ==",
+"accept": [
+"7987380d433be1752090ce13add60491babd654529d1c8a6fa5746a0090c34e3"
+]
+},
+{
+"id": 33,
+"category": "Computers",
+"difficulty": "medium",
+"question": "Which internet company began life as an online bookstore called 'Cadabra'?",
+"reveal": "QW1hem9u",
+"accept": [
+"cbc62794911ff31b2864ecd3dbbbee7ebcb7ea41c5a42e2cba377f3cfdb42811"
+]
+},
+{
+"id": 34,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "Which video game was recalled for containing a hidden, playable South Park episode?",
+"reveal": "VGlnZXIgV29vZHMgOTkgUEdBIFRvdXI=",
+"accept": [
+"24e579cf94638ab5b44aba2009e9428f5d7010b656b24e11fe1533eec441b9ab",
+"ff3b1810b2736fd89cf69e5e2095ee633766996e315821d7f9c19f13f726673c"
+]
+},
+{
+"id": 35,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which Touhou character is a Hell Raven?",
+"reveal": "VXRzdWhvIFJlaXVqaQ==",
+"accept": [
+"e28029538984730f1b8cf72fbe164080155b347851101307e9d80fcd64085ad8"
+]
+},
+{
+"id": 36,
+"category": "Computers",
+"difficulty": "medium",
+"question": "Linus Torvalds created which of these?",
+"reveal": "TGludXg=",
+"accept": [
+"caf90169eefa5f807d577486b9f795ab86ae2983c5c20806cff959117e90af18"
+]
+},
+{
+"id": 37,
+"category": "Art",
+"difficulty": "medium",
+"question": "In \"Last Supper\" by Leonardo Da Vinci, what two colors were the robes worn by Jesus?",
+"reveal": "UmVkIGFuZCBCbHVl",
+"accept": [
+"edee24e5f472582f582bd8806b4f4a60ad7b2746c5bfa9f5c0a018d8e7b3d627"
+]
+},
+{
+"id": 38,
+"category": "Japanese Anime & Manga",
+"difficulty": "easy",
+"question": "In the 2012 animated film \"Wolf Children\", what are the names of the wolf children?",
+"reveal": "QW1lICYgWXVraQ==",
+"accept": [
+"45b35580f68f3c6cae3a8ee43921bac4195c5f30479e5c0fac10f0d1966c05cb"
+]
+},
+{
+"id": 39,
+"category": "Geography",
+"difficulty": "medium",
+"question": "What is the capital of Estonia?",
+"reveal": "VGFsbGlubg==",
+"accept": [
+"d9e7a48f56b13075d631caab11ec1ac8e23ab00d646982ad5735c29905baedf2"
+]
+},
+{
+"id": 40,
+"category": "History",
+"difficulty": "hard",
+"question": "What was the name of the German offensive operation in October 1941 to take Moscow before winter?",
+"reveal": "T3BlcmF0aW9uIFR5cGhvb24=",
+"accept": [
+"3c312786f1d6cee8682ef1ca7787d423b8c22ab48507a34cdbaf88d624679c35"
+]
+},
+{
+"id": 41,
+"category": "History",
+"difficulty": "medium",
+"question": "Where was Abraham Lincoln when he was assassinated by John Wilkes Booth in 1865?",
+"reveal": "QXQgdGhlIHRoZWF0cmU=",
+"accept": [
+"1f1b80bb39d149b63b70ac638a1c64109233683ffac6200632c0e61c9368c5da"
+]
+},
+{
+"id": 42,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "What was the first \"Team Fortress 2\" update to include a war?",
+"reveal": "U25pcGVyIHZzLiBTcHkgVXBkYXRl",
+"accept": [
+"f4b4b081eac4623b3ceb5ac74af43d417aaaecd72ee8cfc2a33d12486fc6e294"
+]
+},
+{
+"id": 43,
+"category": "Geography",
+"difficulty": "medium",
+"question": "What was the African nation of Zimbabwe formerly known as?",
+"reveal": "UmhvZGVzaWE=",
+"accept": [
+"904912f202785888c1aa22349e6f2ec5aff1560186795a234915c26cce133252"
+]
+},
+{
+"id": 44,
+"category": "Sports",
+"difficulty": "easy",
+"question": "In bowling, what is the term used for getting three consecutive strikes?",
+"reveal": "VHVya2V5",
+"accept": [
+"8d7d5397f8842b4181d38bc57b85b9ff1860456f92872c43f991a904c45062d5"
+]
+},
+{
+"id": 45,
+"category": "Geography",
+"difficulty": "medium",
+"question": "Which of these countries is not a United Nations member state?",
+"reveal": "Tml1ZQ==",
+"accept": [
+"56979bcbcec308d6a9dbcb2378321876321af152619b88c91b112528371c4862"
+]
+},
+{
+"id": 46,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "Who is the leader of Team Valor in Pokémon Go?",
+"reveal": "Q2FuZGVsYQ==",
+"accept": [
+"101e7df3b885c6a301d9a87c5c66663b7491cab90251b4b5dd3dca3d09c190f8"
+]
+},
+{
+"id": 47,
+"category": "Japanese Anime & Manga",
+"difficulty": "medium",
+"question": "How does the character Dragowizard, Qinus Axia's from the anime \"Buddyfight\" differ between the Japanese and English dubs?",
+"reveal": "RGlmZmVyZW50IEdlbmRlcg==",
+"accept": [
+"95a48d3002b2390901ff9e6bed0046bceae0e0ca851d0c4ed0da15cd2e1f70a4"
+]
+},
+{
+"id": 48,
+"category": "Cartoon & Animations",
+"difficulty": "medium",
+"question": "In the Dreamworks animated movie \"Madagascar,\" who voices Maurice the lemur?",
+"reveal": "Q2VkcmljIHRoZSBFbnRlcnRhaW5lcg==",
+"accept": [
+"46b3ad8a93bf208db1e4dd83f8e2bb82c59e817489158a4f25eec53c92da0b5d"
+]
+},
+{
+"id": 49,
+"category": "History",
+"difficulty": "easy",
+"question": "In what year was the M1911 pistol designed?",
+"reveal": "MTkxMQ==",
+"accept": [
+"dc4bc886825c446e6ae02d4d0c6a8787af0395079effcc3afc0f8bdc40cbd161"
+]
+},
+{
+"id": 50,
+"category": "Computers",
+"difficulty": "easy",
+"question": "What is the domain name for the country Tuvalu?",
+"reveal": "LnR2",
+"accept": [
+"a46e5d2bbe2d3b05b2d28b6054d98c18046bce28893d04e050724168116d5587"
+]
+},
+{
+"id": 51,
+"category": "Film",
+"difficulty": "medium",
+"question": "Before getting the shotgun, what did the titular hobo in 'Hobo with a Shotgun' want to purchase?",
+"reveal": "YSBsYXdubW93ZXI=",
+"accept": [
+"0c2f146853091b7fb4d602c156a3993cd2f9b8ae34b05246ccd13edf870388ed"
+]
+},
+{
+"id": 52,
+"category": "Computers",
+"difficulty": "medium",
+"question": "In HTML, which non-standard tag used to be be used to make elements scroll across the viewport?",
+"reveal": "PG1hcnF1ZWU+PC9tYXJxdWVlPg==",
+"accept": [
+"9babb0febad8601805e3db77fdaa1813e51662d22597f9a366e36ee18bf5da9c"
+]
+},
+{
+"id": 53,
+"category": "Japanese Anime & Manga",
+"difficulty": "hard",
+"question": "In the first episode of Yu-Gi-Oh: Duel Monsters, what book is Seto Kaiba seen reading at Domino High School?",
+"reveal": "VGh1cyBTcG9rZSBaYXJhdGh1c3RyYQ==",
+"accept": [
+"b951f566f636c249db70aa2bb95b78d22677ebfa0cae8ded94c2f2ee3167309c"
+]
+},
+{
+"id": 54,
+"category": "History",
+"difficulty": "medium",
+"question": "Who was the first mammal successfully launched into Earth's orbit?",
+"reveal": "TGFpa2EsIHRoZSBkb2c=",
+"accept": [
+"e3cf49f79985c11c9b75875ba26d59e47808d6df78485c138a6b7a38827044ec"
+]
+},
+{
+"id": 55,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which Dota 1 hero changed gender when ported to Dota 2?",
+"reveal": "TGVnaW9uIENvbW1hbmRlcg==",
+"accept": [
+"7fb9eb04f3a65f1d795427deae75238b9626fb3345bd844a5a4bc7472403dbdd"
+]
+},
+{
+"id": 56,
+"category": "Geography",
+"difficulty": "hard",
+"question": "The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?",
+"reveal": "Q3Jvd24=",
+"accept": [
+"0dcfafab5f8035e779d7bea495f8177b9b7c5b892b81d7a687df96410a0ba304"
+]
+},
+{
+"id": 57,
+"category": "Cartoon & Animations",
+"difficulty": "easy",
+"question": "The song 'Little April Shower' features in which Disney cartoon film?",
+"reveal": "QmFtYmk=",
+"accept": [
+"b7e507f7b30caff568e11c613de215eba2f861b8545ef8c30298fdf9ddcd97e8"
+]
+},
+{
+"id": 58,
+"category": "Television",
+"difficulty": "easy",
+"question": "In the show \"Tengen Toppa Gurren Lagann\" what is the name of the character who force everyone to live underground?",
+"reveal": "TG9yZGdlbm9tZQ==",
+"accept": [
+"43368bd77922ea56007994a97431125f6a96d85bb4921e7423816b35f05a70a2"
+]
+},
+{
+"id": 59,
+"category": "Television",
+"difficulty": "medium",
+"question": "Which of the following Autobot names in Michael Bay's movies was NOT a name for a Transformer in the original 1980's cartoon?",
+"reveal": "TXVkZmxhcA==",
+"accept": [
+"7da6d5bbacd22487bb79d1bd448a2922fd4669d68f680dcea3650732bae5d5f4"
+]
+},
+{
+"id": 60,
+"category": "Geography",
+"difficulty": "medium",
+"question": "What is the official language of Bhutan?",
+"reveal": "RHpvbmdraGE=",
+"accept": [
+"4a000495db306f8bce7b5723c8b7f2b1aa5bc041295a190f16f5e8a8bba89a9e"
+]
+},
+{
+"id": 61,
+"category": "History",
+"difficulty": "medium",
+"question": "When was the United States National Security Agency established?",
+"reveal": "Tm92ZW1iZXIgNCwgMTk1Mg==",
+"accept": [
+"b161cccccd74a242bfd5af429adbdafcf2d2a24203ada9d179c24eb99412ad49",
+"843a847b61e2a42bd0c8bc21b07cccd014320d895d466f230f46c9e73803ea1a"
+]
+},
+{
+"id": 62,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In the \"Call Of Duty: Zombies\" map \"Origins\", how many numbered power generators are there?",
+"reveal": "Ng==",
+"accept": [
+"e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+"44778d82365e4af681c40d5f0eef5cf6f5899d3f0ac335050a7ed6779cf3f674"
+]
+},
+{
+"id": 63,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Who is credited with having created the world's first video game Easter Egg?",
+"reveal": "V2FycmVuIFJvYmluZXR0",
+"accept": [
+"33d81fda2d18e5ed637f3c9308dfa96aff9623b4b18c81ca7203d034a732aa8c"
+]
+},
+{
+"id": 64,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "In World of Warcraft the default UI color that signifies Druid is what?",
+"reveal": "T3Jhbmdl",
+"accept": [
+"1b4c9133da73a711322404314402765ab0d23fd362a167d6f0c65bb215113d94"
+]
+},
+{
+"id": 65,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In \"Overwatch\", Coalescence is the name for the ultimate of which hero?",
+"reveal": "TW9pcmE=",
+"accept": [
+"589d994c3670b2e809ef74386227cf00b1d142ecb4e9a7fc47b7b504b2cc9feb"
+]
+},
+{
+"id": 66,
+"category": "Music",
+"difficulty": "medium",
+"question": "What was Taylor Swift's 5th album called?",
+"reveal": "MTk4OQ==",
+"accept": [
+"9113b98df80f877c7a2ee5d865a04c9514b4e9bf25a49d315b0b15f115d2f0d2"
+]
+},
+{
+"id": 67,
+"category": "Film",
+"difficulty": "medium",
+"question": "What is the name of the villian in the 2015 Russian-American Sci-Fi Movie \"Hardcore Henry\"?",
+"reveal": "QWthbg==",
+"accept": [
+"562fae5afe511c1183eff82c16d60e591dfc8981e40fd3d8953bef553e3380b0"
+]
+},
+{
+"id": 68,
+"category": "Film",
+"difficulty": "medium",
+"question": "Who is revealed to be the villain at the end of the first live action Scooby Doo movie?",
+"reveal": "U2NyYXBweSBEb28=",
+"accept": [
+"abd4fa58bf6df2be7089e51fa08e7cb41690313f8faf5fbd4bb235b3fbb1d06f"
+]
+},
+{
+"id": 69,
+"category": "Sports",
+"difficulty": "easy",
+"question": "How many soccer players should be on the field at the same time?",
+"reveal": "MjI=",
+"accept": [
+"785f3ec7eb32f30b90cd0fcf3657d388b5ff4297f2f9716ff66e9b69c05ddd09",
+"0ae24fd521b4298c63a430acaa8b006ba8a196525e99fba74890bd610cc55a03"
+]
+},
+{
+"id": 70,
+"category": "Music",
+"difficulty": "medium",
+"question": "When was the 3rd album \"Notes from the Underground\" of the band \"Hollywood Undead\" released?",
+"reveal": "MjAxMw==",
+"accept": [
+"7931aa2a1bed855457d1ddf6bc06ab4406a9fba0579045a4d6ff78f9c07c440f"
+]
+},
+{
+"id": 71,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "In blood typing, the (+) and (-) marker after an A, B, AB, or O is called Rh factor. Which of the following is the source of its discovery?",
+"reveal": "Umhlc3VzIE1vbmtleXM=",
+"accept": [
+"3d17176edea8ca2a8b9108cee46560eafede7c888203de72a0a2743b28cf760c"
+]
+},
+{
+"id": 72,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which of the following has Jennifer Taylor NOT voiced?",
+"reveal": "U2FyYWggS2VycmlnYW4=",
+"accept": [
+"c7e83a4632af35bbf042e061d0fd83a55032955c6eaf80686b723e38faea2a57"
+]
+},
+{
+"id": 73,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "Which of these animals belongs in class Chondrichthyes?",
+"reveal": "R3JlYXQgd2hpdGUgc2hhcms=",
+"accept": [
+"3f7b6399c43df156d76d6443798f497ccc2d9f025ebeaf17bb4c06a8eeb4370c"
+]
+},
+{
+"id": 74,
+"category": "History",
+"difficulty": "hard",
+"question": "Which King of England was faced with the Peasants' Revolt in 1381?",
+"reveal": "UmljaGFyZCBJSQ==",
+"accept": [
+"380b1714a5a5b64305c07bfb8fba8fc8dce73288c50f3092d07e3a0e2a805a2c",
+"fb5e0a119f5e0df0cba42cf18f32f375d915d43cd7a4be1bced28adbaef9b71c"
+]
+},
+{
+"id": 75,
+"category": "Geography",
+"difficulty": "hard",
+"question": "The Svalbard Archipelago is a dependency of which country?",
+"reveal": "Tm9yd2F5",
+"accept": [
+"1d43cfed6bbe6dd9919678dea66a37b1576a9890cf5142a7e0d3eddf57f1e123"
+]
+},
+{
+"id": 76,
+"category": "General Knowledge",
+"difficulty": "medium",
+"question": "What is the name given to Indian food cooked over charcoal in a clay oven?",
+"reveal": "VGFuZG9vcmk=",
+"accept": [
+"4d546fc10f16c620ddd81bb4626ad96883ce2b6438a5caa63ece7ebaeac25206"
+]
+},
+{
+"id": 77,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which novelty band was best known for their UK chart hits \"Combine Harvester\" and \"I Am a Cider Drinker\" in 1976?",
+"reveal": "VGhlIFd1cnplbHM=",
+"accept": [
+"b1f0d5130e549f7cc93249d88cc82c35a3659fa2e7ee9366796bd22036a954ec"
+]
+},
+{
+"id": 78,
+"category": "Japanese Anime & Manga",
+"difficulty": "easy",
+"question": "In the anime Black Butler, who is betrothed to be married to Ciel Phantomhive?",
+"reveal": "RWxpemFiZXRoIE1pZGZvcmQ=",
+"accept": [
+"a97ebfd06c92fc89abebac6d0674a157cabcece10292de9ffa62a3a5923f5bc4"
+]
+},
+{
+"id": 79,
+"category": "History",
+"difficulty": "medium",
+"question": "The Fallingwater House, located in Pennsylvania, was designed by which architect?",
+"reveal": "RnJhbmsgTGxveWQgV3JpZ2h0",
+"accept": [
+"70a213d7989578a1ae09407c5b08c27b7eec77133a9e5cc65d50e1db10e0e4dc"
+]
+},
+{
+"id": 80,
+"category": "Film",
+"difficulty": "medium",
+"question": "Which of the following films was NOT directed by Quentin Tarantino?",
+"reveal": "RnJvbSBEdXNrIHRpbGwgRGF3bg==",
+"accept": [
+"7aac879f3c2f4fa4b4c240647471e951e31a2c256d912a8a8990c189bb50d286"
+]
+},
+{
+"id": 81,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In what year was \"Super Mario Sunshine\" released?",
+"reveal": "MjAwMg==",
+"accept": [
+"6c94e35ccc352d4e9ef0b99562cff995a5741ce8de8ad11b568892934daee366"
+]
+},
+{
+"id": 82,
+"category": "History",
+"difficulty": "easy",
+"question": "What was the official German currency until 2002?",
+"reveal": "TWFyaw==",
+"accept": [
+"6201eb4dccc956cc4fa3a78dca0c2888177ec52efd48f125df214f046eb43138"
+]
+},
+{
+"id": 83,
+"category": "History",
+"difficulty": "medium",
+"question": "In what year did the First World War end?",
+"reveal": "MTkxOA==",
+"accept": [
+"54e87e2783378cd883fb63bea84e2ecdd554b0646ec35a12d6df365ccad3c68b"
+]
+},
+{
+"id": 84,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "Which of these choices is not one of the phases of mitosis?",
+"reveal": "RGlwbG9waGFzZQ==",
+"accept": [
+"696356106452042b009943897664b8ca1946ed45f97051cae2819eb09747269f"
+]
+},
+{
+"id": 85,
+"category": "Film",
+"difficulty": "medium",
+"question": "Who was the director of \"Scott Pilgrim vs. the World (2010)\"?",
+"reveal": "RWRnYXIgV3JpZ2h0",
+"accept": [
+"6b99c4cd16b25c21542a3b065afcd53228b3c92e2c5f6261773832e2d994f209"
+]
+},
+{
+"id": 86,
+"category": "Sports",
+"difficulty": "hard",
+"question": "Which of these NHL players have never won a Hart Trophy for Regular Season MVP?",
+"reveal": "U3RldmUgWXplcm1hbg==",
+"accept": [
+"3fdbabc1141ffdb4d378410e5b5291d474d1a7514a6bdd7283de24bc879a98a8"
+]
+},
+{
+"id": 87,
+"category": "Japanese Anime & Manga",
+"difficulty": "easy",
+"question": "What is the age of Ash Ketchum in Pokemon when he starts his journey?",
+"reveal": "MTA=",
+"accept": [
+"4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+"e4432baa90819aaef51d2a7f8e148bf7e679610f3173752fabb4dcb2d0f418d3"
+]
+},
+{
+"id": 88,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "What is the chemical symbol for lead?",
+"reveal": "UGI=",
+"accept": [
+"3315f44da4a7aaaf8d84382c7583233f697787f5871294ed49cd41207f7375a0"
+]
+},
+{
+"id": 89,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "In the Half-Life series, Gordon Freeman's signature weapon is a:",
+"reveal": "Q3Jvd2Jhcg==",
+"accept": [
+"be0c96b17d8481575fa72aee2fe75c42f269bfb893012fcaffb561583ba07827"
+]
+},
+{
+"id": 90,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In the game \"Undertale\", who was Mettaton's creator?",
+"reveal": "QWxwaHlz",
+"accept": [
+"817d106389ff59711aecf193bba44c95b8b648805c4adf5483034119b75f1455"
+]
+},
+{
+"id": 91,
+"category": "Geography",
+"difficulty": "medium",
+"question": "The land of Gotland is located in which European country?",
+"reveal": "U3dlZGVu",
+"accept": [
+"295099c764e6439694e99d2c5be4b5f9fbd84b7826dcfcc7704f16585fbf42bf"
+]
+},
+{
+"id": 92,
+"category": "Music",
+"difficulty": "medium",
+"question": "The 1952 musical composition 4'33\", composed by prolific American composer John Cage, is mainly comprised of what sound?",
+"reveal": "U2lsZW5jZQ==",
+"accept": [
+"e6c18fdbe59783dfefef3595cd288bcb7ce912d36854b5e8faaef31235d9031b"
+]
+},
+{
+"id": 93,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "Which Animal Crossing game was for the Nintendo Wii?",
+"reveal": "QW5pbWFsIENyb3NzaW5nOiBDaXR5IEZvbGs=",
+"accept": [
+"8d3f469f9180f7342791fb279ccaf2281589e57c402b76600ad7888dd18a34a7"
+]
+},
+{
+"id": 94,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which of these characters won the Super Smash Bros. Fighter Ballot in 2015?",
+"reveal": "QmF5b25ldHRh",
+"accept": [
+"b78c892369056f350c2d83f270c112221d622a1035c7372dcd9cf206cc5d01da"
+]
+},
+{
+"id": 95,
+"category": "History",
+"difficulty": "medium",
+"question": "Which Greek god was the god of the Sun?",
+"reveal": "SGVsaW9z",
+"accept": [
+"48582bd628b7c80064780ba9ecce2d435db042b40bd4335a7cea4b4c254e8178"
+]
+},
+{
+"id": 96,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "What is \"Stenoma\"?",
+"reveal": "QSBnZW51cyBvZiBtb3Rocw==",
+"accept": [
+"2643fb58cc6aa4b93bfe5743353a16ee507ad11dd2be06b51fe9b861bb17b264"
+]
+},
+{
+"id": 97,
+"category": "Gadgets",
+"difficulty": "medium",
+"question": "What was the first Infinity Coaster in the world and where is it located?",
+"reveal": "VGhlIFNtaWxlciwgQWx0b24gVG93ZXJzLCBVSw==",
+"accept": [
+"b3c764617ce9fbd38825ef8d902ee221f66c261a03ea39c43155819fbcc05094"
+]
+},
+{
+"id": 98,
+"category": "Music",
+"difficulty": "hard",
+"question": "Who is a pioneer of \"Minimal Music\" in 1960s?",
+"reveal": "U3RldmUgUmVpY2g=",
+"accept": [
+"046ad4d69563336b342a214e40eb851f81f7c4023bcf5b686c14135179315253"
+]
+},
+{
+"id": 99,
+"category": "General Knowledge",
+"difficulty": "hard",
+"question": "The Quadrangularis Reversum is best described as which of the following?",
+"reveal": "QSBwZXJjdXNzaW9uIGluc3RydW1lbnQ=",
+"accept": [
+"063964939b37be075ca7b8d3e244e07010ddd7196c1debddcce7188ec790055f"
+]
+},
+{
+"id": 100,
+"category": "Comics",
+"difficulty": "easy",
+"question": "In the Marvel comic \"The Superior Spider-Man\", Peter Parker's body is taken over by which character?",
+"reveal": "T3R0byBPY3Rhdml1cw==",
+"accept": [
+"5a72b85c0b63e2c0dd030723af9729f2080735e1c54a406395e814d73048c8d1"
+]
+},
+{
+"id": 101,
+"category": "Mathematics",
+"difficulty": "medium",
+"question": "What are the first 6 digits of the number \"Pi\"?",
+"reveal": "My4xNDE1OQ==",
+"accept": [
+"994017ce087727acb402ef90e8341488f08e1ccab05d64ea211c1719aca4e9fb",
+"5bf55748a8bd242e2fcba61dc270361939b4de9e95a9dacf827c36a1b4845d32"
+]
+},
+{
+"id": 102,
+"category": "Board Games",
+"difficulty": "easy",
+"question": "In Dungeons and Dragons (5th edition), what stat do you normally add onto your initiative die roll?",
+"reveal": "RGV4dGVyaXR5",
+"accept": [
+"68f59df4675995f6f7cf66b7e140891ca269bc6a9b6a8fc08cb84085c9f3e8aa"
+]
+},
+{
+"id": 103,
+"category": "Board Games",
+"difficulty": "medium",
+"question": "The board game, Nightmare was released in what year?",
+"reveal": "MTk5MQ==",
+"accept": [
+"8e9b669109df89620b94f2387dc53206a82ddc71d658f8f7a2b3a9b417370d3e"
+]
+},
+{
+"id": 104,
+"category": "Books",
+"difficulty": "medium",
+"question": "What was the name of the Mysterious Island, in Jules Verne's \"The Mysterious Island\"?",
+"reveal": "TGluY29sbiBJc2xhbmQ=",
+"accept": [
+"6c7f33010a99c825919c8b3d8816390f7c79f62af1d679e275bcfb02441b00dd"
+]
+},
+{
+"id": 105,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "What is the Linnean name of the domestic apple tree?",
+"reveal": "TWFsdXMgcHVtaWxh",
+"accept": [
+"e3a91173842fc6a3212ea7eec8f4b4296c59e75dfbb3bdf05513dfb38e6657e7"
+]
+},
+{
+"id": 106,
+"category": "Japanese Anime & Manga",
+"difficulty": "medium",
+"question": "In the \"To Love-Ru\" series, how many Trans-weapons were created?",
+"reveal": "Mw==",
+"accept": [
+"4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+"a298d4f40407e05a52fc91a5fccc6747c78f1536cdec4ec5ed68d9911fb900a5"
+]
+},
+{
+"id": 107,
+"category": "Music",
+"difficulty": "medium",
+"question": "\"Drink the Sea\" is an album by which electronic music artist?",
+"reveal": "VGhlIEdsaXRjaCBNb2I=",
+"accept": [
+"e0823c85e7e852a8a79ebd0ff4411415b05db9d97928b9cb6293aab02cf2bfca"
+]
+},
+{
+"id": 108,
+"category": "Computers",
+"difficulty": "easy",
+"question": "In computing, what does LAN stand for?",
+"reveal": "TG9jYWwgQXJlYSBOZXR3b3Jr",
+"accept": [
+"48ac82ac74acefabe396658c6160331a334b1c1a9a9521070ae229c1a1ef2048"
+]
+},
+{
+"id": 109,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In \"Fallout 4\", what is the name of the dog you find at Red Rocket truck stop?",
+"reveal": "RG9nbWVhdA==",
+"accept": [
+"b69009cf47eb9fbd7234d3be35cc5ff1da93efddcf902392273f217e94c083a9"
+]
+},
+{
+"id": 110,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which of these Queen songs were sampled for the baseline in Vanilla \"Ice's Ice Ice Baby?\"",
+"reveal": "VW5kZXIgUHJlc3N1cmU=",
+"accept": [
+"9282612433e13abc474e8a590dc19aa5a57e8b6e3bcfa79cb4fed2b6726c5516"
+]
+},
+{
+"id": 111,
+"category": "Comics",
+"difficulty": "easy",
+"question": "In \"Homestuck\" what is Dave Strider's guardian?",
+"reveal": "QnJv",
+"accept": [
+"ff3727276784ada3f6d609a19ed541d9e888759559d81a4045e3c790aa40f276"
+]
+},
+{
+"id": 112,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "Which sign of the zodiac is represented by the Crab?",
+"reveal": "Q2FuY2Vy",
+"accept": [
+"5600ae99b14ef8e5eb751fb922eff6cd2a5a9dd1820a966e84eb8b4b2c70d0f1"
+]
+},
+{
+"id": 113,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "In DC comics where does the Green Arrow (Oliver Queen) live?",
+"reveal": "U3RhciBDaXR5",
+"accept": [
+"d6c524ce2fc2ba98e551bf6b66bd3dfbb57660c290c44475e59617ad54daf391"
+]
+},
+{
+"id": 114,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "What device allows Tracer to manipulate her own time in the game \"Overwatch\"?",
+"reveal": "Q2hyb25hbCBBY2NlbGVyYXRvcg==",
+"accept": [
+"e42f42d4efafb93b1795d5bcfc1e4b130042622f421024d1289b9f0b6efc4d7f"
+]
+},
+{
+"id": 115,
+"category": "Geography",
+"difficulty": "hard",
+"question": "What is the area of Vatican City?",
+"reveal": "MC40NGttXjI=",
+"accept": [
+"331ea9ccc6b5fd1fbe92d47e7685d87c1ce9cf0a6679642a4c1e9acfad098b37",
+"a0dff32e931de25c7b7f753d2eb31736652d8218fc4dccf5c77ec50e78a9f82b"
+]
+},
+{
+"id": 116,
+"category": "Film",
+"difficulty": "hard",
+"question": "What did Alfred Hitchcock use as blood in the film \"Psycho\"?",
+"reveal": "Q2hvY29sYXRlIHN5cnVw",
+"accept": [
+"b74992ea9f85088b9c4b73d8dd3a6ce741231ef96d6c9cd3514012dcc8b5e353"
+]
+},
+{
+"id": 117,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In \"Call Of Duty: Zombies\", completing which map's main easter egg will reward you with the achievement, \"Little Lost Girl\"?",
+"reveal": "T3JpZ2lucw==",
+"accept": [
+"70110e841c953c36ec05f6a1133f6de80b64315b385ffb6702a2bbb8a5e6335b"
+]
+},
+{
+"id": 118,
+"category": "Music",
+"difficulty": "easy",
+"question": "Which year was the album \"Year of the Snitch\" by Death Grips released?",
+"reveal": "MjAxOA==",
+"accept": [
+"152e69cf3c8e76c8d8b0aed924ddd1708e4c68624611af33d52c2c2814dd5df9"
+]
+},
+{
+"id": 119,
+"category": "Books",
+"difficulty": "medium",
+"question": "In The Lies of Locke Lamora, what title is Locke known by in the criminal world?",
+"reveal": "VGhlIFRob3JuIG9mIENhbW9ycg==",
+"accept": [
+"766571b68eae81ee14a1bf39705e01e6b6f64ca0c29731250224d7b611899a4e"
+]
+},
+{
+"id": 120,
+"category": "Musicals & Theatres",
+"difficulty": "medium",
+"question": "Who is the musical director for the award winning musical \"Hamilton\"?",
+"reveal": "QWxleCBMYWNhbW9pcmU=",
+"accept": [
+"fc99d278742821bb389b87c368f031a11a6c18467f79d1dba6ea0c0e00ba5af3"
+]
+},
+{
+"id": 121,
+"category": "Computers",
+"difficulty": "easy",
+"question": "What is the most preferred image format used for logos in the Wikimedia database?",
+"reveal": "LnN2Zw==",
+"accept": [
+"acdb1373d1761939cb5daa3332223298529581464a90afae39927e7aef8edd46"
+]
+},
+{
+"id": 122,
+"category": "Books",
+"difficulty": "medium",
+"question": "Who wrote the 1967 horror novel \"Rosemary's Baby\"?",
+"reveal": "SXJhIExldmlu",
+"accept": [
+"d391d9f5fcfb8b61831f2996e4a2168ee8ac39e6f7d00e189ea9feda343840e1"
+]
+},
+{
+"id": 123,
+"category": "Computers",
+"difficulty": "medium",
+"question": "Which of the following languages is used as a scripting language in the Unity 3D game engine?",
+"reveal": "QyM=",
+"accept": [
+"2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6"
+]
+},
+{
+"id": 124,
+"category": "Mathematics",
+"difficulty": "hard",
+"question": "What is the only Millennium Prize Problem that has been solved so far?",
+"reveal": "UG9pbmNhcsOpIGNvbmplY3R1cmU=",
+"accept": [
+"23a16361da8bd368766e6fc325ed0b479c7b335fa986a31186dbea020149ff54"
+]
+},
+{
+"id": 125,
+"category": "History",
+"difficulty": "easy",
+"question": "Who was the first president of the United States?",
+"reveal": "R2VvcmdlIFdhc2hpbmd0b24=",
+"accept": [
+"34825273a73675dd89283697210da3256e2dadc99833985ebded64ac537c4e4f"
+]
+},
+{
+"id": 126,
+"category": "Music",
+"difficulty": "hard",
+"question": "Which of these is NOT a song featured on the Lockjaw EP released in 2013 by Flume & Chet Faker?",
+"reveal": "TGVmdCBBbG9uZQ==",
+"accept": [
+"366876ad589325e12708aba9bad17c2498a482d899c066f7de370a77cd007def"
+]
+},
+{
+"id": 127,
+"category": "Animals",
+"difficulty": "hard",
+"question": "What is the Gray Wolf's scientific name?",
+"reveal": "Q2FuaXMgTHVwdXM=",
+"accept": [
+"7f11bfc19188364adf49e11a7115d7e10962f2d77ae1c17afdad553f8d8223a3"
+]
+},
+{
+"id": 128,
+"category": "Music",
+"difficulty": "medium",
+"question": "Band Aid's 'Do They Know It's Christmas' was recorded to raise awareness of which issue in Ethiopia?",
+"reveal": "RmFtaW5l",
+"accept": [
+"1bc0e9df2f22e641c3d246a86ef9a68e1d4fbc75075233eae9b1b6f65fba7a86"
+]
+},
+{
+"id": 129,
+"category": "Japanese Anime & Manga",
+"difficulty": "easy",
+"question": "Which Pokémon and it's evolutions were banned from appearing in a main role after the Episode 38 Incident?",
+"reveal": "VGhlIFBvcnlnb24gTGluZQ==",
+"accept": [
+"4384cce7dffcf5b4665b927073b50ebe5be7c6fc9f722057f6ed781625ce418e"
+]
+},
+{
+"id": 130,
+"category": "General Knowledge",
+"difficulty": "medium",
+"question": "The architect known as Le Corbusier was an important figure in what style of architecture?",
+"reveal": "TW9kZXJuaXNt",
+"accept": [
+"749bfef31f9ec1129fa3d3ad9adee118629b8249489cc98b76ac212feb90e318"
+]
+},
+{
+"id": 131,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "What alcoholic drink is made from molasses?",
+"reveal": "UnVt",
+"accept": [
+"57f64f1b45572420f70df63573f4b115970951a20723cd4e8371d88e13dbcea2"
+]
+},
+{
+"id": 132,
+"category": "Music",
+"difficulty": "easy",
+"question": "Who is the lead singer of Pearl Jam?",
+"reveal": "RWRkaWUgVmVkZGVy",
+"accept": [
+"032e28092fec4ab6963a6a9f393d2a59d44298b54f7473af5f2be9e24922d4cb"
+]
+},
+{
+"id": 133,
+"category": "Books",
+"difficulty": "medium",
+"question": "In Rudyard Kipling's \"The Jungle Book\", what type of snake was Kaa?",
+"reveal": "UHl0aG9u",
+"accept": [
+"11a4a60b518bf24989d481468076e5d5982884626aed9faeb35b8576fcd223e1"
+]
+},
+{
+"id": 134,
+"category": "Geography",
+"difficulty": "medium",
+"question": "What is the capital city of Slovenia?",
+"reveal": "TGp1YmxqYW5h",
+"accept": [
+"651d1631568b824d42c853b983b2fd6a6ee2bf595062a93b02507c90b0d5c1e1"
+]
+},
+{
+"id": 135,
+"category": "Board Games",
+"difficulty": "medium",
+"question": "At the start of a standard game of the Monopoly, if you throw a double six, which square would you land on?",
+"reveal": "RWxlY3RyaWMgQ29tcGFueQ==",
+"accept": [
+"6373b7db13f98815cdef7fd607cedeecdb872fe2ef2c518537ae41b92afcfa99"
+]
+},
+{
+"id": 136,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "How many unique items does \"Borderlands 2\" claim to have?",
+"reveal": "ODcgQmF6aWxsaW9u",
+"accept": [
+"7e4dc709ff5a33a498a5342144c386dd1bfc845d7bbedd484b40581d8f36a427",
+"b34f44436f2d72ddf364c9dad51929e374ffd644b0de753de373c531dea00e62"
+]
+},
+{
+"id": 137,
+"category": "Japanese Anime & Manga",
+"difficulty": "easy",
+"question": "Who is the main heroine of the anime, Full Metal Panic!",
+"reveal": "S2FuYW1lIENoaWRvcmk=",
+"accept": [
+"b660cb71a69cf324008b247c6fff1d0999a49d557ca2329f582d6044270927e6"
+]
+},
+{
+"id": 138,
+"category": "Science & Nature",
+"difficulty": "easy",
+"question": "What is the largest animal currently on Earth?",
+"reveal": "Qmx1ZSBXaGFsZQ==",
+"accept": [
+"2f2d0785b1901d46d89fb570ffe2e8502e9d3c0ee2da22e318333b493db716e1"
+]
+},
+{
+"id": 139,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "What is the default alias that Princess Garnet goes by in Final Fantasy IX?",
+"reveal": "RGFnZ2Vy",
+"accept": [
+"011e4c77473ff7e89b498c06dc7063db775992a35dd5700588adaa892a871eca"
+]
+},
+{
+"id": 140,
+"category": "Television",
+"difficulty": "easy",
+"question": "What is the real name of the famous spanish humorist, El Risitas?",
+"reveal": "SnVhbiBKb3lhIEJvcmdh",
+"accept": [
+"77ffc570a3b6362787939401ce49094fcf3a70fd45ece6b27b6495aa2bcb7c51"
+]
+},
+{
+"id": 141,
+"category": "Mythology",
+"difficulty": "easy",
+"question": "What weakpoint of Achilles was expoited by the Trojan prince, Paris?",
+"reveal": "SGVlbA==",
+"accept": [
+"d6a81f224bbf2f7c22baddbd5d40730eb20cfb0b3d74e10cab61788214caceb1"
+]
+},
+{
+"id": 142,
+"category": "Art",
+"difficulty": "medium",
+"question": "Which artist’s studio was known as 'The Factory'?",
+"reveal": "QW5keSBXYXJob2w=",
+"accept": [
+"ce03832e27cf16a81e36a57811560af5da63441d4c3a7549266f0483f55120dc"
+]
+},
+{
+"id": 143,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In the beta version of the 1986 game \"The Legend of Zelda\", players have the choice between a sword and what other item?",
+"reveal": "Qm9vbWVyYW5n",
+"accept": [
+"06f5760ea3fb0d3b8183870ab6653b5bed6d64c6d9e7642fa8380596b7916cde"
+]
+},
+{
+"id": 144,
+"category": "History",
+"difficulty": "hard",
+"question": "When was the SS or Schutzstaffel established?",
+"reveal": "QXByaWwgNHRoLCAxOTI1",
+"accept": [
+"0315bf0ae7a1e7e87969ce9cadeadffdca48dfc8ffe8d19c112b77effe740b0f"
+]
+},
+{
+"id": 145,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "Which Swiss psychologist is synonymous with the concepts of introvert and extrovert personalities?",
+"reveal": "Q2FybCBKdW5n",
+"accept": [
+"18f11b4d7409e050328b2e8c41c4bee060d51dd2330f282ed8309951aafb0d68"
+]
+},
+{
+"id": 146,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "In \"A Hat in Time\", what must Hat Kid collect to finish a level",
+"reveal": "QSB0aW1lIHBpZWNl",
+"accept": [
+"65dab0e91ce7c8a6654f8cf388424c608489bacb09b05c68cfa39de7ccfec619"
+]
+},
+{
+"id": 147,
+"category": "Japanese Anime & Manga",
+"difficulty": "medium",
+"question": "What is the name of the infamous pachinko machine from \"Kaiji\"?",
+"reveal": "VGhlIEJvZw==",
+"accept": [
+"bf3ad7e184d022d09be47f9acc332397bd32ad6e48b6bfe696a04ca2f0146ca3"
+]
+},
+{
+"id": 148,
+"category": "History",
+"difficulty": "easy",
+"question": "Pol Pot was the former dictator of which country?",
+"reveal": "Q2FtYm9kaWE=",
+"accept": [
+"eae33aebc5874253ff0b7c6f723698375356a86777de0bc4050d6a8d6de30da4"
+]
+},
+{
+"id": 149,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In Yakuza 4 who is the first character you play as?",
+"reveal": "U2h1biBBa2l5YW1h",
+"accept": [
+"a24158da96a7c1d1e2d41f6c9ebedd208136593e25bf1e135c5a5e9a138b2661"
+]
+},
+{
+"id": 150,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "In the survival horror game, \"Cry of Fear,\" what was the name of Simon's close friend/potential love interest?",
+"reveal": "U29waGll",
+"accept": [
+"5e0176c9d2070a5a2a22bf74b4abed303654690d58d64221ccbd022af827abc4"
+]
+},
+{
+"id": 151,
+"category": "Sports",
+"difficulty": "easy",
+"question": "Which NFL team plays for New England?",
+"reveal": "UGF0cmlvdHM=",
+"accept": [
+"462aec2ca8883242483416b27326b2258b9ae4d116aef0c55c38b1820d07355e"
+]
+},
+{
+"id": 152,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which Beatle wrote and sang the song \"Why Don't We Do It in the Road\" after being inspired by seeing two monkeys copulating in the street?",
+"reveal": "UGF1bA==",
+"accept": [
+"0357513deb903a056e74a7e475247fc1ffe31d8be4c1d4a31f58dd47ae484100"
+]
+},
+{
+"id": 153,
+"category": "Mathematics",
+"difficulty": "easy",
+"question": "How many sides does a heptagon have?",
+"reveal": "Nw==",
+"accept": [
+"7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+"3ba8d02b16fd2a01c1a8ba1a1f036d7ce386ed953696fa57331c2ac48a80b255"
+]
+},
+{
+"id": 154,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "What is the shape of the toy invented by Hungarian professor Ernő Rubik?",
+"reveal": "Q3ViZQ==",
+"accept": [
+"4f3c4172a4fe308cebc840da665171f534849b1fca101eaf635d68fb453393db"
+]
+},
+{
+"id": 155,
+"category": "History",
+"difficulty": "hard",
+"question": "What is the name of the Boeing B-29 that dropped the 'Little Boy' atomic bomb on Hiroshima?",
+"reveal": "RW5vbGEgR2F5",
+"accept": [
+"1228708b2fb91ca7c5d01d5c7c6f22a4839d25084bc12d3a555ee618f6f38aff"
+]
+},
+{
+"id": 156,
+"category": "Celebrities",
+"difficulty": "medium",
+"question": "What is the real name of \"moot\", founder of the imageboard 4chan?",
+"reveal": "Q2hyaXN0b3BoZXIgUG9vbGU=",
+"accept": [
+"c5e73d6c0c903538aedfbd5a6e68998df9654b9e82bfc0c001c363cb3e0979ab"
+]
+},
+{
+"id": 157,
+"category": "History",
+"difficulty": "medium",
+"question": "Who famously coined the phrase \"I think, therefore I am\"?",
+"reveal": "RGVzY2FydGVz",
+"accept": [
+"520b93cc1f02392366269b10df58dca4efac64f0d2ce640c39d6ecf84717bd6a"
+]
+},
+{
+"id": 158,
+"category": "Science & Nature",
+"difficulty": "easy",
+"question": "What is the standard SI unit for mass?",
+"reveal": "S2lsb2dyYW0=",
+"accept": [
+"16db10b2848943982d5d5f2d1ea21c32fc7d7f7f3a358426b81c9baaa7eb0f35"
+]
+},
+{
+"id": 159,
+"category": "Board Games",
+"difficulty": "hard",
+"question": "Which Pokemon is #39 in the National Pokedex?",
+"reveal": "SmlnZ2x5cHVmZg==",
+"accept": [
+"20754a6e1b3137b048287e337ba657f3179d512db11a94e3d30625949e31995a"
+]
+},
+{
+"id": 160,
+"category": "Music",
+"difficulty": "hard",
+"question": "When did the rapper Eazy-E die?",
+"reveal": "TWFyY2ggMjYsIDE5OTU=",
+"accept": [
+"d4d2f71cb5aa79cb81e51fbb19a7e5f7d3ffa64afd01a38304d75c88c394cd7c",
+"dbee9e3cb4837615510f3a0f667af44629a4eb7cba4cd786b2e29febc5cc4119"
+]
+},
+{
+"id": 161,
+"category": "Comics",
+"difficulty": "hard",
+"question": "When was the Garfield comic first published?",
+"reveal": "MTk3OA==",
+"accept": [
+"46635b56d3c7f0b7bb26adae2a1692debbfd145d4a0986a9137fe91e73e70360"
+]
+},
+{
+"id": 162,
+"category": "Television",
+"difficulty": "easy",
+"question": "In the TV show \"Mad Men\", what was Donald Draper's birthname?",
+"reveal": "UmljaGFyZCAiRGljayIgV2hpdG1hbg==",
+"accept": [
+"0bdd68a2d98f14f030cc6c4c81f16b08fea2740cfe20cedc45ccb38a3315f4ce"
+]
+},
+{
+"id": 163,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which of these artists was NOT a member of the electronic music supergroup Swedish House Mafia, which split up in 2013?",
+"reveal": "QWxlc3Nv",
+"accept": [
+"42167eabf96eb6f560d826c7b51704069670c9563905051eadad415f16f643ca"
+]
+},
+{
+"id": 164,
+"category": "Sports",
+"difficulty": "medium",
+"question": "Which German sportswear company's logo is the 'Formstripe'?",
+"reveal": "UHVtYQ==",
+"accept": [
+"86505085bb4773d538be62d71cb937cdeedd009e647e3fa5a968edf23b4c72a3"
+]
+},
+{
+"id": 165,
+"category": "Board Games",
+"difficulty": "hard",
+"question": "On a standard Monopoly board, how much do you have to pay for Tennessee Ave?",
+"reveal": "JDE4MA==",
+"accept": [
+"7b69759630f869f2723875f873935fed29d2d12b10ef763c1c33b8e0004cb405"
+]
+},
+{
+"id": 166,
+"category": "Music",
+"difficulty": "medium",
+"question": "What is the name of the 2016 studio album by the French electronic music duo Justice?",
+"reveal": "V29tYW4=",
+"accept": [
+"cf2e5bff1ef03dcd20d1a0b18ef7d89fc80a3554434165753672f6f40fde1d25"
+]
+},
+{
+"id": 167,
+"category": "Sports",
+"difficulty": "medium",
+"question": "What is the oldest team in the NFL?",
+"reveal": "QXJpem9uYSBDYXJkaW5hbHM=",
+"accept": [
+"4fdce73f47f92a1672879fc173c4bd7b526136960c50dca18a5431ff98242d42"
+]
+},
+{
+"id": 168,
+"category": "Musicals & Theatres",
+"difficulty": "medium",
+"question": "Which musical has won the most Tony awards?",
+"reveal": "VGhlIFByb2R1Y2Vycw==",
+"accept": [
+"cd14f4034ca2bb6a4c35d0dcac12038781a226e84d20eaf0f8a4af5fe1ef14b4"
+]
+},
+{
+"id": 169,
+"category": "Film",
+"difficulty": "medium",
+"question": "Which actor plays the role of the main antagonist in the 2011 movie \"Tower Heist?\"",
+"reveal": "QWxhbiBBbGRh",
+"accept": [
+"f25396ae80fa24ed191a483ee6adfefc3c19f3803ede8db50e3c652bef371d8d"
+]
+},
+{
+"id": 170,
+"category": "Television",
+"difficulty": "medium",
+"question": "Out of the 3 Tots in Tots TV, who speaks French in the UK Version and Spanish in the US Version?",
+"reveal": "VGlsbHk=",
+"accept": [
+"3e438db653942415fc5c9ae86ac59290d4af042b795cd5c1285c259d49795a8d"
+]
+},
+{
+"id": 171,
+"category": "Geography",
+"difficulty": "easy",
+"question": "Which city is the capital of the United States of America?",
+"reveal": "V2FzaGluZ3RvbiBELkM=",
+"accept": [
+"831830e2c13ee56c1b81aab22b60fb67ad185ffe9eb399ae996fe24bada8c7f8"
+]
+},
+{
+"id": 172,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "Which of these is NOT a playable character in \"Left 4 Dead\"?",
+"reveal": "Tmljaw==",
+"accept": [
+"7f0b629cbb9d794b3daf19fcd686a30a039b47395545394dadc0574744996a87"
+]
+},
+{
+"id": 173,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "Which chemical element has the lowest boiling point?",
+"reveal": "SGVsaXVt",
+"accept": [
+"cac77afa6447276c543eb76ebefbc3ad54d5115f42df0ec4db4e3d29de3715da"
+]
+},
+{
+"id": 174,
+"category": "Sports",
+"difficulty": "medium",
+"question": "Who was the first footballer to score 200 goals in the English Premier League?",
+"reveal": "QWxhbiBTaGVhcmVy",
+"accept": [
+"8a30fc3b979d65a06e6d457c84a333e55eedb88c310b5498866b70c216765ecc"
+]
+},
+{
+"id": 175,
+"category": "General Knowledge",
+"difficulty": "medium",
+"question": "If a person's hair is described as 'Titian', what colour is it?",
+"reveal": "UmVk",
+"accept": [
+"b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+]
+},
+{
+"id": 176,
+"category": "Geography",
+"difficulty": "easy",
+"question": "What is the official language of Costa Rica?",
+"reveal": "U3BhbmlzaA==",
+"accept": [
+"9c9b13446cd96efb130cde2bed0fcd1bb8c313459ca991608636ab202ed425c7"
+]
+},
+{
+"id": 177,
+"category": "Geography",
+"difficulty": "easy",
+"question": "What is the 15th letter of the Greek alphabet?",
+"reveal": "T21pY3JvbiAozp8p",
+"accept": [
+"439003d0d54d022f61a705da700bff916414fdf8308f0cae6a5b9e5903e86fdf"
+]
+},
+{
+"id": 178,
+"category": "Film",
+"difficulty": "medium",
+"question": "Who voiced Metalbeard in \"The Lego Movie\"?",
+"reveal": "TmljayBPZmZlcm1hbg==",
+"accept": [
+"4966428a23be6c5d3006c58f983a98abaeaa20b1aca98257e315055c294a89f5"
+]
+},
+{
+"id": 179,
+"category": "Vehicles",
+"difficulty": "easy",
+"question": "Which of the following car manufacturers had a war named after it?",
+"reveal": "VG95b3Rh",
+"accept": [
+"337b8d2c1e132acd75171f1acf0e73b20bc9541720d5003813f59ef0ad51f86f"
+]
+},
+{
+"id": 180,
+"category": "Japanese Anime & Manga",
+"difficulty": "medium",
+"question": "What colour hair does the main character of the Yu-Gi-Oh! original anime series have?",
+"reveal": "UmVkLCBibGFjayBhbmQgeWVsbG93",
+"accept": [
+"39c12c25cb7e0f92bbc77988c119abe75ba209ec54f3253140353d19a1b7e6ec"
+]
+},
+{
+"id": 181,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which of these is not a member of the virtual band Gorillaz?",
+"reveal": "UGhpIEN5cGhlcg==",
+"accept": [
+"a13f8035501567a02e72d09e01110067b3f7ccdda92747672f44be1e1435c4ed"
+]
+},
+{
+"id": 182,
+"category": "Computers",
+"difficulty": "hard",
+"question": "What does the International System of Quantities refer 1024 bytes as?",
+"reveal": "S2liaWJ5dGU=",
+"accept": [
+"975cd8afe1fc5bbf8b4cdbe11102c75bec3df5c22de43903450fb0aa44b57a24"
+]
+},
+{
+"id": 183,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Toby Fox's \"Megalovania\" was first used where?",
+"reveal": "UmFkaWF0aW9uJ3MgRWFydGhib3VuZCBIYWxsb3dlZW4gSGFjaw==",
+"accept": [
+"0ac7a1d448471c203fe37fd0548e5b77dac3ae9e226364a7e12d68a2caa2ec4f"
+]
+},
+{
+"id": 184,
+"category": "Film",
+"difficulty": "medium",
+"question": "Which actor played the main character in the 1990 film \"Edward Scissorhands\"?",
+"reveal": "Sm9obm55IERlcHA=",
+"accept": [
+"8f2af5389881870a145bf37f89a83e5623359227431386045782a6d1c7c82a20"
+]
+},
+{
+"id": 185,
+"category": "General Knowledge",
+"difficulty": "medium",
+"question": "What is a \"dakimakura\"?",
+"reveal": "QSBib2R5IHBpbGxvdw==",
+"accept": [
+"0adcd5c872bf3ddfe4a85e322cbe062331957733af7a7268e2bdad5f7ceeb935"
+]
+},
+{
+"id": 186,
+"category": "Film",
+"difficulty": "medium",
+"question": "What were the Chilled Monkey Brains made from during Indiana Jones and the Temple of Doom?",
+"reveal": "Q3VzdGFyZCBhbmQgUmFzcGJlcnJ5IFNhdWNl",
+"accept": [
+"5b993be6757d89a2a3730188791b87f846fdcd87e84d80ab7ad1e0d38d9bb2e3"
+]
+},
+{
+"id": 187,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In the Super Smash Bros. series, which game first featured Luigi as a playable character?",
+"reveal": "U3VwZXIgU21hc2ggQnJvcy4=",
+"accept": [
+"98b40a0d375c5691bb6bb7a6a1365395c106c6610cc799dfc64dac6fb9aec9d7"
+]
+},
+{
+"id": 188,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which of these is NOT the name of an album released by American rapper Viper?",
+"reveal": "VGhlIExpZmUgb2YgUGFibG8=",
+"accept": [
+"40c5267c53fc6d405a36ba81138c28530d30369910e28bb23398b6c6d2ffebce"
+]
+},
+{
+"id": 189,
+"category": "Music",
+"difficulty": "medium",
+"question": "What was the first music video to be broadcast on MTV?",
+"reveal": "VmlkZW8gS2lsbGVkIHRoZSBSYWRpbyBTdGFy",
+"accept": [
+"5d03c825f072d2096d75d4bc2cade9ef1edc6b0e2a48a85f58807daef74c10fc"
+]
+},
+{
+"id": 190,
+"category": "Japanese Anime & Manga",
+"difficulty": "hard",
+"question": "Which animation studio produced \"Sword Art Online\"?",
+"reveal": "QS0xIFBpY3R1cmVz",
+"accept": [
+"bd4e967cccb2177f10cb7ff7d3267fbae3b3a3d186b9038cf6607e3383bc2ad1",
+"7c1f7f87eeb662200f4ecdb9e43841d075d276846d697eaf91b6e4279e6aad96"
+]
+},
+{
+"id": 191,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which game is NOT part of the Science Adventure series by 5pb. and Nitroplus?",
+"reveal": "T2NjdWx0aWM7IE5pbmU=",
+"accept": [
+"c89734533b66ea0a2ed68a69dc18c4a36ed2e492204daddd7721eb97cee0b430"
+]
+},
+{
+"id": 192,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "The Khajiit are a race of cat-like creatures from which epic series of role-playing games, set across the land of Tamriel?",
+"reveal": "VGhlIEVsZGVyIFNjcm9sbHM=",
+"accept": [
+"3a4f7eb4ff4a2e553f0ae603a0282c3c7d5e104fc007194ab6d270b80f8f251d"
+]
+},
+{
+"id": 193,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which CS:GO eSports team won the major event ESL One Cologne 2016?",
+"reveal": "U0sgR2FtaW5n",
+"accept": [
+"7b3baa0092108943c9793e0ca93e867662a3af3ad6b5f74fc58affe4278016a2"
+]
+},
+{
+"id": 194,
+"category": "History",
+"difficulty": "medium",
+"question": "Which of the following Soviet revolutionaries was exiled from the USSR and later assassinated in 1940 for criticizing Stalinism?",
+"reveal": "TGVvbiBUcm90c2t5",
+"accept": [
+"72fee0ba01092fb91145af908db671d9232cc162cc7f8d5b2391bd6d5e7b711d"
+]
+},
+{
+"id": 195,
+"category": "Board Games",
+"difficulty": "easy",
+"question": "Which of these games includes the phrase \"Do not pass Go, do not collect $200\"?",
+"reveal": "TW9ub3BvbHk=",
+"accept": [
+"cb3b5639a043f55b783e3f8fc58a2f6252db89b390a27c67ba199b6a897d0e30"
+]
+},
+{
+"id": 196,
+"category": "Board Games",
+"difficulty": "easy",
+"question": "The board game Monopoly takes its street names from which real American city?",
+"reveal": "QXRsYW50aWMgQ2l0eSwgTmV3IEplcnNleQ==",
+"accept": [
+"74fba246d5382fe301cf41cbc071a05b0bf5437a7792936cea15b1302b4d5dcd"
+]
+},
+{
+"id": 197,
+"category": "Film",
+"difficulty": "medium",
+"question": "This trope refers to minor characters that are killed off to show how a monster works.",
+"reveal": "UmVkIFNoaXJ0",
+"accept": [
+"02638495fafbed89b2bb70563258850dd4fee0e0f425c020aa7dc37bef20c8cb"
+]
+},
+{
+"id": 198,
+"category": "Geography",
+"difficulty": "easy",
+"question": "Which US state is nicknamed \"The Golden State\"?",
+"reveal": "Q2FsaWZvcm5pYQ==",
+"accept": [
+"7e8eea5cc60980270c9ceb75ce8c087d48d726110fd3d17921f774eefd8e18d8"
+]
+},
+{
+"id": 199,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "How many aces can be shot down through the entirety of \"Ace Combat Zero: The Belkan War\"?",
+"reveal": "MTY5",
+"accept": [
+"f57e5cb1f4532c008183057ecc94283801fcb5afe2d1c190e3dfd38c4da08042"
+]
+},
+{
+"id": 200,
+"category": "Mathematics",
+"difficulty": "easy",
+"question": "In Roman Numerals, what does XL equate to?",
+"reveal": "NDA=",
+"accept": [
+"d59eced1ded07f84c145592f65bdf854358e009c5cd705f5215bf18697fed103",
+"9cee2304bd633d42c35db17c1427a273668bd3166487f924216d807a566a8e73"
+]
+},
+{
+"id": 201,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "What is an alternative name for multiple personality disorder?",
+"reveal": "RGlzc29jaWF0aXZlIGlkZW50aXR5IGRpc29yZGVy",
+"accept": [
+"3f07bca0252a060e700fcfd73557aff087a8129bcd18695c7573a5a1ba451d3d"
+]
+},
+{
+"id": 202,
+"category": "Books",
+"difficulty": "medium",
+"question": "Which of the following is not a work authored by Fyodor Dostoevsky?",
+"reveal": "QW5uYSBLYXJlbmluYQ==",
+"accept": [
+"3cd0b1e25f345083e3ff8506f9617216ed251769892880ed5d167ae9561906cf"
+]
+},
+{
+"id": 203,
+"category": "Geography",
+"difficulty": "medium",
+"question": "Which of the following is not a megadiverse country - one that harbors a high number of the earth's endemic species?",
+"reveal": "VGhhaWxhbmQ=",
+"accept": [
+"d299927fdea2d5a7e994a5c8d4ff3bee85c5c770be1a4f7fa3b9b81bc216bd90"
+]
+},
+{
+"id": 204,
+"category": "Art",
+"difficulty": "medium",
+"question": "What nationality was the surrealist painter Salvador Dali?",
+"reveal": "U3BhbmlzaA==",
+"accept": [
+"9c9b13446cd96efb130cde2bed0fcd1bb8c313459ca991608636ab202ed425c7"
+]
+},
+{
+"id": 205,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "Who made the video game, \"Bendy and the Ink Machine\"?",
+"reveal": "VGhlTWVhdGx5",
+"accept": [
+"1c240f79c626e1cc1a52ca6b6fa36d5b0ff8942d25491c7ae0b7d8549379f90e"
+]
+},
+{
+"id": 206,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "In \"Team Fortress 2\", how much health does a scout have when overhealed?",
+"reveal": "MTg1",
+"accept": [
+"61a229bae1e90331edd986b6bbbe617f7035de88a5bf7c018c3add6c762a6e8d"
+]
+},
+{
+"id": 207,
+"category": "Geography",
+"difficulty": "hard",
+"question": "Where is Fort Marlborough located?",
+"reveal": "QmVuZ2t1bHU=",
+"accept": [
+"73043503a5e692388548d23c1917d5e41fe462923581ab60f12df2a81a595d88"
+]
+},
+{
+"id": 208,
+"category": "Geography",
+"difficulty": "medium",
+"question": "What is the capital of the US state Nevada?",
+"reveal": "Q2Fyc29uIENpdHk=",
+"accept": [
+"d0e7a8ed4a65d5c73bea65a2166e893330eace3018b399dfd5d17f52d82515e8"
+]
+},
+{
+"id": 209,
+"category": "History",
+"difficulty": "medium",
+"question": "In 1961, an American B-52 aircraft crashed and nearly detonated two 4mt nuclear bombs over which US city?",
+"reveal": "R29sZHNib3JvLCBOb3J0aCBDYXJvbGluYQ==",
+"accept": [
+"88e6847e11d62d8445f18de3ac43c66ed4753e814ca19bd1ebe1e5943ff4115d"
+]
+},
+{
+"id": 210,
+"category": "Books",
+"difficulty": "hard",
+"question": "In which classic novel is there a character named Homer Simpson?",
+"reveal": "VGhlIERheSBvZiB0aGUgTG9jdXN0",
+"accept": [
+"823dd36bfe6a4080d4dccd9da006a638955080d379014f6e41ed3fa5deb50b3e"
+]
+},
+{
+"id": 211,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which of these songs by artist Eminem contain the lyric \"Nice to meet you. Hi, my name is... I forgot my name!\"?",
+"reveal": "UmFpbiBNYW4=",
+"accept": [
+"c524151882a66c2602fd6031493f8ac0e79328736090c5ba394a28caf7497293"
+]
+},
+{
+"id": 212,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "In what year was the game \"Eliminator\" released?",
+"reveal": "MTk5OA==",
+"accept": [
+"d54123de468bd42ea00dafbd777f85fe5fa1ff6404d9838c007953c25c92a1c5"
+]
+},
+{
+"id": 213,
+"category": "Celebrities",
+"difficulty": "medium",
+"question": "Which of these celebrities was not a member of the Jackson 5?",
+"reveal": "Qm8gSmFja3Nvbg==",
+"accept": [
+"a85d6ced3490d0b06ca297b2719bc0f4090f575185c8ddf06bcbb89f20cfd8fe"
+]
+},
+{
+"id": 214,
+"category": "Cartoon & Animations",
+"difficulty": "medium",
+"question": "In \"The Amazing World of Gumball\", who is the principal of Elmore Junior High?",
+"reveal": "UHJpbmNpcGFsIEJyb3du",
+"accept": [
+"5ebd45fe8a6f6a7168aef4fecab8dfc9d64d1b41927bc82bb79423596b3308af"
+]
+},
+{
+"id": 215,
+"category": "Computers",
+"difficulty": "hard",
+"question": "What major programming language does Unreal Engine 4 use?",
+"reveal": "Qysr",
+"accept": [
+"2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6"
+]
+},
+{
+"id": 216,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "In what year was \"Antichamber\" released?",
+"reveal": "MjAxMw==",
+"accept": [
+"7931aa2a1bed855457d1ddf6bc06ab4406a9fba0579045a4d6ff78f9c07c440f"
+]
+},
+{
+"id": 217,
+"category": "Geography",
+"difficulty": "easy",
+"question": "Which of these African countries list \"Spanish\" as an official language?",
+"reveal": "RXF1YXRvcmlhbCBHdWluZWE=",
+"accept": [
+"8e5afa94476a1439c6f7d64156672a06e8b34f6d6fc5ed8e187a04ebcd5e95a0"
+]
+},
+{
+"id": 218,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "In \"Sonic the Hedgehog 3\" for the Sega Genesis, what is the color of the second Chaos Emerald you can get from Special Stages?",
+"reveal": "T3Jhbmdl",
+"accept": [
+"1b4c9133da73a711322404314402765ab0d23fd362a167d6f0c65bb215113d94"
+]
+},
+{
+"id": 219,
+"category": "Film",
+"difficulty": "medium",
+"question": "What is the name of the foley artist who designed the famous sounds of Star Wars, including Chewbacca's roar and R2-D2's beeps and whistles?",
+"reveal": "QmVuIEJ1cnR0",
+"accept": [
+"26c24886018021dc6d2220550e3637c355faeeec8720e4ddd05aaefbfd5ad0d1"
+]
+},
+{
+"id": 220,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "What Touhou Project character's first ever appearance was as a midboss in the eighth game, Imperishable Night?",
+"reveal": "VGV3aSBJbmFiYQ==",
+"accept": [
+"a49ba8a951f5b9a5b8c7c8369665a9c03a83500b6abe812fedd3953fab5f9427"
+]
+},
+{
+"id": 221,
+"category": "History",
+"difficulty": "medium",
+"question": "Who assassinated Archduke Franz Ferdinand?",
+"reveal": "R2F2cmlsbyBQcmluY2lw",
+"accept": [
+"6c97fc3e7b01865a6d708856310e6ce0a7bd9ae1c8194cbf78f7350eefef100d"
+]
+},
+{
+"id": 222,
+"category": "Film",
+"difficulty": "easy",
+"question": "For the film \"Raiders of The Lost Ark\", what was Harrison Ford sick with during the filming of the Cairo chase?",
+"reveal": "RHlzZW50ZXJ5",
+"accept": [
+"27c857019d28a1f3ed051ed3da789709b0a9a58cbdaed5da61fabf40c5fd0b76"
+]
+},
+{
+"id": 223,
+"category": "Music",
+"difficulty": "easy",
+"question": "Who released the song \"Photograph\" in 2005?",
+"reveal": "Tmlja2VsYmFjaw==",
+"accept": [
+"541a853a572f74f04a7903c2638c875459b7bed648f07a0ff435ee7a02a62da4"
+]
+},
+{
+"id": 224,
+"category": "General Knowledge",
+"difficulty": "hard",
+"question": "In the fictional SCP universe what “Object Class” is given to SCP’s that cannot be contained.",
+"reveal": "QXBvbGx5b24=",
+"accept": [
+"6cd023f38aec7a82f2e3173b97cc80dabdf4cdf9c2b6d60720c2715f8364778e"
+]
+},
+{
+"id": 225,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "Which one of these is NOT an official map in Counter-Strike: Global Offensive?",
+"reveal": "ZGVfc2Vhc29u",
+"accept": [
+"04848a2729d7bfcb5bd4686e0ff2077aa4f9e9940c13f257b929a79c3c591ceb"
+]
+},
+{
+"id": 226,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Who is the main antagonist of Silent Hill 4?",
+"reveal": "V2FsdGVyIFN1bGxpdmFu",
+"accept": [
+"209719b23d404b968565dc7300990bcb98f6e8df7914ec13132f8e3997a0ff30"
+]
+},
+{
+"id": 227,
+"category": "Gadgets",
+"difficulty": "medium",
+"question": "Which company developed the Hololens?",
+"reveal": "TWljcm9zb2Z0",
+"accept": [
+"9fbf261b62c1d7c00db73afb81dd97fdf20b3442e36e338cb9359b856a03bdc8"
+]
+},
+{
+"id": 228,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "In \"Final Fantasy VI\", what is the name of (summoned) Gilgamesh's weakest attack?",
+"reveal": "RXhjYWxpcG9vcg==",
+"accept": [
+"99158bd4160c3f23f4c602903ceb895fa64680e9a9c9c13f2865d06979d8fe5c"
+]
+},
+{
+"id": 229,
+"category": "Cartoon & Animations",
+"difficulty": "medium",
+"question": "When did the last episode of \"Futurama\" air before returning in 2023?",
+"reveal": "U2VwdGVtYmVyIDQsIDIwMTM=",
+"accept": [
+"4a9645a8804d613f33a5760a616065f3e008c6c08188f0fd13e54979d6a37280",
+"6fd5e01448afd1fe1ddd87fda989c94937457daccba90cec9525ad5c6b4736be"
+]
+},
+{
+"id": 230,
+"category": "Gadgets",
+"difficulty": "medium",
+"question": "Mobile hardware and software company \"Blackberry Limited\" was founded in which country?",
+"reveal": "Q2FuYWRh",
+"accept": [
+"408c7c5887a0f3905767754f424989b0089c14ac502d7f851d11b31ea2d1baa6"
+]
+},
+{
+"id": 231,
+"category": "Geography",
+"difficulty": "medium",
+"question": "What is the region conjoining Pakistan, India, and China with unknown leadership called?",
+"reveal": "S2FzaG1pcg==",
+"accept": [
+"dd64799f8276c61ffe876cc538539ecdbc5fd17c823b110c14c2cef028e2cfb2"
+]
+},
+{
+"id": 232,
+"category": "Comics",
+"difficulty": "medium",
+"question": "In the Hellboy universe, who founded the BPRD?",
+"reveal": "VHJldm9yIEJydXR0ZW5ob2xt",
+"accept": [
+"843cb6e3c4505a2a24b5c35a52bd0074306d9d525b531587fa8b4f2af328e99d"
+]
+},
+{
+"id": 233,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which of these games was the earliest known first-person shooter with a known time of publication?",
+"reveal": "U3Bhc2lt",
+"accept": [
+"1a401400576d071ccc5fa4be103d9bea0e2cf30ffa849fcca3dd0d890f0a3a2f"
+]
+},
+{
+"id": 234,
+"category": "Books",
+"difficulty": "hard",
+"question": "In the Magic: The Gathering universe, which plane does the Homelands expansion take place in?",
+"reveal": "VWxncm90aGE=",
+"accept": [
+"9f0109f9a95048d49fc11f815ea3c9ba80368a350c068adf27ab0e62c6e7863a"
+]
+},
+{
+"id": 235,
+"category": "Television",
+"difficulty": "easy",
+"question": "When did the TV show Rick and Morty first air on Adult Swim?",
+"reveal": "MjAxMw==",
+"accept": [
+"7931aa2a1bed855457d1ddf6bc06ab4406a9fba0579045a4d6ff78f9c07c440f"
+]
+},
+{
+"id": 236,
+"category": "Science & Nature",
+"difficulty": "easy",
+"question": "Which of these bones is hardest to break?",
+"reveal": "RmVtdXI=",
+"accept": [
+"9735859a4121e497c0c2be4b6974acb100b95f64454c7967fe60852687277b06"
+]
+},
+{
+"id": 237,
+"category": "Geography",
+"difficulty": "medium",
+"question": "Where is the world's oldest still operational space launch facility located?",
+"reveal": "S2F6YWtoc3Rhbg==",
+"accept": [
+"4451df5780fe1b2c96c544579fcc5300b49fdd6d37560692ce2afa850c6d693b"
+]
+},
+{
+"id": 238,
+"category": "Sports",
+"difficulty": "medium",
+"question": "Who won the \"Champions League\" in 1999?",
+"reveal": "TWFuY2hlc3RlciBVbml0ZWQ=",
+"accept": [
+"b93b9776163702f1fad6cbaf815326a41b3285d0961f4e838ebdb8ad52e5f16e"
+]
+},
+{
+"id": 239,
+"category": "History",
+"difficulty": "medium",
+"question": "Which of the following snipers has the highest amount of confirmed kills?",
+"reveal": "U2ltbyBIw6R5aMOk",
+"accept": [
+"72a9ad0e44993b4a6a1152333f80d52876201a318dfc7726dcd24de1e7c5f45f"
+]
+},
+{
+"id": 240,
+"category": "Japanese Anime & Manga",
+"difficulty": "hard",
+"question": "What is the name of the school in the anime and manga \"Gosick\"?",
+"reveal": "U3QuIE1hcmd1ZXJpdGU=",
+"accept": [
+"2a4743cf91c768339404068f0f424b35a297d130c747d4cb030ae8cfecdbc31e"
+]
+},
+{
+"id": 241,
+"category": "Vehicles",
+"difficulty": "hard",
+"question": "Which of the following FIA Rally cars was approved for use in the Group B class first?",
+"reveal": "UG9yc2NoZSA5MTEgVHVyYm8=",
+"accept": [
+"fa341b4b46a1fbe990ee9a0cd4ab7aea2245b4d3372d5f846ddfc859c88d553c"
+]
+},
+{
+"id": 242,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "In \"Rainbow Six: Siege\", which of the following operators cannot breach reinforced walls?",
+"reveal": "QnVjaw==",
+"accept": [
+"9a86f6d235b2165be08bbba962ac8b2e5dce57db71d3aa9e9b0771d828bd551c"
+]
+},
+{
+"id": 243,
+"category": "History",
+"difficulty": "medium",
+"question": "Who is attributed credit for recording the epic poem The Odyssey?",
+"reveal": "SG9tZXI=",
+"accept": [
+"2aaab795b3836904f82efc6ca2285d927aed75206214e1da383418eb90c9052f"
+]
+},
+{
+"id": 244,
+"category": "Cartoon & Animations",
+"difficulty": "easy",
+"question": "Which of these characters from \"SpongeBob SquarePants\" is not a squid?",
+"reveal": "R2FyeQ==",
+"accept": [
+"21dfc18dd04cd6a356e2f1e36e8285bc060a5d589d3ac707e56ac9654903b589"
+]
+},
+{
+"id": 245,
+"category": "Music",
+"difficulty": "hard",
+"question": "What is the official name of Prince's backing band?",
+"reveal": "VGhlIFJldm9sdXRpb24=",
+"accept": [
+"70b6144fae4d4c163c6e205f02e347f553b80e03043b27abe66e539247d747d1"
+]
+},
+{
+"id": 246,
+"category": "Musicals & Theatres",
+"difficulty": "hard",
+"question": "Who played \"Charlie Price\" in the musical \"Kinky Boots\" on Broadway in New York from May 26th - Aug 6th 2017?",
+"reveal": "QnJlbmRvbiBVcmll",
+"accept": [
+"5eaad27764a742017067a07ec10c63fcfafc10ea19aa751995e8db7a82a195f9"
+]
+},
+{
+"id": 247,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "Which monster in \"Monster Hunter Tri\" was causing earthquakes in Moga Village?",
+"reveal": "Q2VhZGV1cw==",
+"accept": [
+"25e2cd741c0e9a3e1edbc00e85e819a6708cbf4be0d1573090be93804429729a"
+]
+},
+{
+"id": 248,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "In the Lego Island trilogy, who taught Pepper Roni how to read?",
+"reveal": "T2ZmaWNlciBMYXVyYSBCcmljaw==",
+"accept": [
+"bde8a7fd6a2d9d742d519bf0754f8d2195416c963be61143bd597d63bd38fc62"
+]
+},
+{
+"id": 249,
+"category": "Celebrities",
+"difficulty": "easy",
+"question": "Named after a character he played in a 1969 film, what is the name of the ski resort in Utah that Robert Redford bought in 1968?",
+"reveal": "U3VuZGFuY2U=",
+"accept": [
+"a4ecefa9f60571b47e69d56e22b2a6faabcd29b746e364f4eb655a9c7f927a24"
+]
+},
+{
+"id": 250,
+"category": "Music",
+"difficulty": "hard",
+"question": "Which company did the animation for Peter Gabriel's Video Sledgehammer (1986)?",
+"reveal": "QWFyZG1hbiBBbmltYXRpb25z",
+"accept": [
+"7e1a578128a65900c4463e837ecd1bcd886b07c3f7a78715f1c3b218e3e04f34"
+]
+},
+{
+"id": 251,
+"category": "General Knowledge",
+"difficulty": "hard",
+"question": "Which film star has his statue in Leicester Square?",
+"reveal": "Q2hhcmxpZSBDaGFwbGlu",
+"accept": [
+"f5bbf8679a52c3656111e046ebc770f0251b72d9dbeb589b64740f8d7c478970"
+]
+},
+{
+"id": 252,
+"category": "Geography",
+"difficulty": "hard",
+"question": "Which river was dammed to create Gatun Lake and the Panama Canal?",
+"reveal": "Q2hhZ3JlcyBSaXZlcg==",
+"accept": [
+"71c126aaabc39afe4b05f411ac34c244510a7e535b847c9086607c6ede4ff5cf"
+]
+},
+{
+"id": 253,
+"category": "Sports",
+"difficulty": "medium",
+"question": "With which team did Michael Schumacher make his Formula One debut at the 1991 Belgian Grand Prix?",
+"reveal": "Sm9yZGFu",
+"accept": [
+"136c67657614311f32238751044a0a3c0294f2a521e573afa8e496992d3786ba"
+]
+},
+{
+"id": 254,
+"category": "Comics",
+"difficulty": "medium",
+"question": "Which issue of the \"Sonic the Hedgehog\" comic did Scourge the Hedgehog make his first appearance?",
+"reveal": "U29uaWMgdGhlIEhlZGdlaG9nICMxMQ==",
+"accept": [
+"55acfad3190e574891f979fb3f1fb64212871c7ae238edc4301a148e24eb2ce2",
+"d28add0d2bef7563add1c964ec312878e8689a47a2c3ee0010c716b5b69ba7eb"
+]
+},
+{
+"id": 255,
+"category": "Cartoon & Animations",
+"difficulty": "easy",
+"question": "Who created the Cartoon Network series \"Adventure Time\"?",
+"reveal": "UGVuZGxldG9uIFdhcmQ=",
+"accept": [
+"489b6b9ec5349edfae8e1961e4946afe877c0b9a533d4996dc73d6cc6f169447"
+]
+},
+{
+"id": 256,
+"category": "Musicals & Theatres",
+"difficulty": "medium",
+"question": "Which of these musicals won the Tony Award for Best Musical?",
+"reveal": "UmVudA==",
+"accept": [
+"0e9fd1596c4b1dfca8ddcd36c567f11da43cf17968a5b912f0e67c5198f643f1"
+]
+},
+{
+"id": 257,
+"category": "Television",
+"difficulty": "easy",
+"question": "Who is the star of the AMC series Breaking Bad?",
+"reveal": "V2FsdGVyIFdoaXRl",
+"accept": [
+"09e3201ec29fe60341509d6e82c90a63835501dfd2630b8760e793a943f205fe"
+]
+},
+{
+"id": 258,
+"category": "Sports",
+"difficulty": "easy",
+"question": "Who is often called \"the Maestro\" in the men's tennis circuit?",
+"reveal": "Um9nZXIgRmVkZXJlcg==",
+"accept": [
+"5301cfd32d73b4774444a3493ab16abd3a4e8e9f1fe5a8a8c71b25488421e339"
+]
+},
+{
+"id": 259,
+"category": "Japanese Anime & Manga",
+"difficulty": "hard",
+"question": "Which animation studio produced the anime adaptation of \"xxxHolic\"?",
+"reveal": "UHJvZHVjdGlvbiBJLkc=",
+"accept": [
+"7265ed12da8df6eec5b4fe3919bed9dec5a09f8faa36feee4ec2fd882402b8df"
+]
+},
+{
+"id": 260,
+"category": "Television",
+"difficulty": "easy",
+"question": "Which of the following awards do Matt Stone and Trey Parker NOT have?",
+"reveal": "T3NjYXI=",
+"accept": [
+"f5a1971c2ef02a5ab2263f20895b14e7ac1607d21d28805ca8a7ed31ef802364"
+]
+},
+{
+"id": 261,
+"category": "Film",
+"difficulty": "medium",
+"question": "What film did James Cameron's Avatar dethrone as the highest-grossing film ever?",
+"reveal": "VGl0YW5pYw==",
+"accept": [
+"8c2a25260209b2db50e9d7c369876ddeeaebde2472a38426ca4907fbe4135921"
+]
+},
+{
+"id": 262,
+"category": "Film",
+"difficulty": "medium",
+"question": "What is Lilo's last name from Lilo and Stitch?",
+"reveal": "UGVsZWthaQ==",
+"accept": [
+"17a2a3d86324cb4ec8b9568bbe4bb4447924199f61772fc9fc2984822f578ad3"
+]
+},
+{
+"id": 263,
+"category": "Geography",
+"difficulty": "medium",
+"question": "How many counties in the Republic of Ireland.",
+"reveal": "MjY=",
+"accept": [
+"5f9c4ab08cac7457e9111a30e4664920607ea2c115a1433d7be98e97e64244ca",
+"826dda4dffb5c0e611c58be64ce0dfeb104f832cfe108834300109a9228c6c7e"
+]
+},
+{
+"id": 264,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which of these characters was NOT planned to be playable for Super Smash Bros. 64?",
+"reveal": "UGVhY2g=",
+"accept": [
+"85356064d03872ac4bed179b8bbe8318ab67a9626be55d0d72288ee14e165265"
+]
+},
+{
+"id": 265,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "Which of these Pokémon cannot learn Surf?",
+"reveal": "QXJib2s=",
+"accept": [
+"8ead4f80d30ee677c7860e5fe656bba5f481ff178a91695ab9eb624423e3e6ca"
+]
+},
+{
+"id": 266,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In the 1980s, a service called Gameline allowed users to download games to what console?",
+"reveal": "QXRhcmkgMjYwMA==",
+"accept": [
+"6dac9c3a675955a14cd95e8f2a6d2010c21579c65e370e138b5a1640714b04dd"
+]
+},
+{
+"id": 267,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which of these bands is the oldest?",
+"reveal": "UGluayBGbG95ZA==",
+"accept": [
+"eaf86686cc81155ef2e39ff1871161bd16ec95cf94ea7bfe9875b9a2e5405a94"
+]
+},
+{
+"id": 268,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which country is featured in Ace Combat 5: The Unsung War?",
+"reveal": "T3NlYQ==",
+"accept": [
+"9aeb0023fc205eaff19ba9837dfdf06876aede0e221eb4206bd823bbcbf18d42"
+]
+},
+{
+"id": 269,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "Which of these is a type of stretch/deep tendon reflex?",
+"reveal": "QW5rbGUgamVyayByZWZsZXg=",
+"accept": [
+"8346aae76fec32c54bfc2134f0f7d84afc7acfe4efd2a777e25e34d84c6fa49f"
+]
+},
+{
+"id": 270,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "Before it's redesign of the company logo in the year 2000, which 3D shape is NOT represented in the Electronic Arts logo?",
+"reveal": "Q3lsaW5kZXI=",
+"accept": [
+"05fa0965c7c35c471dd1e8474b76870be2ec1ce535c2b169ab4f3554ab17e436"
+]
+},
+{
+"id": 271,
+"category": "Animals",
+"difficulty": "hard",
+"question": "What is the collective noun for vultures?",
+"reveal": "V2FrZQ==",
+"accept": [
+"51391bf0ab33e8272bcfca0d61b5ab242391822f331fe51ac5930b58da8e5b25"
+]
+},
+{
+"id": 272,
+"category": "Geography",
+"difficulty": "easy",
+"question": "All of the following are classified as Finno-Ugric languages EXCEPT:",
+"reveal": "U2Ftb3llZGlj",
+"accept": [
+"c218da70d89cf66f6b16967401e8bd167d4a71f8826705e5b2762a40adc210b9"
+]
+},
+{
+"id": 273,
+"category": "Film",
+"difficulty": "easy",
+"question": "Which of the following actors has only been in a Quentin Tarantino directed film once?",
+"reveal": "Sm9obiBUcmF2b2x0YQ==",
+"accept": [
+"81e85cccdf1fdfdb89625228551b8b9bfe936efc7b745411e4556319ace0d31a"
+]
+},
+{
+"id": 274,
+"category": "Books",
+"difficulty": "medium",
+"question": "Who is the protagonist of the book: \"The Catcher in the Rye\" by J.D. Salinger",
+"reveal": "SG9sZGVuIENhdWxmaWVsZA==",
+"accept": [
+"4c93b7aad052c67636cdad9beb382c7d28242e087b40931cfef98f648b77b849"
+]
+},
+{
+"id": 275,
+"category": "Computers",
+"difficulty": "hard",
+"question": "Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?",
+"reveal": "Q2hlcnJ5IE1YIEJsdWU=",
+"accept": [
+"11b71994973b394289d53c3df32810c086a24cbfbe3a81d89d634d8a383d7a9e"
+]
+},
+{
+"id": 276,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "What was the name of the game created by Masahiro Sakurai and Satoru Iwata that would eventually evolve into \"Super Smash Bros.\"?",
+"reveal": "RHJhZ29uIEtpbmc6IFRoZSBGaWdodGluZyBHYW1l",
+"accept": [
+"d96c8c2981bf95fdca3bb5bc6df9312b0d7e4d3670065037ece0980fb53714ff"
+]
+},
+{
+"id": 277,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "Which gaming series includes \"The Diabolical Box\" and \"The Curious Village\"?",
+"reveal": "UHJvZmVzc29yIExheXRvbg==",
+"accept": [
+"a424cbdba5256672ec7b7dc94b3a12f577dbfc1d89d0cbe2adc6d9fe01573d0b"
+]
+},
+{
+"id": 278,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "In the \"Halo\" series, what is the name of the race of aliens humans refer to as \"Grunts\"?",
+"reveal": "VW5nZ295",
+"accept": [
+"ce026b098a4c3ebef885f258cb63df61990bfb2e32fadf90509355e00ce2e367"
+]
+},
+{
+"id": 279,
+"category": "History",
+"difficulty": "easy",
+"question": "Which one of these was not a beach landing site in the Invasion of Normandy?",
+"reveal": "U2lsdmVy",
+"accept": [
+"78cde64c3e47f2cbfd9da721f54aacde33779916683c79de86962898feefac21"
+]
+},
+{
+"id": 280,
+"category": "Music",
+"difficulty": "easy",
+"question": "What band featured Sting, Stewart Copeland and Andy Summers?",
+"reveal": "VGhlIFBvbGljZQ==",
+"accept": [
+"1366fac71146793a85e98a88ad9bb15adb9aac31da8ac6d73e67059bd5a467a9"
+]
+},
+{
+"id": 281,
+"category": "Music",
+"difficulty": "medium",
+"question": "Where did the British Boy Band \"Bros\" come from?",
+"reveal": "Q2FtYmVybGV5",
+"accept": [
+"5c065efc79c851e6b5d40423c1bc6ce9c36fe5986a4b65a249579924388f5f25"
+]
+},
+{
+"id": 282,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "In \"Fallout 4\" which faction is not present in the game?",
+"reveal": "VGhlIEVuY2xhdmU=",
+"accept": [
+"9748358c94bed99b4329ed919659957f5b16f748322c120ef7035ea94560ec48"
+]
+},
+{
+"id": 283,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "What was the character Kirby originally going to be named?",
+"reveal": "UG9wb3Bv",
+"accept": [
+"d0a88eca2303f7ac7530fedb6aba66ab55c317c50c16d81b2870ad31ac9f3a78"
+]
+},
+{
+"id": 284,
+"category": "Sports",
+"difficulty": "medium",
+"question": "What cricketing term denotes a batsman being dismissed with a score of zero?",
+"reveal": "RHVjaw==",
+"accept": [
+"2d2370db2447ff8cf4f3accd68c85aa119a9c893effd200a9b69176e9fc5eb98"
+]
+},
+{
+"id": 285,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "When was the original Star Wars: Battlefront II released?",
+"reveal": "T2N0b2JlciAzMSwgMjAwNQ==",
+"accept": [
+"415de9420b87be8f9bdcc6d9aec3d5f2c5973a64849b70c950ed2c1cabc8ba55",
+"17cc2933a8872f672f397e87a5927590e8cc17a0459eab8e117fc13f84c2f13a"
+]
+},
+{
+"id": 286,
+"category": "Television",
+"difficulty": "easy",
+"question": "In \"Rick And Morty\", who shot \"Mr. Poopybutthole\" in the episode \"Total Rickall\"?",
+"reveal": "QmV0aA==",
+"accept": [
+"6bf3d7f77d878d880a274272b6717bb4dafd5e147573060980ec2028d63ecaa3"
+]
+},
+{
+"id": 287,
+"category": "Music",
+"difficulty": "easy",
+"question": "How many strings are there on a cello?",
+"reveal": "NA==",
+"accept": [
+"4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+"04efaf080f5a3e74e1c29d1ca6a48569382cbbcd324e8d59d2b83ef21c039f00"
+]
+},
+{
+"id": 288,
+"category": "Japanese Anime & Manga",
+"difficulty": "easy",
+"question": "In the anime \"My Hero Academia\", which character is shown with the ability to manipulate gravity?",
+"reveal": "VXJhcmFrYQ==",
+"accept": [
+"530f990577d8a597143a750cafc5e242e172164f46d1cfcfeca0a05c3d92469f"
+]
+},
+{
+"id": 289,
+"category": "History",
+"difficulty": "medium",
+"question": "When was the People's Republic of China founded?",
+"reveal": "T2N0b2JlciAxLCAxOTQ5",
+"accept": [
+"58dc9208d81062fda98fde90f42a33a4996566f51d38581e01c2e4d9940416e9",
+"e30f3b76bb4bcb854af548b7cde4ce7ef865e86eaeab7cc7e793e70b65e7b0be"
+]
+},
+{
+"id": 290,
+"category": "Animals",
+"difficulty": "medium",
+"question": "Cashmere is the wool from which kind of animal?",
+"reveal": "R29hdA==",
+"accept": [
+"5480f08f35968440ebe8135a8bf9e58c8c944bf4e3ba0f45acb141e474bd0c9c"
+]
+},
+{
+"id": 291,
+"category": "Computers",
+"difficulty": "hard",
+"question": "Who invented the \"Spanning Tree Protocol\"?",
+"reveal": "UmFkaWEgUGVybG1hbg==",
+"accept": [
+"ad7254d85bc0ed2f81de84723873dba7f12641c88e8a920274a3aa7d3c178027"
+]
+},
+{
+"id": 292,
+"category": "Board Games",
+"difficulty": "easy",
+"question": "When was the board game Twister, released to the public?",
+"reveal": "QXByaWwgMTk2Ng==",
+"accept": [
+"9ba776d037f22160cf533606740f2b06061603015abefa6a0368c6b0c9e0ff5f"
+]
+},
+{
+"id": 293,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "Which of these fast-food chains is NOT mainly known to sell pizza?",
+"reveal": "V2VuZHkncw==",
+"accept": [
+"2e6a1d1845b87ab51c012bea519590248d7e9a3a465b8ba5c581206c440cb948"
+]
+},
+{
+"id": 294,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "The map featured in Arma 3 named \"Altis\" is based off of what Greek island?",
+"reveal": "TGVtbm9z",
+"accept": [
+"13c767d29a5361155c5d633e009114ee83a5c5dbb81b4cbc4be28127566c44c0"
+]
+},
+{
+"id": 295,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "Who is the victim mentioned in the second KG-8 incident, in Ace attorney Investigations, Case 4?",
+"reveal": "RGVpZCBNYW5u",
+"accept": [
+"efaf90cf1f8627632276a190c00e36c5c0118529736f9d219777f9a7d7e74e24"
+]
+},
+{
+"id": 296,
+"category": "Celebrities",
+"difficulty": "easy",
+"question": "What does film maker Dan Bell typically focus his films on?",
+"reveal": "QWJhbmRvbmVkIEJ1aWxkaW5ncyBhbmQgRGVhZCBNYWxscw==",
+"accept": [
+"138b457ed7be6b1b07fd03226a466fd21b937f1cdf58c8902b1157afe70cf179"
+]
+},
+{
+"id": 297,
+"category": "Cartoon & Animations",
+"difficulty": "easy",
+"question": "What is the surname of one of the male teachers in the BBC series Postman Pat?",
+"reveal": "UHJpbmdsZQ==",
+"accept": [
+"183a62ac687dd2a6060a38fd3c3d2802f495a89de9a2a28361dd75bcf881b2dc"
+]
+},
+{
+"id": 298,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "What is the default name of the Vampire character in \"Shining Soul 2\".",
+"reveal": "Qmxvb2RzdGFy",
+"accept": [
+"27f5fb65d36833b26832949faf1432d1599e1da051af0e0f5be2298e0cdc34e9"
+]
+},
+{
+"id": 299,
+"category": "Television",
+"difficulty": "medium",
+"question": "Who sang the theme song for the TV show 'Rawhide'?",
+"reveal": "RnJhbmtpZSBMYWluZQ==",
+"accept": [
+"c4509547e26608497ffc1eda1fdc30527104e91c6e733f80d16d91eeee3faac8"
+]
+},
+{
+"id": 300,
+"category": "Japanese Anime & Manga",
+"difficulty": "medium",
+"question": "In the ADV (English) Dub of the anime \"Ghost Stories\", which character is portrayed as a Pentacostal Christian?",
+"reveal": "TW9tb2tvIEtvaWdha3Vibw==",
+"accept": [
+"243161c43a12e4f64d1b69bc69217ff6d0cd30155ca461634d96c16d7a7ec881"
+]
+},
+{
+"id": 301,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "What programming language does the Source Engine use?",
+"reveal": "Qysr",
+"accept": [
+"2e7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6"
+]
+},
+{
+"id": 302,
+"category": "Music",
+"difficulty": "hard",
+"question": "Which Manchester nightclub was considered central to the 'Madchester' music scene in the late 80's?",
+"reveal": "VGhlIEhhw6dpZW5kYQ==",
+"accept": [
+"1dd430246008b6777855fc9f1faf115f3bf26f3eb1ff863b166b1879f6334159"
+]
+},
+{
+"id": 303,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "How many partners can you obtain in Paper Mario: The Thousand-Year Door?",
+"reveal": "Nw==",
+"accept": [
+"7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+"3ba8d02b16fd2a01c1a8ba1a1f036d7ce386ed953696fa57331c2ac48a80b255"
+]
+},
+{
+"id": 304,
+"category": "Music",
+"difficulty": "easy",
+"question": "\"Doctor Jones\", \"Turn Back Time\" and \"Barbie Girl\" were UK number ones for which Eurodance group?",
+"reveal": "QXF1YQ==",
+"accept": [
+"143ea17f6a47a30b5a974a6b4f9649a5937a25fda9c4fa7e839a435c4ad38714"
+]
+},
+{
+"id": 305,
+"category": "Film",
+"difficulty": "medium",
+"question": "Which one of these actors is said to be cut from the film 'E.T. the Extra-Terrestrial'?",
+"reveal": "SGFycmlzb24gRm9yZA==",
+"accept": [
+"448acef6abad54d8cc9fd0c39d2b825d2455813e7361daff6d4ce4468c80ed4a"
+]
+},
+{
+"id": 306,
+"category": "Computers",
+"difficulty": "medium",
+"question": "What is known as \"the brain\" of the Computer?",
+"reveal": "Q2VudHJhbCBQcm9jZXNzaW5nIFVuaXQ=",
+"accept": [
+"147fee22f4b05b8db035b25e05f73fb3f168be0120395e0c3580fd27dcb4b45f"
+]
+},
+{
+"id": 307,
+"category": "Film",
+"difficulty": "medium",
+"question": "Leonardo Di Caprio won his first Best Actor Oscar for his performance in which film?",
+"reveal": "VGhlIFJldmVuYW50",
+"accept": [
+"baf1f24970f312d4c98cd8138be1a8312817532fcd3d4b30a9feafe6789f864d"
+]
+},
+{
+"id": 308,
+"category": "Geography",
+"difficulty": "medium",
+"question": "Which state of the United States is the smallest?",
+"reveal": "UmhvZGUgSXNsYW5k",
+"accept": [
+"6807116239ae88ebc3e05b4695cf7eb31b2d4e561f7538180a6d94afeb254d9f"
+]
+},
+{
+"id": 309,
+"category": "Music",
+"difficulty": "hard",
+"question": "The heavy metal band Black Sabbath hail from which English city?",
+"reveal": "QmlybWluZ2hhbQ==",
+"accept": [
+"66123f95d3ed53ff1e576e839c4d761627ea59e0023f67ee4a94b92fc8e6845b"
+]
+},
+{
+"id": 310,
+"category": "History",
+"difficulty": "easy",
+"question": "In 1453, which important city fell?",
+"reveal": "Q29uc3RhbnRpbm9wbGU=",
+"accept": [
+"f7d49e09f536bfb06a02502fd2f1f20074b4d4eaabf7f08ebd9254300dddef28"
+]
+},
+{
+"id": 311,
+"category": "Geography",
+"difficulty": "medium",
+"question": "What's the first National Park designated in the United States?",
+"reveal": "WWVsbG93c3RvbmU=",
+"accept": [
+"fdb6f8288f23436d78f2da8cc95c68e4c2a0a24796337bc0f936e559f1033a2c"
+]
+},
+{
+"id": 312,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "What is the perimeter of a circle more commonly known as?",
+"reveal": "Q2lyY3VtZmVyZW5jZQ==",
+"accept": [
+"2d40d47be0f610595b2c31159006d349fa9a0ef9f371e0fe0ccee8d343d3d0eb"
+]
+},
+{
+"id": 313,
+"category": "History",
+"difficulty": "easy",
+"question": "What was Manfred von Richthofen's nickname?",
+"reveal": "VGhlIFJlZCBCYXJvbg==",
+"accept": [
+"c18064ced4cda2ce62c0848bcc2dc1379431b26324bf040cff001a52f61d18af"
+]
+},
+{
+"id": 314,
+"category": "History",
+"difficulty": "hard",
+"question": "Which U.S. president was said to have been too honest to lie to his father about chopping down a cherry tree?",
+"reveal": "R2VvcmdlIFdhc2hpbmd0b24=",
+"accept": [
+"34825273a73675dd89283697210da3256e2dadc99833985ebded64ac537c4e4f"
+]
+},
+{
+"id": 315,
+"category": "Geography",
+"difficulty": "easy",
+"question": "What is the capital of Finland?",
+"reveal": "SGVsc2lua2k=",
+"accept": [
+"acf9e97160368047fd4a304b4c5c555cc210cd162144e376cb1b6099fed854c5"
+]
+},
+{
+"id": 316,
+"category": "Art",
+"difficulty": "easy",
+"question": "What is a fundamental element of the Gothic style of architecture?",
+"reveal": "cG9pbnRlZCBhcmNo",
+"accept": [
+"9147ca28a70232610fe346642dc5813a07d3b10fd77dc8fd51dc256bbf39d465"
+]
+},
+{
+"id": 317,
+"category": "Film",
+"difficulty": "easy",
+"question": "Which animated movie was first to feature a celebrity as a voice actor?",
+"reveal": "QWxhZGRpbg==",
+"accept": [
+"6ee5bf9dcedfc760a17cc2b212b64b863e9e919000f25c05371778fa0485b120"
+]
+},
+{
+"id": 318,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "What is the full name of the protagonist from the SNES game Clock Tower?",
+"reveal": "SmVubmlmZXIgU2ltcHNvbg==",
+"accept": [
+"3e855a2380ef57da66f153f626abe14da3c59c0131651b31c3c678d9d5826b0a"
+]
+},
+{
+"id": 319,
+"category": "Music",
+"difficulty": "medium",
+"question": "What was the release date of the They Might Be Giants album, 'Mink Car?'",
+"reveal": "U2VwdGVtYmVyIDExdGgsIDIwMDE=",
+"accept": [
+"3f73f1cdb0aa87caf785acdb723f89a8c0077fe8e0d9cab02587299661da30aa"
+]
+},
+{
+"id": 320,
+"category": "Music",
+"difficulty": "easy",
+"question": "Which singer was featured in Jack Ü (Skrillex & Diplo)'s 2015 song 'Where Are Ü Now'?",
+"reveal": "SnVzdGluIEJpZWJlcg==",
+"accept": [
+"12b93199247bc8e76ffec74711046dc46a543ff2cd9d80f1c4d999f99f3a0921"
+]
+},
+{
+"id": 321,
+"category": "Television",
+"difficulty": "easy",
+"question": "What is the name of the main character in \"The Flash\" TV series?",
+"reveal": "QmFycnkgQWxsZW4=",
+"accept": [
+"cacc3a091fc73fcc2f063c3f175db18018bf5ce6a1a93134d0c6aa0e39e525e2"
+]
+},
+{
+"id": 322,
+"category": "Comics",
+"difficulty": "easy",
+"question": "In DC comics, what is Owlman's real name?",
+"reveal": "VGhvbWFzIFdheW5lIEpyLg==",
+"accept": [
+"0700d0ba9f2e2d67c3079bd523ef22027be1b4ea1f0d6fbfa3f6061a69065591"
+]
+},
+{
+"id": 323,
+"category": "Geography",
+"difficulty": "easy",
+"question": "The longest shared border in the world can be found between which two nations?",
+"reveal": "Q2FuYWRhIGFuZCB0aGUgVW5pdGVkIFN0YXRlcw==",
+"accept": [
+"57fad9981ea333c53e98c33545400f746d04ad5b1a77edf4ef8ca6da1eef774a"
+]
+},
+{
+"id": 324,
+"category": "Gadgets",
+"difficulty": "easy",
+"question": "Which virtual assistant is developed by Amazon?",
+"reveal": "QWxleGE=",
+"accept": [
+"7764735c5d4d88ae3ef1c0d6c0a5769e4187c341895db19a82ba7d4e17b8c914"
+]
+},
+{
+"id": 325,
+"category": "Sports",
+"difficulty": "medium",
+"question": "Which of these NHL teams have never moved since their inception?",
+"reveal": "U3QuIExvdWlzIEJsdWVz",
+"accept": [
+"52d6d0e11a58c3041e395fc040be37ec745d16f848d9502725d5251a1b5ea559"
+]
+},
+{
+"id": 326,
+"category": "Geography",
+"difficulty": "hard",
+"question": "What is the county seat of King County, Washington?",
+"reveal": "U2VhdHRsZQ==",
+"accept": [
+"24f604314570f8780858bfafa011e44048c93feb94612f5a7b3dad5911c6f2f7"
+]
+},
+{
+"id": 327,
+"category": "Sports",
+"difficulty": "hard",
+"question": "Who is Manchester United's leading appearance maker?",
+"reveal": "UnlhbiBHaWdncw==",
+"accept": [
+"b96e2602e0c0f89218a6d0c856c85d64b028f9b09a9061030ea59e19c300a0eb"
+]
+},
+{
+"id": 328,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "In Splatoon 2, who are the members of Off The Hook?",
+"reveal": "UGVhcmwgJiBNYXJpbmE=",
+"accept": [
+"aa342484416fb9435bec8e0a1714c5b0317e515f891fcda6e165168c319ebd6a"
+]
+},
+{
+"id": 329,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "All of the following human genetic haplogroup names are shared between Y-chromosome and mitochondrial DNA haplogroups EXCEPT:",
+"reveal": "SGFwbG9ncm91cCBV",
+"accept": [
+"2c8931b184133976628223e871ce4ee7284148b9bd93984d214d093b0dc74044"
+]
+},
+{
+"id": 330,
+"category": "Comics",
+"difficulty": "easy",
+"question": "Which universe crossover was introduced in the \"Sonic the Hedgehog\" comic issue #247?",
+"reveal": "TWVnYSBNYW4=",
+"accept": [
+"5c20b93789133e123848e55e5319065ca84dd789a0b82817521550dc2425b8cb"
+]
+},
+{
+"id": 331,
+"category": "Television",
+"difficulty": "medium",
+"question": "Who was Firestorm's rival during the original run of UK Robot Wars?",
+"reveal": "UGFuaWMgQXR0YWNr",
+"accept": [
+"6e52a7071b9bf48d94aed3734c48d42da53085ab8f54256d8e811eda3afbee4a"
+]
+},
+{
+"id": 332,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which European capital city gives its name to a 1981 song by Ultravox?",
+"reveal": "Vmllbm5h",
+"accept": [
+"8b9f66e9e456ec29f5e6befd8a885d52303d49c316113b654604af6eb09ede11"
+]
+},
+{
+"id": 333,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "What was the FIRST Valve game to have VR?",
+"reveal": "VGhlIExhYg==",
+"accept": [
+"a51146d38077ff992eba84cf1d5e9b249073503eb74868699016153b031a38f7"
+]
+},
+{
+"id": 334,
+"category": "Music",
+"difficulty": "hard",
+"question": "What is the first track on the Dave Matthews Band album \"Before These Crowded Streets\"?",
+"reveal": "UGFudGFsYSBOYWdhIFBhbXBh",
+"accept": [
+"20aa2a733d8dbcfc7a71ca29d8ea071ea0537fd65097a058d73645694741f022"
+]
+},
+{
+"id": 335,
+"category": "Music",
+"difficulty": "easy",
+"question": "Who was featured in the song \"Words\" by Feint?",
+"reveal": "TGF1cmEgQnJlaG0=",
+"accept": [
+"2960df0c576541530fe1595c371d8a859bfe2d811e3000a426d25820967f390a"
+]
+},
+{
+"id": 336,
+"category": "Japanese Anime & Manga",
+"difficulty": "medium",
+"question": "What is the name of the device that allows for infinite energy in the anime \"Dimension W\"?",
+"reveal": "Q29pbHM=",
+"accept": [
+"530a93b6486d03548d25a2b3d6c694e11d1e0a99696dc27d3a5cb99ae48d3f80"
+]
+},
+{
+"id": 337,
+"category": "Mathematics",
+"difficulty": "easy",
+"question": "What comes after a Million, a Billion, and a Trillion?",
+"reveal": "UXVhZHJpbGxpb24=",
+"accept": [
+"0a4d449b332c5f70fe075b78f0eca29f2a02a476f56e7acd94139ff475b1fe83"
+]
+},
+{
+"id": 338,
+"category": "Animals",
+"difficulty": "hard",
+"question": "What bird is born with claws on its wing digits?",
+"reveal": "SG9hdHppbg==",
+"accept": [
+"09b6523bb6fd7bed0dcd4cd3aaeb54d3c2afdb5942cfe09b9f1b426050563dd2"
+]
+},
+{
+"id": 339,
+"category": "Japanese Anime & Manga",
+"difficulty": "easy",
+"question": "What year did \"Attack on Titan\" first air?",
+"reveal": "MjAxMw==",
+"accept": [
+"7931aa2a1bed855457d1ddf6bc06ab4406a9fba0579045a4d6ff78f9c07c440f"
+]
+},
+{
+"id": 340,
+"category": "Television",
+"difficulty": "easy",
+"question": "How many seasons did \"Stargate SG-1\" have?",
+"reveal": "MTA=",
+"accept": [
+"4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+"e4432baa90819aaef51d2a7f8e148bf7e679610f3173752fabb4dcb2d0f418d3"
+]
+},
+{
+"id": 341,
+"category": "Cartoon & Animations",
+"difficulty": "medium",
+"question": "Which \"Toy Story\" character was voiced by Don Rickles?",
+"reveal": "TXIuIFBvdGF0byBIZWFk",
+"accept": [
+"04b75a55237d847ee105c97b38a6bb8e9778e0bf0dbefccb49585bab41b7b500"
+]
+},
+{
+"id": 342,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which car is NOT featured in \"Need for Speed: Hot Pursuit 2\"?",
+"reveal": "VG95b3RhIE1SMg==",
+"accept": [
+"6818c5cbbad79ad4804e7292bb5e4ecfa0b125d8dce9eed598d42a0d82dc8ec1"
+]
+},
+{
+"id": 343,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "GoldenEye 007 on the Nintendo 64 was planned to allow you to play as all previous Bond actors, with the exception of who?",
+"reveal": "R2VvcmdlIExhemVuYnk=",
+"accept": [
+"a4516ee2b810152411ae8673efd9ea5c7e991b6caea6eb06f1f0d72ca74d4ba1"
+]
+},
+{
+"id": 344,
+"category": "Music",
+"difficulty": "easy",
+"question": "What was Daft Punk's first studio album?",
+"reveal": "SG9tZXdvcms=",
+"accept": [
+"404355522396b92953086038cf05a41b27a9f1368be92c0e6b71a1e8c93f420a"
+]
+},
+{
+"id": 345,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "Who is the main protagonist of Dead Space?",
+"reveal": "SXNhYWMgQ2xhcmtl",
+"accept": [
+"6d82feb79ad38972ca4815ff4b9d490ccf219dad6cab455e4cd8697c461e9415"
+]
+},
+{
+"id": 346,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Capcom's survival horror title Dead Rising, canonically starts on what day of September 2006?",
+"reveal": "U2VwdGVtYmVyIDE5dGg=",
+"accept": [
+"20d8c1a096bdbbabdabc5466db4714515acba71d235ae18afb20826335303359"
+]
+},
+{
+"id": 347,
+"category": "Comics",
+"difficulty": "medium",
+"question": "What's the name of Batman's parents?",
+"reveal": "VGhvbWFzICYgTWFydGhh",
+"accept": [
+"70038245fc91f6c71ae6a8a4e9af93212bf09dda7e818c609a72f5950c798f8a"
+]
+},
+{
+"id": 348,
+"category": "Film",
+"difficulty": "medium",
+"question": "What was another suggested name for, the 1985 film, Back to the Future?",
+"reveal": "U3BhY2VtYW4gRnJvbSBQbHV0bw==",
+"accept": [
+"053cfc812426612c40f8af8f2ac1ddcf97cfff3f77c56a23ee89ca9be5e0933f"
+]
+},
+{
+"id": 349,
+"category": "Japanese Anime & Manga",
+"difficulty": "medium",
+"question": "Which band name isn't a Stand in \"JoJo's Bizarre Adventure\"?",
+"reveal": "QUMvREM=",
+"accept": [
+"a03e20dcf9d2f01df3a566e3851d45e9979b0d0f70df8a23bb52132836616945"
+]
+},
+{
+"id": 350,
+"category": "Music",
+"difficulty": "hard",
+"question": "What was the last Aphex Twin album released before his decade-long hiatus?",
+"reveal": "RHJ1a3Fz",
+"accept": [
+"b2de403259e12dcc56d2e081b4b7bec3d72ca287172715afb3f9f6b18eac3a67"
+]
+},
+{
+"id": 351,
+"category": "Television",
+"difficulty": "hard",
+"question": "Which actor from The Young Ones also played Lord Flashheart in one episode of Blackadder II?",
+"reveal": "UmlrIE1heWFsbA==",
+"accept": [
+"98df7ad73137250cc72d5273537d9afd4e3056161e5f1b5ebab941efd349ad3c"
+]
+},
+{
+"id": 352,
+"category": "Geography",
+"difficulty": "hard",
+"question": "With which country does France share its largest land border",
+"reveal": "QnJhemls",
+"accept": [
+"5c8f52ca28966103ff0aad98160bc8e978c9ca0285a2043a521481d11ed17506"
+]
+},
+{
+"id": 353,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In which order do you need to hit some Deku Scrubs to open the first boss door in \"Ocarina of Time\"?",
+"reveal": "MiwgMywgMQ==",
+"accept": [
+"7c8f5059290305cec8323d79521f0353c9ac308b60cb4c1976340d0ce4a121d5",
+"45407111dfda94aa70b2ad3405409b3a2c4e4519c897da9837719bb0b32248e7"
+]
+},
+{
+"id": 354,
+"category": "History",
+"difficulty": "hard",
+"question": "List the following Iranic empires in chronological order:",
+"reveal": "TWVkaWFuLCBBY2hhZW1lbmlkLCBQYXJ0aGlhbiwgU2Fzc2FuaWQ=",
+"accept": [
+"b59bed3302bd566825fb281718b9304314b5d940fb703c0fd8fad2b931a61918"
+]
+},
+{
+"id": 355,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "What is the French word for \"fish\"?",
+"reveal": "cG9pc3Nvbg==",
+"accept": [
+"5743abddddfa08c1e3a99fdebc2e8f3f1108fa12dcd2a8f58a42f141418c22ec"
+]
+},
+{
+"id": 356,
+"category": "Art",
+"difficulty": "hard",
+"question": "What nationality was the famous artist Van Gogh?",
+"reveal": "RHV0Y2g=",
+"accept": [
+"ccb36736d8720940a0f3299a386c4ac1d6757bdbfff5eff408b9a847f9108641"
+]
+},
+{
+"id": 357,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "In the game Warframe, what is the type of fish that is known to eat unwary natives of Cetus?",
+"reveal": "U2hhcnJhYw==",
+"accept": [
+"90804b94143a2bfdedea40ce1c790647d919d4c8d44420bf83357c13f021b75b"
+]
+},
+{
+"id": 358,
+"category": "Mathematics",
+"difficulty": "hard",
+"question": "Which of the following famous mathematicians died in a duel at the age of 20?",
+"reveal": "R2Fsb2lz",
+"accept": [
+"4afeeeceb306e41212c123d29cc16ff5cf56d5d8d62d98f0fb9c51e313dc7aa3"
+]
+},
+{
+"id": 359,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "What does VR stand for?",
+"reveal": "VmlydHVhbCBSZWFsaXR5",
+"accept": [
+"19eb90f5d3136226010dd202958f80b12aa43fd3c93fe9c49e54106b297e2440"
+]
+},
+{
+"id": 360,
+"category": "General Knowledge",
+"difficulty": "hard",
+"question": "Which of these banks are NOT authorized to issue currency notes in Hong Kong?",
+"reveal": "T0NCQw==",
+"accept": [
+"e28ab33e64cd52349fddceee60e425865f0c2d9c215c183dc1943f6b9cc82ae2"
+]
+},
+{
+"id": 361,
+"category": "Cartoon & Animations",
+"difficulty": "easy",
+"question": "What is the name of the city that The Flintstones is based in?",
+"reveal": "QmVkcm9jaw==",
+"accept": [
+"2d7f45d7b98b427f824e0c643295583e9cf013faffdb5e7095d070ff85276bf4"
+]
+},
+{
+"id": 362,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "How much radiation does a banana emit?",
+"reveal": "MC4xIE1pY3Jvc2lldmVydA==",
+"accept": [
+"9db4d33fad11dc06e482247056dbe86bcde61c1a34325e81e32dd6468b893274",
+"bfd81f288c264a067336efcf56129fe2ea68c3e1ede8e9dcd1f53d35b1769afd"
+]
+},
+{
+"id": 363,
+"category": "Film",
+"difficulty": "easy",
+"question": "This movie contains the quote, \"Nobody puts Baby in a corner.\"",
+"reveal": "RGlydHkgRGFuY2luZw==",
+"accept": [
+"704513b665b98d2b29fa6fe821c5ae0d4e4ed1f5b57e413cd29e877596ee5930"
+]
+},
+{
+"id": 364,
+"category": "Books",
+"difficulty": "hard",
+"question": "According to Bram Stoker's novel, in which British coastal town did Dracula come ashore?",
+"reveal": "V2hpdGJ5",
+"accept": [
+"f743f9cd149d600190ad281de8ffde9dff4f2afddfcba6f3cee21ede90c0fefe"
+]
+},
+{
+"id": 365,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "How many trophies are there in \"Super Smash Bros. for Nintendo 3DS\"?",
+"reveal": "Njg1",
+"accept": [
+"bb9b8ef813475d1e0ad84e2505af6656d16c990b1f77efaf9324e8fbcae2db67"
+]
+},
+{
+"id": 366,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "Who is the founder of Team Fortress 2's fictional company \"Mann Co\"?",
+"reveal": "WmVwaGVuaWFoIE1hbm4=",
+"accept": [
+"c427e04659f2dafd2fea0845d71973848360b386a085160bffae5fa424d40e9e"
+]
+},
+{
+"id": 367,
+"category": "General Knowledge",
+"difficulty": "hard",
+"question": "Originally another word for poppy, coquelicot is a shade of what?",
+"reveal": "UmVk",
+"accept": [
+"b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a"
+]
+},
+{
+"id": 368,
+"category": "General Knowledge",
+"difficulty": "medium",
+"question": "Who is the founder of \"The Lego Group\"?",
+"reveal": "T2xlIEtpcmsgQ2hyaXN0aWFuc2Vu",
+"accept": [
+"bc43bbbd150ff26efda58e794e2148b020ea11dec31f76ae9fe336446b9f80e0"
+]
+},
+{
+"id": 369,
+"category": "History",
+"difficulty": "medium",
+"question": "Who was the first president born in the independent United States?",
+"reveal": "TWFydGluIFZhbiBCdXJlbg==",
+"accept": [
+"449dd771cb8cb7366d8d46c2bae7267495891685e6df563826f7c05d963ba1f6"
+]
+},
+{
+"id": 370,
+"category": "Television",
+"difficulty": "easy",
+"question": "How many seasons did the Sci-Fi television show \"Stargate Atlantis\" have?",
+"reveal": "NQ==",
+"accept": [
+"ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+"222b0bd51fcef7e65c2e62db2ed65457013bab56be6fafeb19ee11d453153c80"
+]
+},
+{
+"id": 371,
+"category": "Sports",
+"difficulty": "medium",
+"question": "Which of these teams isn't a member of the NHL's \"Original Six\" era?",
+"reveal": "UGhpbGFkZWxwaGlhIEZseWVycw==",
+"accept": [
+"513335724b1f413000cf5b053a91cc7a139b3fc1788e82ab1cd0383554d67927"
+]
+},
+{
+"id": 372,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "What ingredient is NOT used to craft a cake in Minecraft?",
+"reveal": "QnJlYWQ=",
+"accept": [
+"985604c2b60243122c24d4e18363e6434c535923be05f760204a1aef023aae9b"
+]
+},
+{
+"id": 373,
+"category": "Geography",
+"difficulty": "hard",
+"question": "The prefix Sino- (As in Sino-American) is used to refer to what nationality?",
+"reveal": "Q2hpbmVzZQ==",
+"accept": [
+"e2d3b41db9567ddf0334e14b2ff58556581630566061a0c643fec42d12c47122"
+]
+},
+{
+"id": 374,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "Which chemical element was originally known as Alabamine?",
+"reveal": "QXN0YXRpbmU=",
+"accept": [
+"2f539a9f82e0988794c27553166e5ea460b4c9d197a4c166238602d578937baf"
+]
+},
+{
+"id": 375,
+"category": "Music",
+"difficulty": "medium",
+"question": "What is the name of the second studio album released by American rapper Post Malone in 2018?",
+"reveal": "QmVlcmJvbmdzICYgQmVudGxleXM=",
+"accept": [
+"816f673a6ae09cb438fae976433d74a1d6a8669255f478ebd71b5969d5c0a1f4"
+]
+},
+{
+"id": 376,
+"category": "Science & Nature",
+"difficulty": "easy",
+"question": "How many bones are in the human body?",
+"reveal": "MjA2",
+"accept": [
+"5cf4e26bd3d87da5e03f80a43a64f1220a1f4ba9e1d6348caea83c06353c3f39"
+]
+},
+{
+"id": 377,
+"category": "Science & Nature",
+"difficulty": "easy",
+"question": "Which element has the highest melting point?",
+"reveal": "Q2FyYm9u",
+"accept": [
+"28d79d50ff515a797803c4d5297b8feb12e0bbdb60fd38441aba6ffaf42a0b5f"
+]
+},
+{
+"id": 378,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "Which game in the \"Dark Souls\" series does the player play as the \"Ashen One\"?",
+"reveal": "RGFyayBTb3VscyBJSUk=",
+"accept": [
+"81c83c595afd448aaa9e20adab5b1ef9763fae5dc474654b73d9b540e05f046b",
+"8adca1912c61215775953c31b58f5865fc02113a8207257557967b3603055c31"
+]
+},
+{
+"id": 379,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In the Mario series, which game introduced Mario's Backflip ability?",
+"reveal": "RG9ua2V5IEtvbmcgKEdhbWVib3kp",
+"accept": [
+"e313b8319cb17b764b2302ba8616e1382c044988bda4667ab450d93facf61f47"
+]
+},
+{
+"id": 380,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "What is the shortest month of the year?",
+"reveal": "RmVicnVhcnk=",
+"accept": [
+"53e2975b5e720223b6f4e8317049d74dcddef8669e42f9fd5b94cc86378350e7"
+]
+},
+{
+"id": 381,
+"category": "Geography",
+"difficulty": "hard",
+"question": "What national museum will you find in Cooperstown, New York?",
+"reveal": "TmF0aW9uYWwgQmFzZWJhbGwgSGFsbCBvZiBGYW1l",
+"accept": [
+"3124b3f3feeca2f8135acc178b7d8eb31a5a30b6bd8b084728da54c98bfd8928"
+]
+},
+{
+"id": 382,
+"category": "Computers",
+"difficulty": "hard",
+"question": "Which data structure does FILO apply to?",
+"reveal": "U3RhY2s=",
+"accept": [
+"6ee08e6eb3bc6f45bc99fcd39fcc479286a1beb0c04d39f204c61762378075d6"
+]
+},
+{
+"id": 383,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "Which character from the Mega Man series made a small cameo on Volt Catfish's introduction scene in CD versions of Mega Man X3?",
+"reveal": "QXV0bw==",
+"accept": [
+"929260ad9b9ea9fe0f3553dd964f4ff3deb5792efd031a2b90f573fe91f012bb"
+]
+},
+{
+"id": 384,
+"category": "Computers",
+"difficulty": "medium",
+"question": "How fast is USB 3.1 Gen 2 theoretically?",
+"reveal": "MTAgR2Ivcw==",
+"accept": [
+"8f301aff1c0261acb730cef57c7d9d7f0f58d3a4c8562d8a2867fee26edc39b9",
+"95ff17592e9491c5d0a12a3e662038c2b806fe3e9307125d3a5117477768b6e7"
+]
+},
+{
+"id": 385,
+"category": "Sports",
+"difficulty": "hard",
+"question": "Which year was the third Super Bowl held?",
+"reveal": "MTk2OQ==",
+"accept": [
+"fd21cc3cb5062bc4ac714c489e1ca0e37a577c19ba23b0d00e9767f598d37636"
+]
+},
+{
+"id": 386,
+"category": "Geography",
+"difficulty": "easy",
+"question": "If soccer is called football in England, what is American football called in England?",
+"reveal": "QW1lcmljYW4gZm9vdGJhbGw=",
+"accept": [
+"7ce238458b7e27aabfa18599f3db62d34e7ca5f818e87f894fed627e0cf38133"
+]
+},
+{
+"id": 387,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which is not a playable character in the 2005 video game Killer7?",
+"reveal": "RnJhbmsgU21pdGg=",
+"accept": [
+"71273efe8ad81f4b9e83b84d9711fb97627fbd3c39b4fc9f6f7758787a7667e1"
+]
+},
+{
+"id": 388,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "Which of the following names is the \"Mega Man\" Franchise known as in Japan?",
+"reveal": "Um9ja21hbg==",
+"accept": [
+"a2b26668dd97c2f93ab0c9f877ff5a4ef7f3e0f3755d12880bedd1bdfd497ff3"
+]
+},
+{
+"id": 389,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "What is the standard SI unit for luminous intensity?",
+"reveal": "Q2FuZGVsYQ==",
+"accept": [
+"101e7df3b885c6a301d9a87c5c66663b7491cab90251b4b5dd3dca3d09c190f8"
+]
+},
+{
+"id": 390,
+"category": "Geography",
+"difficulty": "hard",
+"question": "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+"reveal": "R3JhbmQgQmFua3M=",
+"accept": [
+"aeee3fd502b4d44f819bf2c43321dff59d27d93020573fc79ee8f3051e508110"
+]
+},
+{
+"id": 391,
+"category": "Science & Nature",
+"difficulty": "easy",
+"question": "The element involved in making human blood red is which of the following?",
+"reveal": "SXJvbg==",
+"accept": [
+"04e9c0db87e7eebbf8123dae64d169c85540d588a38b4f9f3fbc255c7c6c65a9"
+]
+},
+{
+"id": 392,
+"category": "Geography",
+"difficulty": "medium",
+"question": "What is the capital of Chile?",
+"reveal": "U2FudGlhZ28=",
+"accept": [
+"49faaade493be8b6b6164ee67f7e4d101812a5dda970d6ca693dda8b8cf82e4b"
+]
+},
+{
+"id": 393,
+"category": "Books",
+"difficulty": "medium",
+"question": "What book series published by Jim Butcher follows a wizard in modern day Chicago?",
+"reveal": "VGhlIERyZXNkZW4gRmlsZXM=",
+"accept": [
+"a51a2edde4224605c6259f022ecffaab93d0fae6ce6e9bfe2c9613bd8272c493"
+]
+},
+{
+"id": 394,
+"category": "Animals",
+"difficulty": "easy",
+"question": "Which class of animals are newts members of?",
+"reveal": "QW1waGliaWFu",
+"accept": [
+"32aca351721a3d031761bb9bea822dae3a82258eddd3485716f0397139bf44ed"
+]
+},
+{
+"id": 395,
+"category": "History",
+"difficulty": "hard",
+"question": "When was the Gregorian Calendar first adopted?",
+"reveal": "MTU4Mg==",
+"accept": [
+"6d78b19a042a64f08cc4df0d42fb91cd757829718e60e82a54e3498f03f3ef32"
+]
+},
+{
+"id": 396,
+"category": "Geography",
+"difficulty": "hard",
+"question": "What is Canada's largest island?",
+"reveal": "QmFmZmluIElzbGFuZA==",
+"accept": [
+"dae9afb5c22a1fa4ca7a619e3c9146d2449dd1ecd7ec687fed57b61e93ca104d"
+]
+},
+{
+"id": 397,
+"category": "History",
+"difficulty": "medium",
+"question": "According to scholarly estimates, what percentage of the world population at the time died due to Tamerlane's conquests?",
+"reveal": "NSU=",
+"accept": [
+"ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+"222b0bd51fcef7e65c2e62db2ed65457013bab56be6fafeb19ee11d453153c80"
+]
+},
+{
+"id": 398,
+"category": "History",
+"difficulty": "medium",
+"question": "When did O, Canada officially become the national anthem?",
+"reveal": "MTk4MA==",
+"accept": [
+"051c2e380d07844ffaca43743957f8c0efe2bdf74c6c1e6a9dcccb8d1a3c596b"
+]
+},
+{
+"id": 399,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "During the game's development, what was the first ever created Pokémon?",
+"reveal": "Umh5aG9ybg==",
+"accept": [
+"c7ac215c33dd32af1f03f7b9582f9d521b067200e5120619e65fa92af1f0f788"
+]
+},
+{
+"id": 400,
+"category": "Film",
+"difficulty": "medium",
+"question": "What is the name of the robot in the 1951 science fiction film classic 'The Day the Earth Stood Still'?",
+"reveal": "R29ydA==",
+"accept": [
+"90f7af087c9d60919b9e9550c9c844120d693107670fa6adff15c4d553b82ed3"
+]
+},
+{
+"id": 401,
+"category": "Board Games",
+"difficulty": "easy",
+"question": "In board games, an additional or ammended rule that applies to a certain group or place is informally known as a \"what\" rule?",
+"reveal": "SG91c2U=",
+"accept": [
+"d6e21286621a8586f7e54720ab5a39c93acc2f4b8fba7a16ec1c24d69a08c613"
+]
+},
+{
+"id": 402,
+"category": "History",
+"difficulty": "medium",
+"question": "In what year did the Berlin Wall fall?",
+"reveal": "MTk4OQ==",
+"accept": [
+"9113b98df80f877c7a2ee5d865a04c9514b4e9bf25a49d315b0b15f115d2f0d2"
+]
+},
+{
+"id": 403,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In the game The World Ends With You, all of these characters act as a game partner with Neku for a week except:",
+"reveal": "Umh5bWU=",
+"accept": [
+"1c79ce7ffd92648aa6567cf94ca5e9757c2558b8a8212f90146876cb73626c51"
+]
+},
+{
+"id": 404,
+"category": "Music",
+"difficulty": "medium",
+"question": "May 16th of every year is known as __________ Day, named after a punk band prominent in the 1990s.",
+"reveal": "TGFnd2Fnb24=",
+"accept": [
+"e22f31b8279b6cbb33278e026f0ba058f7101c60638dd0103ad8ca820e79ef32"
+]
+},
+{
+"id": 405,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which of these songs is NOT in The Beatles' album \"Sgt. Pepper's Lonely Hearts Club Band\"?",
+"reveal": "U3RyYXdiZXJyeSBGaWVsZHMgRm9yZXZlcg==",
+"accept": [
+"7e48d6b98a42822e3b3d0925469fc59ce5946e75c8f8c7e4f00d5f98885fa0f6"
+]
+},
+{
+"id": 406,
+"category": "Animals",
+"difficulty": "hard",
+"question": "Which species of Brown Bear is not extinct?",
+"reveal": "U3lyaWFuIEJyb3duIEJlYXI=",
+"accept": [
+"b1f1fcce122f56e60277f5bf9cab3e6206a6eb107e99569cd511e22e5355af88"
+]
+},
+{
+"id": 407,
+"category": "Comics",
+"difficulty": "medium",
+"question": "Found in the Marvel Comics fictional universe, what is the name of the nearly indestructible metal that coats Wolverine's bones and claws?",
+"reveal": "QWRhbWFudGl1bQ==",
+"accept": [
+"b409fbf466eac369e047c6231b970774b775512dc6a02503ef78fa878f4fe9ba"
+]
+},
+{
+"id": 408,
+"category": "Board Games",
+"difficulty": "easy",
+"question": "On a standard Monopoly board, which square is diagonally opposite 'Go'?",
+"reveal": "RnJlZSBQYXJraW5n",
+"accept": [
+"114e5a22544da2d6cf5106bd8eec5756790d01b09bef245e1e7c3d2b221ca1b0"
+]
+},
+{
+"id": 409,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "What cell organelle is known as \"the powerhouse of the cell?\"",
+"reveal": "TWl0b2Nob25kcmlh",
+"accept": [
+"c3a37d83b22a2c253c3afc97f3b09babb7fd5a3116f0d8ac9d37dd17274a2d32"
+]
+},
+{
+"id": 410,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "How many carbon cars are there in Burnout Paradise?",
+"reveal": "Ng==",
+"accept": [
+"e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+"44778d82365e4af681c40d5f0eef5cf6f5899d3f0ac335050a7ed6779cf3f674"
+]
+},
+{
+"id": 411,
+"category": "Science & Nature",
+"difficulty": "easy",
+"question": "What is the hottest planet in the Solar System?",
+"reveal": "VmVudXM=",
+"accept": [
+"b8b22aedc372aa891df895be9a7626e6d9ddc6d39ba85d202ca68de8c52ad782"
+]
+},
+{
+"id": 412,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "What is the most potent toxin known?",
+"reveal": "Qm90dWxpbnVtIHRveGlu",
+"accept": [
+"564d69d4866bf3eaa199ef898f805fe9330828d1ab0a90d57bb1c120336365ca"
+]
+},
+{
+"id": 413,
+"category": "Books",
+"difficulty": "medium",
+"question": "Where does Stephen King's \"IT\" take place?",
+"reveal": "RGVycnksIE1haW5l",
+"accept": [
+"6fefd2f297ce1c07a7967a3a5afdd32196b91f66e10d81d4352fb7d9ff0e19d3"
+]
+},
+{
+"id": 414,
+"category": "Music",
+"difficulty": "easy",
+"question": "The 2016 song \"Starboy\" by Canadian singer The Weeknd features which prominent electronic artist?",
+"reveal": "RGFmdCBQdW5r",
+"accept": [
+"7a2ad6b68d51963bf2b27b491f38d7941fe2d21784f92ab1a79c8944dcdeaed3"
+]
+},
+{
+"id": 415,
+"category": "Music",
+"difficulty": "easy",
+"question": "Which member of the Foo Fighters was previously the drummer for Nirvana?",
+"reveal": "RGF2ZSBHcm9obA==",
+"accept": [
+"860276cf81736db1e11bcf2163f63d0cc07d0400b7b57195d060dec00eb3e36b"
+]
+},
+{
+"id": 416,
+"category": "Books",
+"difficulty": "hard",
+"question": "Which of the following is NOT a work done by Shakespeare?",
+"reveal": "VHJpYWwgb2YgVGVtcGVyYW5jZQ==",
+"accept": [
+"8cb6e6b6fa6c4c0c00ea06351884e3062e4687d70c56e0eff253c69e43e01dca"
+]
+},
+{
+"id": 417,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Who voices the character \"Vernon Cherry\" in \"Red Dead Redemption\"?",
+"reveal": "Q2FzZXkgTW9uZ2lsbG8=",
+"accept": [
+"9f145ae9738d6ae544c70121690b989e6a6a3a9db95a25a66cd69f5300b67fd3"
+]
+},
+{
+"id": 418,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In WarioWare: Smooth Moves, which one of these is NOT a Form?",
+"reveal": "VGhlIEhvdHNob3Q=",
+"accept": [
+"bc8a6e7a09074e7bce4dd468de2b7365b4c78c8b807120a24f3db021f7bb7bdb"
+]
+},
+{
+"id": 419,
+"category": "Music",
+"difficulty": "medium",
+"question": "Ellie Goulding's earliest album was named?",
+"reveal": "TGlnaHRz",
+"accept": [
+"6fe6c35728c65f0351ca3e4f151b8010215afec63174941e71755ea1d8440475"
+]
+},
+{
+"id": 420,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In which U.S. state is Far Cry 5's fictional setting 'Hope County' located?",
+"reveal": "TW9udGFuYQ==",
+"accept": [
+"c68943be5eeeb3092a614aa6119bcb560217ed1b4ec44b9c99d6e2766e524049"
+]
+},
+{
+"id": 421,
+"category": "History",
+"difficulty": "hard",
+"question": "With which Greek philosopher would you associate the phrase, \"I know that I know nothing\"?",
+"reveal": "U29jcmF0ZXM=",
+"accept": [
+"710482eaa280e6b7e9ed98958197686ea52772371d2374089e677ff77eae18eb"
+]
+},
+{
+"id": 422,
+"category": "General Knowledge",
+"difficulty": "hard",
+"question": "What is the romanized Korean word for \"heart\"?",
+"reveal": "U2ltamFuZw==",
+"accept": [
+"0ce1610e436dc20039c7f1a27a314c230e87b0e2a726147a2da3922fd961c2c5"
+]
+},
+{
+"id": 423,
+"category": "Film",
+"difficulty": "hard",
+"question": "In the 1974 Christmas flick \"The Year Without a Santa Claus,\" what are the names of the two elves who help Mrs. Claus save Christmas?",
+"reveal": "SmluZ2xlICYgSmFuZ2xl",
+"accept": [
+"9b6efc3d56149a47e190518ff51844ef14a69a3b2fc1199703e65d0513869d8a"
+]
+},
+{
+"id": 424,
+"category": "Computers",
+"difficulty": "medium",
+"question": "What is the correct term for the metal object in between the CPU and the CPU fan within a computer system?",
+"reveal": "SGVhdCBTaW5r",
+"accept": [
+"de0bfc04e524ef3de14792e29e3f7fe36cb7425715658b9e5ff8fb1fbbffba8e"
+]
+},
+{
+"id": 425,
+"category": "Vehicles",
+"difficulty": "easy",
+"question": "Which car tire manufacturer is famous for its \"Eagle\" brand of tires, and is the official tire supplier of NASCAR?",
+"reveal": "R29vZHllYXI=",
+"accept": [
+"a8abde38d0b57aaae484caa0802d7aad7f7a0843a867d40c4f0e4f62b87c4afa"
+]
+},
+{
+"id": 426,
+"category": "General Knowledge",
+"difficulty": "medium",
+"question": "A statue of Charles Darwin sits in what London museum?",
+"reveal": "TmF0dXJhbCBIaXN0b3J5IE11c2V1bQ==",
+"accept": [
+"3f64c9d2e7074ad0ddd6ff8792f92be618625b18ce2258ec08cfbdf1e79ad115"
+]
+},
+{
+"id": 427,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "The 'Islets of Langerhans' is found in which human organ?",
+"reveal": "UGFuY3JlYXM=",
+"accept": [
+"621d755b345dc16a5bf46bc81a640646d9d8432179d15ad181cbb80bf38c22f3"
+]
+},
+{
+"id": 428,
+"category": "Geography",
+"difficulty": "medium",
+"question": "Bridgetown is the capital of which island country in the Carribean?",
+"reveal": "QmFyYmFkb3M=",
+"accept": [
+"f5885b5927323e158a49b9d6f375f39163f567658d215905eb14d6482ab96090"
+]
+},
+{
+"id": 429,
+"category": "General Knowledge",
+"difficulty": "medium",
+"question": "What does the \"G\" mean in \"G-Man\"?",
+"reveal": "R292ZXJubWVudA==",
+"accept": [
+"ab5e9e376f9539179e465f248595caac9789aed486e8da331495e2cf8f4c5634"
+]
+},
+{
+"id": 430,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "TF2: What code does Soldier put into the door keypad in \"Meet the Spy\"?",
+"reveal": "MTExMQ==",
+"accept": [
+"0ffe1abd1a08215353c233d6e009613e95eec4253832a761af28ff37ac5a150c"
+]
+},
+{
+"id": 431,
+"category": "History",
+"difficulty": "hard",
+"question": "Who was the first man to travel into outer space?",
+"reveal": "WXVyaSBHYWdhcmlu",
+"accept": [
+"8d5c766ede651536351bba5ea9400c72969e0cbe3337e1bf1c0e6320eace4a10"
+]
+},
+{
+"id": 432,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Who developed the 2016 farming RPG \"Stardew Valley\"?",
+"reveal": "RXJpYyBCYXJvbmU=",
+"accept": [
+"58d8f917d207e4113249442da753f51c7e0b0c752c527c6da39370cbd9f7f34f"
+]
+},
+{
+"id": 433,
+"category": "Politics",
+"difficulty": "hard",
+"question": "What is the name of Niccolò Machiavelli's work that argued effective leaders needed to crush their opponents at all costs?",
+"reveal": "VGhlIFByaW5jZQ==",
+"accept": [
+"9bd2ef7a9ddbb22386f27f5f6885f8eeef6cdf57e96bbdef0f9e0421f1ec4654"
+]
+},
+{
+"id": 434,
+"category": "History",
+"difficulty": "medium",
+"question": "In which year did the First World War begin?",
+"reveal": "MTkxNA==",
+"accept": [
+"fb4a379d44cab4220bc5596ffa1f8eb9b169ba098d2c98b20d110881c92b9299"
+]
+},
+{
+"id": 435,
+"category": "General Knowledge",
+"difficulty": "medium",
+"question": "Linus Pauling, one of the only winners of multiple Nobel Prizes, earned his Nobel Prizes in Chemistry and what?",
+"reveal": "UGVhY2U=",
+"accept": [
+"c2e10c20bf46daf0ba03f725218b012544a3d0d3b37334eeb1d4d81e5406e478"
+]
+},
+{
+"id": 436,
+"category": "Celebrities",
+"difficulty": "easy",
+"question": "Which actress married Michael Douglas in 2000?",
+"reveal": "Q2F0aGVyaW5lIFpldGEtSm9uZXM=",
+"accept": [
+"3f809aa5608247e926c0b0b3dcd57400781a8f1a16324da99d6337524efff763"
+]
+},
+{
+"id": 437,
+"category": "Music",
+"difficulty": "medium",
+"question": "Who is the frontman of Muse?",
+"reveal": "TWF0dCBCZWxsYW15",
+"accept": [
+"76ecfe3ac2f13b6fd323a03261f1b385ad5eb8dac538bcfd42bd781e00565e31"
+]
+},
+{
+"id": 438,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "Which car did not appear in the 2002 Lego Game: Drome Racers?",
+"reveal": "V2FzcA==",
+"accept": [
+"96e7268d8824b7ba0d4ac7b5a08a86a22e4ee453b0628f9ad8ffc47dc532cd0f"
+]
+},
+{
+"id": 439,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Who is the main character in most of the games of the YS series?",
+"reveal": "QWRvbCBDaHJpc3Rpbg==",
+"accept": [
+"2d097b459867f41246d1a0d19b2fa69912a7b7f63a59a4460d49bb96f7bb2d56"
+]
+},
+{
+"id": 440,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "Which of the following is NOT a word used to describe an earthquake?",
+"reveal": "RHJvcC1zbGlkZQ==",
+"accept": [
+"6c9e42f0beb8fe1a88891ef20e81933a8fa15c81d62ed3f065a411164d14b566"
+]
+},
+{
+"id": 441,
+"category": "Geography",
+"difficulty": "medium",
+"question": "Which of these countries is NOT located in Africa?",
+"reveal": "U3VyaW5hbWU=",
+"accept": [
+"0f0857451904a83978a9c946faacf62e8e325c7123ecd35fa0b364a1560d4618"
+]
+},
+{
+"id": 442,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "When was the video game publisher \"Ubisoft\" founded ?",
+"reveal": "TWFyY2ggMTk4Ng==",
+"accept": [
+"1c08cd5d8442e1be9f8f9699bb52f80d928ec46d4e1ffa929fd9d32efd008fd2"
+]
+},
+{
+"id": 443,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "Who in this list is one of the co-founders of Valve?",
+"reveal": "R2FiZSBOZXdlbGw=",
+"accept": [
+"f0e3ed2b6c25f19f69c16531d598b4d8d5285df626e5054cd7cc15211575fa1e"
+]
+},
+{
+"id": 444,
+"category": "Film",
+"difficulty": "hard",
+"question": "In the 1964 film \"Zulu\", what song does the British Army company sing before the final battle?",
+"reveal": "TWVuIG9mIEhhcmxlY2g=",
+"accept": [
+"541f22c85c03e837c708d47af741a0ad818232daf0a5c59966e3f39d14914779"
+]
+},
+{
+"id": 445,
+"category": "Music",
+"difficulty": "easy",
+"question": "Kanye West's \"Gold Digger\" featured which Oscar-winning actor?",
+"reveal": "SmFtaWUgRm94eA==",
+"accept": [
+"08cdb514161f09ae90f054dfb9ba7cfd4d7c0c1ec5944f03a873327b3e408357"
+]
+},
+{
+"id": 446,
+"category": "Television",
+"difficulty": "easy",
+"question": "Who was the first ever actor to play \"The Doctor\" on \"Doctor Who\"?",
+"reveal": "V2lsbGlhbSBIYXJ0bmVsbA==",
+"accept": [
+"9b0e4f91408a06713dbcf522398aa95432893cf143d622af06534c641a49aa61"
+]
+},
+{
+"id": 447,
+"category": "Music",
+"difficulty": "easy",
+"question": "In what year was Avril Lavigne’s first studio album, “Let Go”, released?",
+"reveal": "MjAwMg==",
+"accept": [
+"6c94e35ccc352d4e9ef0b99562cff995a5741ce8de8ad11b568892934daee366"
+]
+},
+{
+"id": 448,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "In the Scoville scale, what is the hottest chemical?",
+"reveal": "UmVzaW5pZmVyYXRveGlu",
+"accept": [
+"6359e1a66ce09a730eba1a885b275b90dd5846e7a9615be423e2d49491751831"
+]
+},
+{
+"id": 449,
+"category": "History",
+"difficulty": "medium",
+"question": "Joseph Smith was the founder of what religion?",
+"reveal": "TW9ybW9uaXNt",
+"accept": [
+"b031b16ad2f70c76d12f8fbdccfd2ec094d5d613c0f3ac4ddf98edf13c134137"
+]
+},
+{
+"id": 450,
+"category": "Geography",
+"difficulty": "hard",
+"question": "Which of these is NOT a province in China?",
+"reveal": "WWFuZ3R6ZQ==",
+"accept": [
+"a321596281a5402553f7028a410f96b2d46f6de9a8de9a0d31124af3ee61fbde"
+]
+},
+{
+"id": 451,
+"category": "Sports",
+"difficulty": "medium",
+"question": "Which Formula One driver was nicknamed 'The Professor'?",
+"reveal": "QWxhaW4gUHJvc3Q=",
+"accept": [
+"86062d8a8400237feddfa1de27de7c8fa3749db997d46146badc253823112868"
+]
+},
+{
+"id": 452,
+"category": "Cartoon & Animations",
+"difficulty": "medium",
+"question": "In the animated series RWBY, what is the name of the weapon used by Weiss Schnee?",
+"reveal": "TXlydGVuYXN0ZXI=",
+"accept": [
+"de48699a8102e00b178df08f58ce1192ade74bb1df3ca3e1d6436f2f5ca9e019"
+]
+},
+{
+"id": 453,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "What is the Spanish word for \"donkey\"?",
+"reveal": "QnVycm8=",
+"accept": [
+"ed4ed23ecdf451a717687c8fc3184b718f31724fff20b3c86e6764f55abc2f20"
+]
+},
+{
+"id": 454,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "How many obsidian blocks are required to build a nether portal in Minecraft?",
+"reveal": "MTA=",
+"accept": [
+"4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+"e4432baa90819aaef51d2a7f8e148bf7e679610f3173752fabb4dcb2d0f418d3"
+]
+},
+{
+"id": 455,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "In the game \"Sonic the Hedgehog (1991)\" how many chaos emeralds could you collect?",
+"reveal": "Ng==",
+"accept": [
+"e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+"44778d82365e4af681c40d5f0eef5cf6f5899d3f0ac335050a7ed6779cf3f674"
+]
+},
+{
+"id": 456,
+"category": "Science & Nature",
+"difficulty": "hard",
+"question": "What is the name for the auditory illusion of a note that seems to be rising infinitely?",
+"reveal": "U2hlcGFyZCBUb25l",
+"accept": [
+"eb687a35408e22283d2a2d5a2597368fd39a42dc35d499bceb29402e32e337cc"
+]
+},
+{
+"id": 457,
+"category": "Film",
+"difficulty": "hard",
+"question": "In the 1976 film 'Taxi Driver', how many guns did Travis buy from the salesman?",
+"reveal": "NA==",
+"accept": [
+"4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+"04efaf080f5a3e74e1c29d1ca6a48569382cbbcd324e8d59d2b83ef21c039f00"
+]
+},
+{
+"id": 458,
+"category": "History",
+"difficulty": "easy",
+"question": "What battle was the longest in World War I, lasting approximately 303 days?",
+"reveal": "QmF0dGxlIG9mIFZlcmR1bg==",
+"accept": [
+"43bb8c91fd402218edfc10708aec1ae5e87a32b4a1a99878de56193e9a8deb79"
+]
+},
+{
+"id": 459,
+"category": "Music",
+"difficulty": "medium",
+"question": "Which British band did Keith Moon play in until his death in 1978?",
+"reveal": "VGhlIFdobw==",
+"accept": [
+"6ed0337140bd32b4adc5000f76333bd8ca6b2b2c9e0bc354335cf341456290e8"
+]
+},
+{
+"id": 460,
+"category": "Cartoon & Animations",
+"difficulty": "easy",
+"question": "Butters Stotch, Pip Pirrup, and Wendy Testaburger are all characters in which long running animated TV series?",
+"reveal": "U291dGggUGFyaw==",
+"accept": [
+"b5c66cf7073c4d98b0377f4b112a21e3d4de96b5b0774eefa9ce4a842b41930c"
+]
+},
+{
+"id": 461,
+"category": "History",
+"difficulty": "hard",
+"question": "What was the code name for the Allied invasion of Southern France on August 15th, 1944?",
+"reveal": "T3BlcmF0aW9uIERyYWdvb24=",
+"accept": [
+"3c9308c446b28b1e92c97f1e61260448e8f1355b3adda9138b2f21766a642dd9"
+]
+},
+{
+"id": 462,
+"category": "Computers",
+"difficulty": "hard",
+"question": "Which of the following computer components can be built using only NAND gates?",
+"reveal": "QUxV",
+"accept": [
+"5cbb90f594096aa46a13bfc12ef9c6bbae80125a91923a036c44d6a9af97d905"
+]
+},
+{
+"id": 463,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "In the Gamecube Version of \"Resident Evil\" what text document is open on the monitor of the computer in the Visual Data Room?",
+"reveal": "QSBHREMgRG9jdW1lbnQ=",
+"accept": [
+"89af77a2adbf88390855879e1a268345127f5f0f294b5c2e7727f23d983b22d5"
+]
+},
+{
+"id": 464,
+"category": "Mythology",
+"difficulty": "easy",
+"question": "What mythology did the god \"Apollo\" come from?",
+"reveal": "R3JlZWsgYW5kIFJvbWFu",
+"accept": [
+"1b9121fc030bcb075ab1f5d2c834d7fabc48cc3d8e487c36afd4c5bd52dcd16f"
+]
+},
+{
+"id": 465,
+"category": "History",
+"difficulty": "easy",
+"question": "When did the Battle of the Somme begin?",
+"reveal": "SnVseSAxc3QsIDE5MTY=",
+"accept": [
+"9da014ec3cee513018a9037252b1c209594a1abe00b337354f79057389003ba0"
+]
+},
+{
+"id": 466,
+"category": "Video Games",
+"difficulty": "hard",
+"question": "\"Banjo-Kazooie\" originally started its development as a totally different game for the SNES under which codename?",
+"reveal": "UHJvamVjdCBEcmVhbQ==",
+"accept": [
+"d076033dddc81065e54fbad361ca4af82244817b980648df4f876a26a0ddbb3d"
+]
+},
+{
+"id": 467,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Of the following space shooter games, which came out first?",
+"reveal": "U3BhY2UgSW52YWRlcnM=",
+"accept": [
+"19a1337f737cb68ec07acd6634132b1bad3d13284b013de3c22198e721a89870"
+]
+},
+{
+"id": 468,
+"category": "Board Games",
+"difficulty": "easy",
+"question": "Which of these board games do NOT utilize standard 6-sided dice?",
+"reveal": "VGhlIEdhbWUgb2YgTGlmZQ==",
+"accept": [
+"21b965e16c1a00cc883f576805a88e67686315bbee5a68282d2174c1a9f39c0e"
+]
+},
+{
+"id": 469,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In Minecraft, what types of sound files are required for custom SFX to work in resource packs?",
+"reveal": "Lm9nZw==",
+"accept": [
+"e2dc13ee2937512f50cc4eb177c3d9d694e26e0d7257ec74edcbee68f1907d57"
+]
+},
+{
+"id": 470,
+"category": "Computers",
+"difficulty": "medium",
+"question": "What does the term GPU stand for?",
+"reveal": "R3JhcGhpY3MgUHJvY2Vzc2luZyBVbml0",
+"accept": [
+"18d71154362839c31e7f8669da22bdd791b533fd8445d3267940c744aca908c6"
+]
+},
+{
+"id": 471,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "What was the first living creature in space?",
+"reveal": "RnJ1aXQgRmxpZXM=",
+"accept": [
+"1ceacd06c037b0decc93fa49c160b654d3ff969423e3abd9d7dc21c77c6e14c8"
+]
+},
+{
+"id": 472,
+"category": "Video Games",
+"difficulty": "easy",
+"question": "In Slay the Spire, which of the following is NOT a playable character?",
+"reveal": "U3RvbmVoZWFydA==",
+"accept": [
+"09556abcbcb5fdfc6b07ce55f99ba68676a1a48ba3640a2d093dbefe50122f55"
+]
+},
+{
+"id": 473,
+"category": "Sports",
+"difficulty": "easy",
+"question": "When was the first official international game played?",
+"reveal": "MTg3Mg==",
+"accept": [
+"3f613c55d57f95fe15534edae86f6863d67d2df186eb6721cd70a037b03cf7fa"
+]
+},
+{
+"id": 474,
+"category": "Celebrities",
+"difficulty": "easy",
+"question": "Aubrey Graham is better known as",
+"reveal": "RHJha2U=",
+"accept": [
+"54444aa7bc07ccec734fddb6f35b9918f914123ad2a0a6e5223d2cda95568de5"
+]
+},
+{
+"id": 475,
+"category": "Geography",
+"difficulty": "medium",
+"question": "Gibraltar, located just south of the Iberian peninsula, is a territory of which West Europe country?",
+"reveal": "VW5pdGVkIEtpbmdkb20=",
+"accept": [
+"e138a7146e9e1bc4fdb17948eb028039c4f6e0a100b889d890b63f733892ea1c"
+]
+},
+{
+"id": 476,
+"category": "Science & Nature",
+"difficulty": "medium",
+"question": "How many baby/milk teeth does a human child have in total?",
+"reveal": "MjA=",
+"accept": [
+"f5ca38f748a1d6eaf726b8a42fb575c3c71f1864a8143301782de13da2d9202b",
+"7c2c4df740f720b0c861920dc27692c4d4b5daa65d6330a593c931d35f8ac737"
+]
+},
+{
+"id": 477,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "When someone is cowardly, they are said to have what color belly?",
+"reveal": "WWVsbG93",
+"accept": [
+"cc1b93dd22a8f8405d1d2db9ac5495e7a60af960f307e02d45c6a02837d3e7d4"
+]
+},
+{
+"id": 478,
+"category": "Music",
+"difficulty": "medium",
+"question": "When did Radiohead release their album \"OK Computer\"?",
+"reveal": "MTk5Nw==",
+"accept": [
+"0985b889a1fe4f4e1fb925061ac6fb2247f10875f5fcbe63eec2ab55ed68970e"
+]
+},
+{
+"id": 479,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Who is the protagonist of the videogame \"Dead Rising 2\"?",
+"reveal": "Q2h1Y2sgR3JlZW5l",
+"accept": [
+"390d3645051818a5ebdf1cabe773189dd7ca1f66c9f9b88ff621370a40797b5c"
+]
+},
+{
+"id": 480,
+"category": "Japanese Anime & Manga",
+"difficulty": "medium",
+"question": "Who voices the character \"Reigen\"  in the English dub of \"Mob Psycho 100\"?",
+"reveal": "Q2hyaXMgTmlvc2k=",
+"accept": [
+"7c2eefe25ff878b2df7bd24126de09ff75f8a97fa7f6fd7b2c0917469cefd56c"
+]
+},
+{
+"id": 481,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "Which of these is NOT a playable character race in the video game \"Starbound\"?",
+"reveal": "RmVuZXJveA==",
+"accept": [
+"89d7edfb8dd7c128d0092a30a4150b842337413c7bac6c2340bdcc3ffe834f9f"
+]
+},
+{
+"id": 482,
+"category": "Geography",
+"difficulty": "medium",
+"question": "Which of these is NOT an island that is part of the Philippines?",
+"reveal": "SmF2YQ==",
+"accept": [
+"38a0963a6364b09ad867aa9a66c6d009673c21e182015461da236ec361877f77"
+]
+},
+{
+"id": 483,
+"category": "Mythology",
+"difficulty": "medium",
+"question": "This Greek mythological figure is the god/goddess of battle strategy (among other things).",
+"reveal": "QXRoZW5h",
+"accept": [
+"084328c53a9de563b83b23b6f500521ff442af7cfe60f104574c2c8cce22cf2a"
+]
+},
+{
+"id": 484,
+"category": "History",
+"difficulty": "hard",
+"question": "On which day did ARPANET suffer a 4 hour long network crash?",
+"reveal": "T2N0b2JlciAyNywgMTk4MA==",
+"accept": [
+"e29b5bb371863fb955352fb1352a704aa46bf0421dcc489a782d607f18b67b12",
+"29593fef50e1b1c849e8004049d9d6107709646c8f5955e9b6393fba0baf2bb5"
+]
+},
+{
+"id": 485,
+"category": "Japanese Anime & Manga",
+"difficulty": "medium",
+"question": "Who is the main character in One Piece?",
+"reveal": "THVmZnk=",
+"accept": [
+"9c66986c6b593e7ce72f1b239bcb729e8887aad22ffc4b1ffc64a2c77e9c89ce"
+]
+},
+{
+"id": 486,
+"category": "Mythology",
+"difficulty": "hard",
+"question": "In Norse mythology, what is the name of the serpent which eats the roots of the ash tree Yggdrasil?",
+"reveal": "TmlkaG9nZw==",
+"accept": [
+"70c85f1488681ab84df488fc52f47b47ea1a7055137956c4d9cb73bbb4c03f7b"
+]
+},
+{
+"id": 487,
+"category": "Comics",
+"difficulty": "medium",
+"question": "The success of DC Comics' Swamp Thing, Sandman, and other books in a similar style, led to the creation of what new imprint in 1993?",
+"reveal": "VmVydGlnbw==",
+"accept": [
+"e5a559c8ce04fb73d98cfc83e140713600c1134ac676d0b4debcc9838c09e2d7"
+]
+},
+{
+"id": 488,
+"category": "Gadgets",
+"difficulty": "easy",
+"question": "The term \"battery\" to describe an electrical storage device was coined by?",
+"reveal": "QmVuamFtaW4gRnJhbmtsaW4=",
+"accept": [
+"4f3b963cf180b7a663b2bccb961287f6d45ba030d20a1e14d928584128eecf2f"
+]
+},
+{
+"id": 489,
+"category": "Cartoon & Animations",
+"difficulty": "easy",
+"question": "Wendy O. Koopa appeared in the Super Mario DIC Cartoons, but what was she known as?",
+"reveal": "S29vdGllIFBpZQ==",
+"accept": [
+"bce3dab60ae02bea7a8beea91a2fc007a4c0b49751766eebab8c08bc7c10f898"
+]
+},
+{
+"id": 490,
+"category": "Video Games",
+"difficulty": "medium",
+"question": "In the game Pokémon Conquest, which warlord is able to bond with Zekrom and a shiny Rayquazza?",
+"reveal": "Tm9idW5hZ2E=",
+"accept": [
+"506c8e5842d3d03220313755df59d10d11a2eac7cbdee5bf146abb91a844f019"
+]
+},
+{
+"id": 491,
+"category": "General Knowledge",
+"difficulty": "easy",
+"question": "If you are traveling at a speed of 80 mph, how long will it take you to drive 80 miles?",
+"reveal": "NjAgbWludXRlcw==",
+"accept": [
+"3d374f26e401656d8495d8724df716c1c8354a2184f9a83901b13e323b925ed4",
+"64b85f18f92429843ba613f878147b9e18b089cd559c8c47f0f2792b7a2237ae"
+]
+},
+{
+"id": 492,
+"category": "Television",
+"difficulty": "easy",
+"question": "In which state of America was the Fresh Prince of Bel-Air born and raised in?",
+"reveal": "UGVubnN5bHZhbmlh",
+"accept": [
+"6643a7f9a8ad74afa63b94a7a7af30fb4eb5fe8a6b979a0458f903ad01907c7d"
+]
+},
+{
+"id": 493,
+"category": "Sports",
+"difficulty": "easy",
+"question": "Which city did the former NHL team \"The Nordiques\" originiate from?",
+"reveal": "UXVlYmVjIENpdHk=",
+"accept": [
+"2668cab4ba6ba2dff8a9f96bf7d347d65ac00de84b52d57939f22193e68b034f"
+]
+},
+{
+"id": 494,
+"category": "Sports",
+"difficulty": "medium",
+"question": "How many premier league trophies did Sir Alex Ferguson win during his time at Manchester United?",
+"reveal": "MTM=",
+"accept": [
+"3fdba35f04dc8c462986c992bcf875546257113072a909c162f7e470e581e278",
+"f59995e709a9a58f5c96aa4626651bdda6f6fae1627ae8cda799bbda12686464"
+]
+},
+{
+"id": 495,
+"category": "Animals",
+"difficulty": "medium",
+"question": "What dog breed is one of the oldest breeds of dog and has flourished since before 400 BCE.",
+"reveal": "UHVncw==",
+"accept": [
+"9b687d3b7f47abbc414dd81e977204cca18ee374759391d8b836df206ab8fe48"
+]
+},
+{
+"id": 496,
+"category": "General Knowledge",
+"difficulty": "hard",
+"question": "What is the romanized Arabic word for \"moon\"?",
+"reveal": "UWFtYXI=",
+"accept": [
+"a95a93ca4adc4106ba5092322e63c3bf50e1dce331738e5e6a7610bd8c6bf996"
+]
+},
+{
+"id": 497,
+"category": "Geography",
+"difficulty": "medium",
+"question": "Which islands below have been claimed by both Japan and Russia?",
+"reveal": "S3VyaWwgSXNsYW5kcw==",
+"accept": [
+"ccd36375f552faaeb4ace5ffd79eb6c9eb852022f7d15cfa726036f9951cfd31"
+]
+},
+{
+"id": 498,
+"category": "Board Games",
+"difficulty": "hard",
+"question": "What Magic: The Gathering card's flavor text is just 'Ribbit.'?",
+"reveal": "VHVybiB0byBGcm9n",
+"accept": [
+"9fe4a12b6ec635a89309cbaf6c6c1c00af39ebd9f64adef86a0f22dd0065f8a3"
+]
+},
+{
+"id": 499,
+"category": "Mythology",
+"difficulty": "easy",
+"question": "Who was the King of Gods in Ancient Greek mythology?",
+"reveal": "WmV1cw==",
+"accept": [
+"5667ef73dac709effcfdc518a98ea9238365ec62b0eb5f478392e28818a2efd5"
+]
+}
+]
+}
