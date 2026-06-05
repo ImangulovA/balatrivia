@@ -236,7 +236,11 @@
     {#if run.jokers.length}
       <div class="jokerbar">
         {#each run.jokers as j}
-          <span class="jchip" style="--c:{RARITY[j.rarity].color}" title={j.desc}>{j.name}</span>
+          <span class="jchip tip" style="--c:{RARITY[j.rarity].color}" tabindex="0">
+            <span class="jicon">{@html j.icon}</span>
+            <span class="jcname">{j.name}</span>
+            <span class="tipbox"><b>{j.name}</b><span class="tiprar">{RARITY[j.rarity].label}</span>{j.detail}</span>
+          </span>
         {/each}
       </div>
     {/if}
@@ -307,14 +311,19 @@
       <h3>Jokers for sale</h3>
       <div class="offer">
         {#each shopOffer as j}
-          <div class="jcard" style="--c:{RARITY[j.rarity].color}">
-            <div class="jtop"><span class="jname">{j.name}</span><span class="jrar">{RARITY[j.rarity].label}</span></div>
+          <div class="jcard tip" style="--c:{RARITY[j.rarity].color}" tabindex="0">
+            <div class="jtop">
+              <span class="jicon big">{@html j.icon}</span>
+              <span class="jname">{j.name}</span>
+              <span class="jrar">{RARITY[j.rarity].label}</span>
+            </div>
             <p class="jdesc">{j.desc}</p>
             <button
               class="buy"
               disabled={run.money < j.price || run.jokers.length >= MAX_JOKERS}
               onclick={() => buy(j)}
             >Buy ${j.price}</button>
+            <span class="tipbox"><b>{j.name}</b><span class="tiprar">{RARITY[j.rarity].label}</span>{j.detail}</span>
           </div>
         {/each}
         {#if shopOffer.length === 0}<p class="muted">Sold out. Reroll or move on.</p>{/if}
@@ -330,10 +339,15 @@
       <h3>Your jokers ({run.jokers.length}/{MAX_JOKERS})</h3>
       <div class="owned">
         {#each run.jokers as j}
-          <div class="jcard owned" style="--c:{RARITY[j.rarity].color}">
-            <div class="jtop"><span class="jname">{j.name}</span><span class="jrar">{RARITY[j.rarity].label}</span></div>
+          <div class="jcard owned tip" style="--c:{RARITY[j.rarity].color}" tabindex="0">
+            <div class="jtop">
+              <span class="jicon big">{@html j.icon}</span>
+              <span class="jname">{j.name}</span>
+              <span class="jrar">{RARITY[j.rarity].label}</span>
+            </div>
             <p class="jdesc">{j.desc}</p>
             <button class="sell" onclick={() => sell(j)}>Sell ${sellValue(j)}</button>
+            <span class="tipbox"><b>{j.name}</b><span class="tiprar">{RARITY[j.rarity].label}</span>{j.detail}</span>
           </div>
         {/each}
         {#if run.jokers.length === 0}<p class="muted">No jokers yet. Buy some above.</p>{/if}
@@ -409,7 +423,29 @@
   .v.lives { color: var(--red); letter-spacing: 1px; }
 
   .jokerbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
-  .jchip { background: var(--card2); border: 2px dotted var(--c); color: var(--text); border-radius: 999px; padding: 5px 12px; font-size: 12px; font-weight: 700; }
+  .jchip { display: inline-flex; align-items: center; gap: 6px; background: var(--card2); border: 2px dotted var(--c); color: var(--text); border-radius: 999px; padding: 5px 12px; font-size: 12px; font-weight: 700; cursor: help; }
+  .jchip:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+  .jcname { white-space: nowrap; }
+
+  /* joker icons (inline SVG inherits the rarity color via --c) */
+  .jicon { display: inline-flex; width: 16px; height: 16px; color: var(--c); flex: none; }
+  .jicon.big { width: 26px; height: 26px; }
+  .jicon :global(svg) { width: 100%; height: 100%; display: block; }
+
+  /* hover/focus tooltips */
+  .tip { position: relative; }
+  .tip:hover, .tip:focus-within { z-index: 30; }
+  .tipbox {
+    position: absolute; top: calc(100% + 8px); left: 50%; transform: translateX(-50%);
+    width: max-content; max-width: 240px; background: var(--card); color: var(--text);
+    border: 3px dotted var(--line); border-radius: 6px; padding: 10px 12px;
+    font-family: var(--font-mono); font-size: 12px; font-weight: 400; line-height: 1.5; text-align: left;
+    box-shadow: 4px 4px 0 var(--ink); z-index: 40; pointer-events: none;
+    opacity: 0; visibility: hidden; transition: opacity .12s;
+  }
+  .tipbox b { display: block; font-size: 13px; margin-bottom: 2px; }
+  .tiprar { display: block; font-family: var(--font-pixel); font-size: 7px; letter-spacing: 1px; color: var(--c); margin-bottom: 8px; }
+  .tip:hover .tipbox, .tip:focus-within .tipbox { opacity: 1; visibility: visible; }
 
   .qmeta { display: flex; gap: 10px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
   .cat { background: var(--card2); border: 2px dotted var(--line); padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 700; }
