@@ -4,6 +4,7 @@
   import { norm, sha256 } from '$lib/norm.js';
   import {
     newRun, dealRound, resolve, roundReward, rollShop, rerollCost, loadPool,
+    fireRound, upkeepCost, jokerPrice, MODIFIERS,
     BETS, ROUNDS, MAX_JOKERS, sellValue, LANGS
   } from '$lib/engine.js';
   import { RARITY } from '$lib/jokers.js';
@@ -31,12 +32,29 @@
   let shaking = $state(false);
   let lang = $state('en');
   let loadError = $state('');
+  let upkeep = $state(0);
 
   // ---- derived ----
   const cfg = $derived(run ? ROUNDS[run.roundIdx] : null);
   const q = $derived(roundQs[qIdx] || null);
   const hasRetry = $derived(!!run && run.jokers.some((j) => j.grantsRetry));
   const betKeys = ['safe', 'double', 'allin'];
+  const mod = $derived(cfg && cfg.mod ? MODIFIERS[cfg.mod] : null);
+  const availBets = $derived(betKeys.filter((k) => !(mod && mod.lockBets && mod.lockBets.includes(k))));
+
+  // Compact live-state readout for a joker chip (snow/tier/charges/etc.)
+  function stateBadge(j) {
+    const s = j.state;
+    if (!s) return '';
+    if (s.snow != null) return '❄' + s.snow;
+    if (s.tier != null && s.tier > 0) return '+' + s.tier;
+    if (s.charges != null && s.charges > 0) return '+' + s.charges;
+    if (s.lvl != null) return '$' + s.lvl;
+    if (s.ptLvl != null && (s.ptLvl > 0 || s.moneyLvl > 0)) return '+' + s.ptLvl;
+    if (s.bonus != null && s.bonus > 0) return '+' + s.bonus;
+    if (s.hits != null && s.hits > 0) return '×' + s.hits;
+    return '';
+  }
 
   onMount(() => {
     if (browser) {
@@ -79,7 +97,7 @@
       view = 'menu';
       return;
     }
-    run = newRun();
+    run = newRun(lang);
     startRound();
   }
 
@@ -90,12 +108,16 @@
     qIdx = 0;
     points = 0;
     lives = ROUNDS[run.roundIdx].lives;
+    // lifecycle: modifiers + jokers may adjust starting lives/money (Field Medic, Recession)
+    const sctx = fireRound(run, 'onRoundStart', { life: 0 });
+    lives += sctx.life;
+    run.money = Math.max(0, run.money + sctx.money);
     resetQuestion();
     view = 'game';
   }
 
   function resetQuestion() {
-    bet = 'safe';
+    bet = availBets[0] || 'safe';
     guess = '';
     revealed = false;
     retryUsed = false;
@@ -122,7 +144,7 @@
   }
 
   function finishQuestion(correct) {
-    lastCtx = resolve(run, q, BETS[bet], correct);
+    lastCtx = resolve(run, q, BETS[bet], correct, points, cfg);
     points += lastCtx.points;
     lives += lastCtx.life;
     run.money += lastCtx.money;
@@ -148,8 +170,14 @@
   }
 
   function clearRound() {
+    // lifecycle: jokers may grow / pay out on a cleared round (Field Medic, Magnum Opus...)
+    const ectx = fireRound(run, 'onRoundEnd', { cleared: true, livesLeft: Math.max(0, lives) });
+    run.money = Math.max(0, run.money + ectx.money);
     lastReward = roundReward(run, Math.max(0, lives), points, cfg.target);
     run.money += lastReward.total;
+    // Operating Cost: scales with board size + round
+    upkeep = upkeepCost(run);
+    run.money = Math.max(0, run.money - upkeep);
     if (run.roundIdx >= ROUNDS.length - 1) {
       saveBest(ROUNDS.length);
       view = 'win';
@@ -161,15 +189,19 @@
   }
 
   function gameOver() {
+    fireRound(run, 'onRoundEnd', { cleared: false, livesLeft: Math.max(0, lives) });
     saveBest(run.roundIdx); // rounds fully cleared before this one
     view = 'gameover';
   }
 
   // ---- shop ----
   function buy(j) {
-    if (run.money < j.price || run.jokers.length >= MAX_JOKERS) return;
-    run.money -= j.price;
-    run.jokers = [...run.jokers, j];
+    const price = jokerPrice(run, j);
+    if (run.money < price || run.jokers.length >= MAX_JOKERS) return;
+    run.money -= price;
+    // clone-and-init so per-instance state never leaks across runs/shop list
+    const inst = { ...j, state: j.initState ? j.initState() : undefined };
+    run.jokers = [...run.jokers, inst];
     shopOffer = shopOffer.filter((x) => x.id !== j.id);
   }
   function sell(j) {
@@ -239,10 +271,15 @@
           <span class="jchip tip" style="--c:{RARITY[j.rarity].color}" tabindex="0">
             <span class="jicon">{@html j.icon}</span>
             <span class="jcname">{j.name}</span>
+            {#if stateBadge(j)}<span class="jbadge">{stateBadge(j)}</span>{/if}
             <span class="tipbox"><b>{j.name}</b><span class="tiprar">{RARITY[j.rarity].label}</span>{j.detail}</span>
           </span>
         {/each}
       </div>
+    {/if}
+
+    {#if mod}
+      <div class="boss"><span class="bosslabel">⚠ Boss: {mod.name}</span><span class="bossdesc">{mod.desc}</span></div>
     {/if}
 
     <section class="panel">
@@ -255,7 +292,7 @@
 
       {#if !revealed}
         <div class="bets">
-          {#each betKeys as bk}
+          {#each availBets as bk}
             <button class="betbtn {bet === bk ? 'sel' : ''}" onclick={() => (bet = bk)}>
               <span class="bl">{BETS[bk].label}</span>
               <span class="bb">{BETS[bk].blurb}</span>
@@ -304,7 +341,7 @@
         <p class="muted small reward">
           Round cleared: base ${lastReward.base} + lives ${lastReward.lifeBonus}
           + overfill ${lastReward.overfill} + interest ${lastReward.interest}
-          = <b>+${lastReward.total}</b>
+          = <b>+${lastReward.total}</b>{#if upkeep > 0} · <span class="upkeep">Operating cost −${upkeep} ({run.jokers.length} jokers)</span>{/if}
         </p>
       {/if}
 
@@ -320,9 +357,9 @@
             <p class="jdesc">{j.desc}</p>
             <button
               class="buy"
-              disabled={run.money < j.price || run.jokers.length >= MAX_JOKERS}
+              disabled={run.money < jokerPrice(run, j) || run.jokers.length >= MAX_JOKERS}
               onclick={() => buy(j)}
-            >Buy ${j.price}</button>
+            >Buy ${jokerPrice(run, j)}</button>
             <span class="tipbox"><b>{j.name}</b><span class="tiprar">{RARITY[j.rarity].label}</span>{j.detail}</span>
           </div>
         {/each}
@@ -426,6 +463,12 @@
   .jchip { display: inline-flex; align-items: center; gap: 6px; background: var(--card2); border: 2px dotted var(--c); color: var(--text); border-radius: 999px; padding: 5px 12px; font-size: 12px; font-weight: 700; cursor: help; }
   .jchip:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
   .jcname { white-space: nowrap; }
+  .jbadge { font-family: var(--font-pixel); font-size: 8px; background: var(--c); color: #fff; border-radius: 4px; padding: 2px 4px; }
+
+  .boss { display: flex; flex-direction: column; gap: 2px; background: var(--card2); border: 3px dotted var(--red); border-radius: 8px; padding: 10px 14px; margin-bottom: 12px; }
+  .bosslabel { font-family: var(--font-pixel); font-size: 11px; color: var(--red); }
+  .bossdesc { font-size: 13px; color: var(--text); }
+  .upkeep { color: var(--orange); }
 
   /* joker icons (inline SVG inherits the rarity color via --c) */
   .jicon { display: inline-flex; width: 16px; height: 16px; color: var(--c); flex: none; }

@@ -31,20 +31,52 @@ export const BETS = {
            blurb: '+3 and +$3 on a win. A miss ends the round.' }
 };
 
-// 8 rounds, ALWAYS 5 questions each (you play all 5 even after hitting target).
-// Targets are scaled for 5 questions: >5 requires betting (Double/All-in). Boss = 7.
+// 8 rounds, ALWAYS 5 questions each. "Productive-gap" curve: targets climb and
+// lives TIGHTEN late so a passive all-Safe build falls behind by mid-run, while
+// a player who bets aggressively + owns compounding jokers stays viable.
+// `mod` attaches a Boss-Blind-style round modifier (see MODIFIERS).
 export const QUESTIONS_PER_ROUND = 5;
 export const ROUNDS = [
-  { target: 2, lives: 2, questions: 5, hardBias: 0.15 },
-  { target: 3, lives: 2, questions: 5, hardBias: 0.2 },
-  { target: 4, lives: 2, questions: 5, hardBias: 0.3 },
-  { target: 4, lives: 3, questions: 5, hardBias: 0.4 },
-  { target: 5, lives: 3, questions: 5, hardBias: 0.5 },
-  { target: 5, lives: 3, questions: 5, hardBias: 0.6 },
-  { target: 6, lives: 3, questions: 5, hardBias: 0.7 },
-  { target: 7, lives: 3, questions: 5, hardBias: 0.8 }
+  { target: 2, lives: 3, questions: 5, hardBias: 0.10 },
+  { target: 3, lives: 3, questions: 5, hardBias: 0.20 },
+  { target: 4, lives: 3, questions: 5, hardBias: 0.30, mod: 'recession' },
+  { target: 5, lives: 2, questions: 5, hardBias: 0.40, mod: 'the_wall' },        // boss 1
+  { target: 6, lives: 2, questions: 5, hardBias: 0.50 },
+  { target: 6, lives: 2, questions: 5, hardBias: 0.60, mod: 'double_jeopardy' },
+  { target: 7, lives: 2, questions: 5, hardBias: 0.70, mod: 'dry_spell' },
+  { target: 8, lives: 2, questions: 5, hardBias: 0.85, mod: 'sudden_death' }      // boss 2 (final)
 ];
 
+// Boss / round modifiers (Balatro Boss-Blind analog). All are RU-compatible
+// (no category/difficulty dependence). Modifier hooks fire BEFORE joker hooks so
+// insurance jokers (Cold Blood, etc.) can still counter them.
+export const MODIFIERS = {
+  recession: {
+    id: 'recession', name: 'Recession', desc: 'Lose $3 at the start of this round.',
+    hooks: { onRoundStart: (ctx) => { ctx.money -= 3; } }
+  },
+  the_wall: {
+    id: 'the_wall', name: 'The Wall', desc: 'Safe bets are disabled this round.',
+    lockBets: ['safe']
+  },
+  double_jeopardy: {
+    id: 'double_jeopardy', name: 'Double Jeopardy', desc: 'A penalized miss costs 2 lives.',
+    hooks: { onWrong: (ctx) => { if (ctx.life < 0) ctx.life *= 2; } }
+  },
+  dry_spell: {
+    id: 'dry_spell', name: 'Dry Spell', desc: 'No points once you are already at target (no overfill).',
+    hooks: { onCorrect: (ctx) => { if (ctx.cfg && ctx.roundPoints >= ctx.cfg.target) ctx.points = 0; } }
+  },
+  sudden_death: {
+    id: 'sudden_death', name: 'Sudden Death', desc: 'All-in only. Any miss ends the round.',
+    lockBets: ['safe', 'double']
+  }
+};
+
+// Economy curves (index by run.roundIdx = the round being cleared).
+const BASE_BY_ROUND = [4, 4, 5, 5, 6, 6, 7, 8]; // round-clear base income
+const INTEREST_CAP = [5, 5, 5, 4, 4, 3, 2, 2];  // hoarding stops paying late
+const UPKEEP_RATE = [0, 0, 0, 0, 1, 1, 2, 3];   // $ per owned joker, charged at shop entry
 export const REROLL_BASE = 5;
 
 function shuffle(arr) {
@@ -59,11 +91,12 @@ function shuffle(arr) {
 const byDiff = (d) => POOL.filter((q) => q.difficulty === d);
 
 // Build a fresh run state object.
-export function newRun() {
+export function newRun(lang = 'en') {
   return {
     roundIdx: 0,
+    lang,
     money: STARTING_MONEY,
-    jokers: [], // array of joker defs (max MAX_JOKERS)
+    jokers: [], // joker instances (max MAX_JOKERS), each may carry .state
     seenIds: new Set(), // questions used this run, avoid repeats
     streak: 0,
     roundFlags: {},
@@ -71,8 +104,7 @@ export function newRun() {
   };
 }
 
-// Pick the questions for the current round, biased toward hard in later rounds,
-// avoiding questions already seen this run.
+// Pick the questions for the current round, biased toward hard in later rounds.
 export function dealRound(run) {
   const cfg = ROUNDS[run.roundIdx];
   const fresh = (pool) => shuffle(pool.filter((q) => !run.seenIds.has(q.id)));
@@ -91,18 +123,31 @@ export function dealRound(run) {
   return out;
 }
 
-// Resolve a single answered question. Mutates `run` (streak, roundFlags) and
-// returns the effects to apply at the round level.
-export function resolve(run, question, bet, correct) {
+// The modifier active this round (or null).
+export function activeMod(run) {
+  const id = ROUNDS[run.roundIdx]?.mod;
+  return id ? MODIFIERS[id] : null;
+}
+
+// Fire a named hook across the active modifier THEN every joker (passing the
+// joker instance so it can read/grow its .state). Jammed jokers are skipped.
+function dispatch(run, name, ctx) {
+  const mod = activeMod(run);
+  if (mod && mod.hooks && mod.hooks[name]) mod.hooks[name](ctx, mod);
+  for (const j of run.jokers) {
+    if (run.roundFlags.jammedIds && run.roundFlags.jammedIds.includes(j.id)) continue;
+    const fn = j.hooks && j.hooks[name];
+    if (fn) fn(ctx, j);
+  }
+  return ctx;
+}
+
+// Resolve a single answered question. Mutates `run` (streak) and returns the
+// effects to apply at the round level. roundPoints = score BEFORE this question.
+export function resolve(run, question, bet, correct, roundPoints, cfg) {
   const ctx = {
-    run,
-    question,
-    bet,
-    correct,
-    points: 0,
-    money: 0,
-    life: 0,
-    endRound: false
+    run, question, bet, correct, cfg, roundPoints,
+    points: 0, money: 0, life: 0, endRound: false
   };
 
   if (correct) {
@@ -113,13 +158,7 @@ export function resolve(run, question, bet, correct) {
     ctx.endRound = bet.endsRoundOnLoss;
   }
 
-  // fire joker hooks (onCorrect / onWrong). Streak is updated AFTER so that
-  // onCorrect hooks see the streak that led into this answer.
-  const hookName = correct ? 'onCorrect' : 'onWrong';
-  for (const j of run.jokers) {
-    const fn = j.hooks && j.hooks[hookName];
-    if (fn) fn(ctx);
-  }
+  dispatch(run, correct ? 'onCorrect' : 'onWrong', ctx);
 
   if (correct) run.streak += 1;
   else run.streak = 0;
@@ -127,26 +166,47 @@ export function resolve(run, question, bet, correct) {
   return ctx;
 }
 
+// Fire a lifecycle hook (onRoundStart / onRoundEnd). `extra` seeds ctx fields
+// (e.g. cleared, livesLeft). Returns ctx with accumulated points/money/life.
+export function fireRound(run, name, extra = {}) {
+  const ctx = { run, points: 0, money: 0, life: 0, ...extra };
+  dispatch(run, name, ctx);
+  return ctx;
+}
+
 // Money awarded for clearing a round.
 export function roundReward(run, livesLeft, points, target) {
-  const cfg = ROUNDS[run.roundIdx];
-  const base = 3 + run.roundIdx; // later rounds pay more
+  const idx = run.roundIdx;
+  const base = BASE_BY_ROUND[idx];
   const lifeBonus = livesLeft; // $1 per surviving life
-  const overfill = Math.max(0, points - target); // $1 per extra point
-  const interest = Math.min(5, Math.floor(run.money / 5)); // +$1 per $5 banked, cap 5
-  void cfg;
+  const dry = ROUNDS[idx].mod === 'dry_spell';
+  const overfill = dry ? 0 : Math.max(0, points - target);
+  const interest = Math.min(INTEREST_CAP[idx], Math.floor(run.money / 5));
   return { base, lifeBonus, overfill, interest, total: base + lifeBonus + overfill + interest };
 }
 
+// Operating Cost: charged at shop entry from mid-run on; scales with board size.
+export function upkeepCost(run) {
+  return UPKEEP_RATE[run.roundIdx] * run.jokers.length;
+}
+
+// Round-indexed price inflation: early decisive buys are cheaper than late fishing.
+export function jokerPrice(run, j) {
+  return Math.ceil(PRICE[j.rarity] * (1 + 0.10 * run.roundIdx));
+}
+
 // Build a shop offer of up to `n` jokers the player does not already own.
+// In RU mode, hide jokers that depend on category/difficulty (ruCompatible === false).
 export function rollShop(run, n = 3) {
   const owned = new Set(run.jokers.map((j) => j.id));
-  const pool = shuffle(JOKERS.filter((j) => !owned.has(j.id)));
+  const pool = shuffle(
+    JOKERS.filter((j) => !owned.has(j.id) && !(run.lang === 'ru' && j.ruCompatible === false))
+  );
   return pool.slice(0, n);
 }
 
 export function rerollCost(run) {
-  return REROLL_BASE + run.rerollCount;
+  return REROLL_BASE + run.rerollCount + 2 * run.roundIdx;
 }
 
 export { PRICE, sellValue };
