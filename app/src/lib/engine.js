@@ -1,8 +1,23 @@
 // Run / round / economy engine for Balatrivia. Pure logic, no UI.
-import bundle from './questions.json';
+import { base } from '$app/paths';
 import { JOKERS, PRICE, sellValue } from './jokers.js';
 
-export const ALL_QUESTIONS = bundle.questions;
+// Question pools are large static JSON, loaded on demand per language so the EN
+// set never ships to RU players and vice versa. Neither is bundled into JS.
+let POOL = [];
+const _cache = {};
+export const LANGS = { en: 'English', ru: 'Русский (ЧГК)' };
+
+export async function loadPool(lang) {
+  if (!_cache[lang]) {
+    const res = await fetch(`${base}/data/questions_${lang}.json`);
+    if (!res.ok) throw new Error(`failed to load ${lang} questions`);
+    _cache[lang] = (await res.json()).questions;
+  }
+  POOL = _cache[lang];
+  return POOL.length;
+}
+
 export const MAX_JOKERS = 5; // hard cap on joker slots
 export const STARTING_MONEY = 4;
 
@@ -39,7 +54,7 @@ function shuffle(arr) {
   return a;
 }
 
-const byDiff = (d) => ALL_QUESTIONS.filter((q) => q.difficulty === d);
+const byDiff = (d) => POOL.filter((q) => q.difficulty === d);
 
 // Build a fresh run state object.
 export function newRun() {

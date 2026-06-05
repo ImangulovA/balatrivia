@@ -3,8 +3,8 @@
   import { browser } from '$app/environment';
   import { norm, sha256 } from '$lib/norm.js';
   import {
-    newRun, dealRound, resolve, roundReward, rollShop, rerollCost,
-    BETS, ROUNDS, MAX_JOKERS, sellValue
+    newRun, dealRound, resolve, roundReward, rollShop, rerollCost, loadPool,
+    BETS, ROUNDS, MAX_JOKERS, sellValue, LANGS
   } from '$lib/engine.js';
   import { RARITY } from '$lib/jokers.js';
 
@@ -23,11 +23,14 @@
   let retryUsed = $state(false);
   let feedback = $state('');
   let revealAnswer = $state('');
+  let revealComment = $state('');
   let shopOffer = $state([]);
   let lastReward = $state(null);
   let best = $state(0);
   let theme = $state('dark');
   let shaking = $state(false);
+  let lang = $state('en');
+  let loadError = $state('');
 
   // ---- derived ----
   const cfg = $derived(run ? ROUNDS[run.roundIdx] : null);
@@ -65,7 +68,17 @@
   }
 
   // ---- run flow ----
-  function startRun() {
+  async function startRun(l) {
+    if (l) lang = l;
+    loadError = '';
+    view = 'loading';
+    try {
+      await loadPool(lang);
+    } catch (e) {
+      loadError = 'Could not load questions. Check your connection and retry.';
+      view = 'menu';
+      return;
+    }
     run = newRun();
     startRound();
   }
@@ -88,6 +101,7 @@
     retryUsed = false;
     feedback = '';
     revealAnswer = '';
+    revealComment = '';
   }
 
   async function submit() {
@@ -114,6 +128,7 @@
     run.money += lastCtx.money;
     lastCorrect = correct;
     revealAnswer = b64decode(q.reveal);
+    revealComment = q.comment ? b64decode(q.comment) : '';
     revealed = true;
     feedback = correct ? 'Correct!' : 'Wrong.';
   }
@@ -189,9 +204,19 @@
     <section class="panel center">
       <h1>Roguelike trivia, Balatro-style.</h1>
       <p class="muted">Answer questions, place bets, build a deck of jokers between rounds. Clear all 8 rounds.</p>
-      <button class="primary big" onclick={startRun}>Start Run</button>
+      <div class="langpick">
+        <button class="primary big" onclick={() => startRun('en')}>Play — English</button>
+        <button class="primary big ru" onclick={() => startRun('ru')}>Играть — Русский (ЧГК)</button>
+      </div>
+      {#if loadError}<p class="fb bad">{loadError}</p>{/if}
       {#if best > 0}<p class="muted small">Best: {best}/8 rounds cleared</p>{/if}
-      <p class="muted small src">Questions: Open Trivia Database (CC BY-SA 4.0)</p>
+      <p class="muted small src">EN: Open Trivia Database (CC BY-SA 4.0) · RU: ЧГК packs (rating.chgk.info)</p>
+    </section>
+
+  {:else if view === 'loading'}
+    <section class="panel center">
+      <h1>Loading questions…</h1>
+      <p class="muted">{LANGS[lang]}{lang === 'ru' ? ' — большой пакет, секунду' : ''}</p>
     </section>
 
   {:else if view === 'game'}
@@ -248,6 +273,7 @@
         <div class="result {lastCorrect ? 'good' : 'bad'}">
           <div class="rtag">{lastCorrect ? '✓ Correct' : '✗ Wrong'}</div>
           <div class="ranswer">Answer: <b>{revealAnswer}</b></div>
+          {#if revealComment}<div class="rcomment">{revealComment}</div>{/if}
           <div class="rdeltas">
             {#if lastCtx.points}<span class="d good">+{lastCtx.points} pt</span>{/if}
             {#if lastCtx.money}<span class="d money">+${lastCtx.money}</span>{/if}
@@ -314,7 +340,7 @@
       <h1 class="lose">Run over</h1>
       <p class="muted">You cleared <b>{run.roundIdx}</b> of 8 rounds.</p>
       <p class="muted small">Best: {best}/8</p>
-      <button class="primary big" onclick={startRun}>New Run</button>
+      <button class="primary big" onclick={() => startRun(lang)}>New Run</button>
       <button class="ghost" onclick={() => (view = 'menu')}>Menu</button>
     </section>
 
@@ -322,7 +348,7 @@
     <section class="panel center">
       <h1 class="winh">You beat all 8 rounds! 🎰</h1>
       <p class="muted">Banked ${run.money} with {run.jokers.length} jokers.</p>
-      <button class="primary big" onclick={startRun}>Play Again</button>
+      <button class="primary big" onclick={() => startRun(lang)}>Play Again</button>
       <button class="ghost" onclick={() => (view = 'menu')}>Menu</button>
     </section>
   {/if}
@@ -341,6 +367,10 @@
   .muted { color: var(--muted); }
   .small { font-size: 13px; }
   .src { margin-top: 24px; opacity: .7; }
+  .langpick { display: flex; flex-direction: column; gap: 10px; max-width: 380px; margin: 14px auto 0; }
+  .langpick .big { margin-top: 0; }
+  .primary.ru { background: var(--purple); }
+  .rcomment { font-size: 13px; color: var(--muted); line-height: 1.5; background: var(--card2); border-radius: 10px; padding: 10px 12px; margin: 0 auto 14px; max-width: 560px; text-align: left; }
 
   button.primary { background: var(--accent); color: #fff; border: none; padding: 11px 18px; border-radius: 10px; font-weight: 700; font-size: 15px; }
   button.primary:hover { filter: brightness(1.08); }

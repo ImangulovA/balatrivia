@@ -26,7 +26,7 @@ import unicodedata
 import urllib.request
 from pathlib import Path
 
-OUT = Path(__file__).resolve().parent.parent / "app" / "src" / "lib" / "questions.json"
+OUT = Path(__file__).resolve().parent.parent / "app" / "static" / "data" / "questions_en.json"
 API = "https://opentdb.com/api.php"
 TOKEN_API = "https://opentdb.com/api_token.php?command=request"
 
@@ -48,15 +48,15 @@ def _strip_accents(s: str) -> str:
 
 
 def norm(s: str) -> str:
-    """Typo-tolerant, word-order-independent normalization. Keep in lockstep
-    with norm() in app/src/lib/norm.js."""
-    s = _strip_accents(s or "")
+    """Bilingual (Latin + Cyrillic), typo-tolerant, word-order-independent
+    normalization. Keep in lockstep with norm() in app/src/lib/norm.js."""
+    s = _strip_accents(s or "")               # also folds ё->е, й->и
     s = s.lower()
     s = s.replace("&", " and ")
     s = re.sub(r"\([^)]*\)", " ", s)          # drop parentheticals
-    s = re.sub(r"[^a-z0-9 ]", " ", s)         # keep only a-z 0-9 space
+    s = re.sub(r"[^a-zа-я0-9 ]", " ", s)      # keep Latin + Cyrillic + digits + space
     s = re.sub(r"\s+", " ", s).strip()
-    s = re.sub(r"([a-z])\1+", r"\1", s)       # collapse repeated LETTERS (not digits)
+    s = re.sub(r"([a-zа-я])\1+", r"\1", s)    # collapse repeated LETTERS (not digits)
     toks = [t for t in s.split(" ") if t and t not in STOPWORDS]
     toks.sort()
     return " ".join(toks)
