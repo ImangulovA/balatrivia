@@ -12,11 +12,12 @@
 //   ctx.endRound  boolean               does this end the round (mutate me)
 //   ctx.run       { streak, roundFlags, ... }   run-level state
 
+// Pacman palette mapping for rarities.
 export const RARITY = {
-  common: { label: 'Common', color: '#9ca3af' },
-  uncommon: { label: 'Uncommon', color: '#02e2ac' },
-  rare: { label: 'Rare', color: '#1877F2' },
-  legendary: { label: 'Legendary', color: '#a855f7' }
+  common: { label: 'Common', color: '#6B7280' },
+  uncommon: { label: 'Uncommon', color: '#16A34A' },
+  rare: { label: 'Rare', color: '#2A3FE5' },
+  legendary: { label: 'Legendary', color: '#D97706' }
 };
 
 export const PRICE = { common: 4, uncommon: 6, rare: 8, legendary: 10 };

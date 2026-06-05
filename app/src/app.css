@@ -1,31 +1,60 @@
+/* Pacman design system: retro arcade, pixel fonts, dotted borders, high contrast.
+   Pixel font (Press Start 2P) is reserved for chrome (logo, HUD, labels, buttons,
+   badges) where text is short; long-form content (questions/answers/comments)
+   uses Space Mono for readability -- accessibility over novelty, per the skill. */
+
 :root {
-  --bg: #0a0e1a;
-  --card: #151d30;
-  --card2: #1c2740;
-  --text: #e8edf7;
-  --muted: #8b97b3;
-  --line: #2a3550;
-  --accent: #1877F2;
-  --green: #02e2ac;
-  --orange: #f59e0b;
-  --purple: #a855f7;
-  --red: #ef4444;
-}
-:root[data-theme='light'] {
-  --bg: #f3f5fb;
+  --font-pixel: 'Press Start 2P', 'Space Mono', monospace;
+  --font-mono: 'Space Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* light = default */
+  --bg: #fffdf5;
   --card: #ffffff;
-  --card2: #eef1f8;
-  --text: #15203a;
-  --muted: #5a6480;
-  --card2: #e3e8f4;
-  --line: #d4dbec;
+  --card2: #f3f3ea;
+  --text: #111827;
+  --muted: #5b6170;
+  --line: #111827;     /* dotted borders: dark dots on light */
+  --ink: #111827;      /* solid outlines */
+  --accent: #2a3fe5;   /* primary */
+  --secondary: #f4b9b0;
+  --green: #16a34a;    /* success */
+  --orange: #d97706;   /* warning */
+  --red: #dc2626;      /* danger */
+  --purple: #2a3fe5;   /* no purple in palette -> alias to primary */
+  --yellow: #ffcc00;   /* Pac-Man accent */
+  --on-accent: #ffffff;
 }
+
+:root[data-theme='dark'] {
+  --bg: #000000;       /* classic arcade black (surface token) */
+  --card: #0e0e14;
+  --card2: #18181f;
+  --text: #f4f4f5;
+  --muted: #a1a1aa;
+  --line: #52525b;
+  --ink: #000000;
+  --accent: #5468ff;
+  --secondary: #f4b9b0;
+  --green: #22c55e;
+  --orange: #f59e0b;
+  --red: #f87171;
+  --purple: #5468ff;
+  --yellow: #ffcc00;
+  --on-accent: #0a0a0a;
+}
+
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
-button { font-family: inherit; cursor: pointer; }
+button { font-family: var(--font-pixel); cursor: pointer; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}

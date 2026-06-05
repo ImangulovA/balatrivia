@@ -40,7 +40,7 @@
 
   onMount(() => {
     if (browser) {
-      theme = localStorage.getItem('balatrivia_theme') || 'dark';
+      theme = localStorage.getItem('balatrivia_theme') || 'light';
       document.documentElement.dataset.theme = theme;
       best = Number(localStorage.getItem('balatrivia_best') || 0);
     }
@@ -135,10 +135,15 @@
 
   function next() {
     if (lives < 0) return gameOver();
-    if (points >= cfg.target) return clearRound();
-    if (lastCtx && lastCtx.endRound) return gameOver(); // all-in miss, short of target
+    // All-in miss ends the round immediately; otherwise you always play all 5.
+    if (lastCtx && lastCtx.endRound) {
+      return points >= cfg.target ? clearRound() : gameOver();
+    }
     qIdx += 1;
-    if (qIdx >= roundQs.length) return gameOver(); // ran out, short of target
+    if (qIdx >= roundQs.length) {
+      // played all questions: pass if target met, else run over
+      return points >= cfg.target ? clearRound() : gameOver();
+    }
     resetQuestion();
   }
 
@@ -355,89 +360,107 @@
 </div>
 
 <style>
+  /* --- Pacman retro: dotted borders, pixel chrome, mono content --- */
+  .pixel { font-family: var(--font-pixel); }
   .wrap { max-width: 720px; margin: 0 auto; padding: 16px; min-height: 100vh; }
   header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
-  .logo { font-weight: 800; letter-spacing: 1px; font-size: 22px; }
-  .logo span { color: var(--purple); }
-  .panel { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px; }
+  .logo { font-family: var(--font-pixel); letter-spacing: 1px; font-size: 16px; }
+  .logo span { color: var(--accent); }
+  .logo span::after { content: ' •'; color: var(--yellow); }
+  .panel { background: var(--card); border: 3px dotted var(--line); border-radius: 8px; padding: 22px; }
   .panel.center { text-align: center; }
-  h1 { font-size: 28px; margin: 8px 0 12px; }
-  h2 { margin: 0; }
-  h3 { margin: 22px 0 10px; color: var(--muted); font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
+  h1 { font-family: var(--font-mono); font-weight: 700; text-transform: uppercase; font-size: 22px; line-height: 1.3; margin: 8px 0 12px; }
+  h2 { font-family: var(--font-pixel); font-size: 14px; margin: 0; }
+  h3 { font-family: var(--font-pixel); margin: 24px 0 12px; color: var(--muted); font-size: 11px; letter-spacing: 1px; }
   .muted { color: var(--muted); }
   .small { font-size: 13px; }
-  .src { margin-top: 24px; opacity: .7; }
-  .langpick { display: flex; flex-direction: column; gap: 10px; max-width: 380px; margin: 14px auto 0; }
-  .langpick .big { margin-top: 0; }
-  .primary.ru { background: var(--purple); }
-  .rcomment { font-size: 13px; color: var(--muted); line-height: 1.5; background: var(--card2); border-radius: 10px; padding: 10px 12px; margin: 0 auto 14px; max-width: 560px; text-align: left; }
+  .src { margin-top: 24px; opacity: .8; }
+  .langpick { display: flex; flex-direction: column; gap: 12px; max-width: 420px; margin: 16px auto 0; }
+  .langpick .big { margin-top: 0; font-family: var(--font-mono); font-weight: 700; }
+  .primary.ru { background: var(--secondary); color: #111827; }
+  .rcomment { font-size: 13px; color: var(--text); line-height: 1.55; background: var(--card2); border: 2px dotted var(--line); border-radius: 8px; padding: 12px 14px; margin: 0 auto 14px; max-width: 560px; text-align: left; }
 
-  button.primary { background: var(--accent); color: #fff; border: none; padding: 11px 18px; border-radius: 10px; font-weight: 700; font-size: 15px; }
-  button.primary:hover { filter: brightness(1.08); }
-  button.primary:disabled { opacity: .4; cursor: not-allowed; }
-  button.big { font-size: 18px; padding: 14px 28px; margin-top: 10px; }
-  button.ghost { background: transparent; color: var(--text); border: 1px solid var(--line); padding: 10px 16px; border-radius: 10px; font-weight: 600; }
+  /* retro buttons: solid fill, hard offset shadow, press on :active */
+  button.primary {
+    background: var(--accent); color: var(--on-accent);
+    border: 3px solid var(--ink); border-radius: 4px;
+    padding: 11px 16px; font-size: 11px; line-height: 1.4;
+    box-shadow: 3px 3px 0 var(--ink); transition: transform .05s, box-shadow .05s;
+  }
+  button.primary:hover { filter: brightness(1.06); }
+  button.primary:active { transform: translate(3px, 3px); box-shadow: 0 0 0 var(--ink); }
+  button.primary:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
+  button.primary:disabled { opacity: .4; cursor: not-allowed; box-shadow: 3px 3px 0 var(--ink); transform: none; }
+  button.big { font-size: 13px; padding: 16px 22px; margin-top: 10px; }
+  button.ghost {
+    background: var(--card); color: var(--text);
+    border: 3px solid var(--ink); border-radius: 4px; padding: 10px 14px;
+    font-family: var(--font-pixel); font-size: 12px; box-shadow: 3px 3px 0 var(--ink);
+  }
+  button.ghost:active { transform: translate(3px, 3px); box-shadow: 0 0 0 var(--ink); }
+  button.ghost:focus-visible { outline: 3px solid var(--yellow); outline-offset: 2px; }
   button.ghost:disabled { opacity: .4; cursor: not-allowed; }
 
   .hud { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
-  .stat { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 8px 12px; display: flex; flex-direction: column; min-width: 64px; }
-  .stat .k { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
-  .stat .v { font-weight: 800; font-size: 17px; }
+  .stat { background: var(--card); border: 2px dotted var(--line); border-radius: 6px; padding: 8px 12px; display: flex; flex-direction: column; min-width: 64px; }
+  .stat .k { font-family: var(--font-pixel); font-size: 8px; letter-spacing: 1px; color: var(--muted); }
+  .stat .v { font-family: var(--font-pixel); font-size: 13px; margin-top: 6px; }
   .v.money, .money { color: var(--green); }
   .v.lives { color: var(--red); letter-spacing: 1px; }
 
   .jokerbar { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
-  .jchip { background: var(--card2); border: 1px solid var(--c); color: var(--text); border-radius: 999px; padding: 4px 12px; font-size: 12px; font-weight: 600; }
+  .jchip { background: var(--card2); border: 2px dotted var(--c); color: var(--text); border-radius: 999px; padding: 5px 12px; font-size: 12px; font-weight: 700; }
 
   .qmeta { display: flex; gap: 10px; align-items: center; margin-bottom: 14px; flex-wrap: wrap; }
-  .cat { background: var(--card2); padding: 4px 10px; border-radius: 8px; font-size: 12px; font-weight: 600; }
-  .diff { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; padding: 3px 8px; border-radius: 6px; font-weight: 700; }
-  .diff-easy { background: rgba(2,226,172,.15); color: var(--green); }
-  .diff-medium { background: rgba(245,158,11,.15); color: var(--orange); }
-  .diff-hard { background: rgba(239,68,68,.15); color: var(--red); }
+  .cat { background: var(--card2); border: 2px dotted var(--line); padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 700; }
+  .diff { font-family: var(--font-pixel); font-size: 8px; letter-spacing: 1px; padding: 5px 8px; border: 2px dotted currentColor; border-radius: 4px; }
+  .diff-easy { color: var(--green); }
+  .diff-medium { color: var(--orange); }
+  .diff-hard { color: var(--red); }
   .qnum { margin-left: auto; color: var(--muted); font-size: 12px; }
-  .clue { font-size: 20px; line-height: 1.4; font-weight: 600; margin: 0 0 20px; }
+  .clue { font-size: 19px; line-height: 1.5; font-weight: 700; margin: 0 0 20px; }
 
   .bets { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 14px; }
-  .betbtn { background: var(--card2); border: 2px solid var(--line); border-radius: 12px; padding: 10px; text-align: left; color: var(--text); display: flex; flex-direction: column; gap: 4px; }
-  .betbtn.sel { border-color: var(--accent); background: rgba(24,119,242,.12); }
-  .bl { font-weight: 800; font-size: 15px; }
-  .bb { font-size: 11px; color: var(--muted); line-height: 1.3; }
+  .betbtn { background: var(--card2); border: 3px dotted var(--line); border-radius: 6px; padding: 10px; text-align: left; color: var(--text); display: flex; flex-direction: column; gap: 6px; }
+  .betbtn.sel { border-style: solid; border-color: var(--accent); background: var(--card); }
+  .bl { font-family: var(--font-pixel); font-size: 11px; }
+  .bb { font-size: 11px; color: var(--muted); line-height: 1.35; }
 
   .answerrow { display: flex; gap: 8px; }
-  .answerrow input { flex: 1; background: var(--bg); border: 2px solid var(--line); color: var(--text); border-radius: 10px; padding: 12px 14px; font-size: 16px; }
-  .answerrow input:focus { outline: none; border-color: var(--accent); }
+  .answerrow input { flex: 1; background: var(--bg); border: 3px dotted var(--line); color: var(--text); border-radius: 4px; padding: 12px 14px; font-family: var(--font-mono); font-size: 16px; }
+  .answerrow input:focus { outline: none; border-style: solid; border-color: var(--accent); }
   .shake { animation: shake .35s; }
   @keyframes shake { 0%,100%{transform:translateX(0)} 25%{transform:translateX(-6px)} 75%{transform:translateX(6px)} }
-  .fb { margin: 10px 0 0; font-weight: 600; }
+  .fb { margin: 10px 0 0; font-weight: 700; }
   .fb.bad { color: var(--orange); }
   .hint { margin-top: 10px; }
 
   .result { text-align: center; padding: 8px 0; }
-  .rtag { font-size: 22px; font-weight: 800; margin-bottom: 8px; }
+  .rtag { font-family: var(--font-pixel); font-size: 16px; margin-bottom: 12px; }
   .result.good .rtag { color: var(--green); }
   .result.bad .rtag { color: var(--red); }
   .ranswer { font-size: 17px; margin-bottom: 12px; }
   .rdeltas { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-bottom: 16px; }
-  .d { padding: 4px 10px; border-radius: 8px; font-weight: 700; font-size: 13px; background: var(--card2); }
+  .d { font-family: var(--font-pixel); padding: 6px 10px; border-radius: 4px; font-size: 10px; background: var(--card2); border: 2px dotted var(--line); }
   .d.good { color: var(--green); }
   .d.bad { color: var(--red); }
   .d.money { color: var(--green); }
 
   .shophead { display: flex; justify-content: space-between; align-items: center; }
-  .money.big { font-size: 24px; font-weight: 800; }
+  .money.big { font-family: var(--font-pixel); font-size: 18px; }
   .reward { margin: 8px 0 0; }
   .offer, .owned { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 10px; }
-  .jcard { background: var(--card2); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 12px; padding: 12px; display: flex; flex-direction: column; }
+  .jcard { background: var(--card2); border: 3px dotted var(--line); border-left: 6px solid var(--c); border-radius: 6px; padding: 12px; display: flex; flex-direction: column; }
   .jtop { display: flex; justify-content: space-between; align-items: baseline; gap: 6px; }
-  .jname { font-weight: 800; font-size: 15px; }
-  .jrar { font-size: 10px; text-transform: uppercase; letter-spacing: 1px; color: var(--c); font-weight: 700; }
-  .jdesc { font-size: 12px; color: var(--muted); line-height: 1.4; flex: 1; margin: 8px 0 10px; }
-  .buy { background: var(--green); color: #042; border: none; border-radius: 8px; padding: 8px; font-weight: 800; }
+  .jname { font-weight: 700; font-size: 15px; }
+  .jrar { font-family: var(--font-pixel); font-size: 7px; letter-spacing: 1px; color: var(--c); }
+  .jdesc { font-size: 12px; color: var(--muted); line-height: 1.45; flex: 1; margin: 8px 0 10px; }
+  .buy { background: var(--green); color: #052e13; border: 3px solid var(--ink); border-radius: 4px; padding: 9px; font-family: var(--font-pixel); font-size: 10px; box-shadow: 2px 2px 0 var(--ink); }
+  .buy:active { transform: translate(2px,2px); box-shadow: 0 0 0 var(--ink); }
   .buy:disabled { opacity: .4; cursor: not-allowed; }
-  .sell { background: transparent; border: 1px solid var(--line); color: var(--muted); border-radius: 8px; padding: 7px; font-weight: 700; }
+  .sell { background: transparent; border: 2px dotted var(--line); color: var(--muted); border-radius: 4px; padding: 8px; font-family: var(--font-pixel); font-size: 9px; }
   .shopactions { display: flex; gap: 10px; justify-content: space-between; margin-top: 16px; }
 
   .lose { color: var(--red); }
-  .winh { color: var(--purple); }
+  .winh { color: var(--accent); }
 </style>

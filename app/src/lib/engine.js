@@ -31,16 +31,18 @@ export const BETS = {
            blurb: '+3 and +$3 on a win. A miss ends the round.' }
 };
 
-// 8 rounds. Round 8 is the boss.
+// 8 rounds, ALWAYS 5 questions each (you play all 5 even after hitting target).
+// Targets are scaled for 5 questions: >5 requires betting (Double/All-in). Boss = 7.
+export const QUESTIONS_PER_ROUND = 5;
 export const ROUNDS = [
   { target: 2, lives: 2, questions: 5, hardBias: 0.15 },
   { target: 3, lives: 2, questions: 5, hardBias: 0.2 },
   { target: 4, lives: 2, questions: 5, hardBias: 0.3 },
-  { target: 5, lives: 3, questions: 6, hardBias: 0.35 },
-  { target: 6, lives: 3, questions: 6, hardBias: 0.45 },
-  { target: 7, lives: 3, questions: 7, hardBias: 0.55 },
-  { target: 8, lives: 3, questions: 7, hardBias: 0.65 },
-  { target: 10, lives: 3, questions: 8, hardBias: 0.8 }
+  { target: 4, lives: 3, questions: 5, hardBias: 0.4 },
+  { target: 5, lives: 3, questions: 5, hardBias: 0.5 },
+  { target: 5, lives: 3, questions: 5, hardBias: 0.6 },
+  { target: 6, lives: 3, questions: 5, hardBias: 0.7 },
+  { target: 7, lives: 3, questions: 5, hardBias: 0.8 }
 ];
 
 export const REROLL_BASE = 5;
